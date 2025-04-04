@@ -1,0 +1,113 @@
+{
+  "kelas_10": [
+    {
+      "file": "materi_matematika.10.1.md",
+      "title": "Eksponen dan Logaritma",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.10.2.md",
+      "title": "Barisan dan Deret",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.10.3.md",
+      "title": "Vektor dan Operasinya",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.10.4.md",
+      "title": "Trigonometri",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.10.5.md",
+      "title": "Sistem Persamaan dan Pertidaksamaan Linier",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.10.6.md",
+      "title": "Fungsi Kuadrat",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.10.7.md",
+      "title": "Peluang",
+      "subtitle": "Matematika"
+    }
+  ],
+  "kelas_11": [
+    {
+      "file": "materi_matematika.11.1.md",
+      "title": "Komposisi Fungsi dan Fungsi Invers",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.11.2.md",
+      "title": "Lingkaran (Busur, Garis Singgung, Tali Busur)",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.11.3.md",
+      "title": "Statistika",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.11.4.md",
+      "title": "Bilangan Kompleks",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.11.5.md",
+      "title": "Polinomial",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.11.6.md",
+      "title": "Matriks",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.11.7.md",
+      "title": "Transformasi Geometri",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.11.8.md",
+      "title": "Fungsi dan Pemodelan Trigonometri",
+      "subtitle": "Matematika"
+    }
+  ],
+  "kelas_12": [
+    {
+      "file": "materi_matematika.12.1.md",
+      "title": "Geometri Analitik (Lingkaran dan Garis Singgung)",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.12.2.md",
+      "title": "Irisan Kerucut (Parabola, Elips, Hiperbola)",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.12.3.md",
+      "title": "Limit",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.12.4.md",
+      "title": "Turunan Fungsi",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.12.5.md",
+      "title": "Integral",
+      "subtitle": "Matematika"
+    },
+    {
+      "file": "materi_matematika.12.6.md",
+      "title": "Analisis Data dan Peluang (Distribusi)",
+      "subtitle": "Matematika"
+    }
+  ]
+}

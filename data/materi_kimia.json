@@ -1,0 +1,79 @@
+{
+  "kelas_10": [
+    {
+      "file": "materi_kimia.10.1.md",
+      "title": "Reaksi Kimia",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.10.2.md",
+      "title": "Struktur Atom",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.10.3.md",
+      "title": "Kimia Hijau",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.10.4.md",
+      "title": "Hukum Dasar Kimia",
+      "subtitle": "kimia"
+    }
+  ],
+  "kelas_11": [
+    {
+      "file": "materi_kimia.11.1.md",
+      "title": "Struktur dan Sistem Periodik Unsur",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.11.2.md",
+      "title": "Ikatan Kimia",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.11.3.md",
+      "title": "Stoikiometri",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.11.4.md",
+      "title": "Hidrokarbon",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.11.5.md",
+      "title": "Termokimia",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.11.6.md",
+      "title": "Kesetimbangan Kimia",
+      "subtitle": "kimia"
+    }
+  ],
+  "kelas_12": [
+    {
+      "file": "materi_kimia.12.1.md",
+      "title": "Larutan dan Koloid",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.12.2.md",
+      "title": "Elektrokimia",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.12.3.md",
+      "title": "Gugus Fungsi dalam Senyawa Organik",
+      "subtitle": "kimia"
+    },
+    {
+      "file": "materi_kimia.12.4.md",
+      "title": "Makromolekul",
+      "subtitle": "kimia"
+    }
+
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "kelas_10": [
+    {
+      "file": "materi_biologi.10.1.md",
+      "title": "Virus",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.10.2.md",
+      "title": "Prokariot",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.10.3.md",
+      "title": "Protista",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.10.4.md",
+      "title": "Fungi",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.10.5.md",
+      "title": "Plantae",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.10.6.md",
+      "title": "Animalia",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.10.7.md",
+      "title": "Keanekaragaman Hayati",
+      "subtitle": "Biologi"
+    }
+  ],
+  "kelas_11": [
+    {
+      "file": "materi_biologi.11.1.md",
+      "title": "Sel",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.11.2.md",
+      "title": "Jaringan dan Organ",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.11.3.md",
+      "title": "Transpor dan Pertukaran Zat pada Manusia",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.11.4.md",
+      "title": "Sistem Imun",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.11.5.md",
+      "title": "Syaraf Manusia",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.11.6.md",
+      "title": "Otot Manusia",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.11.7.md",
+      "title": "Hormon Manusia",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.11.8.md",
+      "title": "Pertumbuhan dan Perkembangan Makhluk Hidup",
+      "subtitle": "Biologi"
+    }
+  ],
+  "kelas_12": [
+    {
+      "file": "materi_biologi.12.1.md",
+      "title": "Enzim dan Metabolisme",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.12.2.md",
+      "title": "Genetik dan Pewarisan Sifat",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.12.3.md",
+      "title": "Teori Evolusi",
+      "subtitle": "Biologi"
+    },
+    {
+      "file": "materi_biologi.12.4.md",
+      "title": "Bioteknologi",
+      "subtitle": "Biologi"
+    }
+  ]
+}

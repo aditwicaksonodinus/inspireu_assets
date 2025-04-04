@@ -1,0 +1,108 @@
+{
+  "kelas_10": [
+    {
+      "file": "materi_fisika.10.1.md",
+      "title": "Besaran dan Satuan",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.10.2.md",
+      "title": "Gaya, Usaha, dan Energi",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.10.3.md",
+      "title": "Vektor",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.10.4.md",
+      "title": "Gaya, Usaha, dan Energi",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.10.5.md",
+      "title": "Pemanasan Global",
+      "subtitle": "Fisika"
+    }
+  ],
+  "kelas_11": [
+    {
+      "file": "materi_fisika.11.1.md",
+      "title": "Impuls dan Momentum",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.11.2.md",
+      "title": "Rotasi dan Kesetimbangan Benda Tegar",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.11.3.md",
+      "title": "Elastisitas",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.11.4.md",
+      "title": "Fluida Statis dan Dinamis",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.11.5.md",
+      "title": "Suhu dan Kalor",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.11.6.md",
+      "title": "Teori Kinetik Gas dan Termodinamika",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.11.7.md",
+      "title": "Gerak Harmonik Sederhana",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.11.8.md",
+      "title": "Gelombang: Bunyi dan Cahaya",
+      "subtitle": "Fisika"
+    }
+  ],
+  "kelas_12": [
+    {
+      "file": "materi_fisika.12.1.md",
+      "title": "Listrik Statis",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.12.2.md",
+      "title": "Listrik Dinamis dan Rangkaian Arus Searah",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.12.3.md",
+      "title": "Induksi Magnetik",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.12.4.md",
+      "title": "Rangkaian Arus Bolak Balik",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.12.5.md",
+      "title": "Gelombang: Elektromagnetik",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.12.6.md",
+      "title": "Teori Relativitas",
+      "subtitle": "Fisika"
+    },
+    {
+      "file": "materi_fisika.12.7.md",
+      "title": "Fisika Kuantum",
+      "subtitle": "Fisika"
+    }
+  ]
+}
