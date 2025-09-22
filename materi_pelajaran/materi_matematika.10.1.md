@@ -83,40 +83,44 @@ Untuk mempermudah perhitungan yang melibatkan bilangan berpangkat, ada beberapa 
 
 Mari kita uji pemahaman kalian dengan soal yang lebih menantang. Pilihlah jawaban yang paling tepat\!
 
-1. Bentuk sederhana dari $\frac{27^2 \times 3^5}{81^3}$ adalah...  
-   a. $3^1$  
-   b. $3^{-1}$  
-   c. $3^2$
-   d. $3^{-2}$  
-   e. $3^0$  
+1. Bentuk sederhana dari $\frac{27^2 \times 3^5}{81^3}$ adalah...
+
+a. $3^1$  
+b. $3^{-1}$  
+c. $3^2$
+d. $3^{-2}$  
+e. $3^0$  
 
 2. Jika $x=2$ dan $y=3$, maka nilai dari $(x^2y^{-3})^{-2}$ adalah...  
-   a. $\frac{729}{16}$  
-   b. $\frac{16}{729}$  
-   c. $\frac{64}{81}$  
-   d. $\frac{81}{64}$  
-   e. $\frac{9}{4}$
+a. $\frac{729}{16}$  
+b. $\frac{16}{729}$  
+c. $\frac{64}{81}$  
+d. $\frac{81}{64}$  
+e. $\frac{9}{4}$
 
-4. Hasil dari $5^3 + 5^3 + 5^3 + 5^3 + 5^3$ adalah...  
-   a. $5^{15}$  
-   b. $25^3$  
-   c. $5^4$  
-   d. $5^8$  
-   e. $125^5$  
+3. Hasil dari $5^3 + 5^3 + 5^3 + 5^3 + 5^3$ adalah...
 
-5. Bentuk $\left(\frac{p^3 q^{-2}}{p^{-1} q^4}\right)^2$ dapat disederhanakan menjadi...  
-   a. $p^4 q^{-12}$  
-   b. $p^8 q^{-12}$  
-   c. $p^8 q^{4}$  
-   d. $p^4 q^{-4}$  
-   e. $p^2 q^{-6}$  
+a. $5^{15}$  
+b. $25^3$  
+c. $5^4$  
+d. $5^8$  
+e. $125^5$  
 
-6. Jika diketahui $3^{x-1} = 243$, maka nilai $x$ yang memenuhi adalah...  
-   a. 4  
-   b. 5  
-   c. 6  
-   d. 7  
-   e. 8
+4. Bentuk $\left(\frac{p^3 q^{-2}}{p^{-1} q^4}\right)^2$ dapat disederhanakan menjadi...  
+
+a. $p^4 q^{-12}$  
+b. $p^8 q^{-12}$  
+c. $p^8 q^{4}$  
+d. $p^4 q^{-4}$  
+e. $p^2 q^{-6}$  
+
+5. Jika diketahui $3^{x-1} = 243$, maka nilai $x$ yang memenuhi adalah...
+
+a. 4  
+b. 5  
+c. 6  
+d. 7  
+e. 8
    
 **Asesmen Formatif**  
 
@@ -124,7 +128,8 @@ Kerjakan soal-soal berikut dengan singkat dan jelas di buku latihanmu\!
 
 1. Sederhanakan bentuk berikut menggunakan sifat-sifat eksponen: $\frac{(x^5 y^2)^3}{x^7 y^2}$
 2. Sebuah jenis bakteri membelah diri menjadi dua setiap 10 menit. Jika pada pukul 08.00 ada sebanyak 50 bakteri, berapa jumlah bakteri pada pukul 09.00? (Tuliskan jawabanmu dalam bentuk bilangan berpangkat).
-3. Tentukan nilai $n$ jika $2^n = 128$.  
+3. Tentukan nilai $n$ jika $2^n = 128$.
+
 **Lampiran**  
 
 **Glosarium**  
@@ -137,4 +142,5 @@ Kerjakan soal-soal berikut dengan singkat dan jelas di buku latihanmu\!
 
 * Kemendikbudristek. (2021). *Matematika untuk SMA/SMK Kelas X*. Jakarta: Pusat Kurikulum dan Perbukuan.
 * Kanginan, M. (2016). *Matematika untuk Kelas X SMA*. Jakarta: Erlangga.
+
 
