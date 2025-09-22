@@ -1,175 +1,149 @@
-# Eksponen dan Logaritma
+# Bilangan Berpangkat (Eksponen)
 
-## Tujuan Pembelajaran
+**Mata Pelajaran:** Matematika
+**Fase/Kelas:** E / X
+**Nama Materi:** Bilangan Berpangkat (Eksponen)
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+-----
 
-1. Memahami konsep dasar eksponen dan sifat-sifatnya
-2. Menjelaskan pengertian logaritma sebagai invers dari eksponen
-3. Mengaplikasikan sifat-sifat eksponen dan logaritma dalam penyelesaian masalah
-4. Menggunakan eksponen dan logaritma untuk menyelesaikan masalah kontekstual dalam kehidupan sehari-hari
+**Tujuan Unit Pembelajaran**  
 
-## Pendahuluan
+Selamat datang di petualangan matematika kelas X\! Di unit pertama ini, kita akan menjelajahi salah satu konsep paling kuat dalam matematika: **Eksponen**. Setelah mempelajari unit ini, kalian diharapkan dapat menjelaskan konsep bilangan berpangkat, mengenali dan menggunakan sifat-sifatnya untuk menyederhanakan bentuk perhitungan, hingga menyelesaikan masalah sehari-hari yang berkaitan dengan pertumbuhan atau peluruhan.
 
-Pernahkah kamu bertanya-tanya bagaimana para ilmuwan dapat memprediksi pertumbuhan populasi bakteri? Atau bagaimana ahli keuangan menghitung bunga majemuk dari investasi? Jawabannya ada pada konsep eksponen dan logaritma.
+-----
 
-Eksponen dan logaritma merupakan konsep matematika yang sangat kuat dan hadir di sekitar kita lebih banyak dari yang kita sadari. Dari pertumbuhan populasi, peluruhan radioaktif, hingga perkembangan teknologi, konsep ini menjadi fondasi untuk memahami berbagai fenomena yang mengalami pertumbuhan atau peluruhan secara eksponensial.
+**Peta Konsep**  
 
-Bayangkan saat kamu menabung uang di bank dengan sistem bunga majemuk. Setiap tahun, uangmu tidak hanya bertambah dari bunga pokok, tetapi juga dari bunga atas bunga sebelumnya. Inilah salah satu contoh nyata dari pertumbuhan eksponensial yang akan kita pelajari.
+Berikut adalah alur materi yang akan kita pelajari bersama di unit ini:
 
-## Eksponen
+```mermaid
+flowchart TD
+    A["Mulai"] --> B["Konsep Eksponen"]
+    B --> C["Perkalian Berulang"]
+    C --> D["Sifat-sifat Eksponen"]
+    D --> E["Sifat Perkalian & Pembagian"]
+    D --> F["Sifat Perpangkatan"]
+    D --> G["Pangkat Nol & Negatif"]
+    D --> H["Pangkat Pecahan (Pengenalan)"]
+    E --> I["Penyederhanaan Bentuk Aljabar"]
+    F --> I
+    G --> I
+    H --> I
+    I --> J["Aplikasi Kontekstual"]
+    J --> K["Contoh: Pertumbuhan Bakteri, Bunga Majemuk"]
+    K --> L["Selesai"]
+```
 
-### Pengertian Eksponen
+-----
 
-Eksponen adalah cara singkat untuk menuliskan perkalian berulang dari suatu bilangan. Jika $a$ adalah bilangan real dan $n$ adalah bilangan bulat positif, maka:
+## **Apersepsi: Seberapa Cepat Kabar Menyebar?**
 
-$$a^n = a \times a \times a \times \ldots \times a$$
+Pernahkah kalian berada di pasar atau warung kopi di desa kita? Bayangkan ada satu kabar menarik. Pak Budi menceritakannya kepada 2 orang tetangganya saat pagi hari. Satu jam kemudian, 2 orang tetangganya itu masing-masing menceritakan lagi kepada 2 orang lainnya. Satu jam berikutnya, proses yang sama terulang lagi.
 
-dimana $a$ muncul sebanyak $n$ kali.
+Kira-kira, berapa banyak orang yang akan mendengar kabar itu setelah 3 jam?
 
-Contoh:
+Pola penyebaran kabar yang berlipat ganda inilah yang menjadi dasar dari konsep **eksponen** atau **bilangan berpangkat**. Konsep ini tidak hanya untuk menyebarkan kabar, tapi juga digunakan oleh para ilmuwan untuk menghitung pertumbuhan bakteri, oleh ahli ekonomi untuk menghitung bunga di bank, bahkan oleh insinyur untuk merancang bangunan. Mari kita selami lebih dalam\!
 
-- $2^3 = 2 \times 2 \times 2 = 8$
-- $5^2 = 5 \times 5 = 25$
+-----
 
-### Sifat-Sifat Eksponen
+**Materi Pembelajaran**  
 
-Berikut adalah sifat-sifat penting pada eksponen:
+## **1. Apa itu Bilangan Berpangkat (Eksponen)?**
 
-1. $a^m \times a^n = a^{m+n}$
-2. $\frac{a^m}{a^n} = a^{m-n}$
-3. $(a^m)^n = a^{m \times n}$
-4. $(a \times b)^n = a^n \times b^n$
-5. $\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}$
-6. $a^0 = 1$ (untuk $a \neq 0$)
-7. $a^{-n} = \frac{1}{a^n}$ (untuk $a \neq 0$)
-8. $a^{\frac{1}{n}} = \sqrt[n]{a}$
-9. $a^{\frac{m}{n}} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$
+Pada dasarnya, eksponen adalah cara penulisan yang lebih singkat untuk **perkalian berulang**.
 
-### Eksponen Pecahan dan Negatif
+Misalnya, kita ingin mengalikan angka 3 sebanyak 4 kali:
+$3\times3\times3\times3$
 
-Eksponen tidak hanya terbatas pada bilangan bulat positif:
+Tentu akan memakan tempat jika angkanya sangat banyak. Nah, kita bisa menyingkatnya menjadi:
+$$3^4$$
+Ini dibaca "tiga pangkat empat".
 
-- **Eksponen Nol**: $a^0 = 1$ untuk setiap $a \neq 0$
-- **Eksponen Negatif**: $a^{-n} = \frac{1}{a^n}$ untuk $a \neq 0$
-- **Eksponen Pecahan**: $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
+Dalam bentuk $a^n$:
 
-### Fungsi Eksponen
+* **a** disebut **basis** atau bilangan pokok.
+* **n** disebut **eksponen** atau pangkat.
 
-Fungsi eksponen dinyatakan sebagai $f(x) = a^x$, dengan $a > 0$ dan $a \neq 1$.
+Jadi, $3^4$ artinya angka 3 (basis) dikalikan secara berulang sebanyak 4 kali (pangkat).
 
-Sifat-sifat penting fungsi eksponen:
+`#sisipkan diagram yang menunjukkan 2^3 sebagai 2 x 2 x 2 dengan ilustrasi kubus.`
 
-- Domain: semua bilangan real
-- Range: semua bilangan real positif
-- Jika $a > 1$, fungsi naik (grafik naik dari kiri ke kanan)
-- Jika $0 < a < 1$, fungsi turun (grafik turun dari kiri ke kanan)
-- Selalu memotong sumbu $y$ di titik $(0,1)$
+## **2. Sifat-sifat Eksponen**
 
-Fungsi $f(x) = e^x$ adalah fungsi eksponen khusus, dimana $e \approx 2,71828$ adalah bilangan Euler, yang banyak digunakan dalam matematika, sains, dan ekonomi.
+Untuk mempermudah perhitungan yang melibatkan bilangan berpangkat, ada beberapa sifat yang perlu kita kenali. Anggap saja ini adalah "jalan pintas" yang sah dalam matematika.
 
-## Logaritma
+| Nama Sifat | Rumus | Contoh Sederhana |
+| :--- | :--- | :--- |
+| **Perkalian** | $a^m \times a^n = a^{m+n}$ | $2^3 \times 2^2 = 2^{3+2} = 2^5 = 32$ |
+| **Pembagian** | $a^m \div a^n = a^{m-n}$ | $5^4 \div 5^2 = 5^{4-2} = 5^2 = 25$ |
+| **Perpangkatan** | $(a^m)^n = a^{m \times n}$ | $(4^2)^3 = 4^{2 \times 3} = 4^6 = 4096$ |
+| **Distribusi Pangkat (Perkalian)** | $(a \times b)^n = a^n \times b^n$ | $(2 \times 3)^2 = 2^2 \times 3^2 = 4 \times 9 = 36$ |
+| **Distribusi Pangkat (Pembagian)** | $(\frac{a}{b})^n = \frac{a^n}{b^n}$ | $(\frac{4}{2})^3 = \frac{4^3}{2^3} = \frac{64}{8} = 8$ |
+| **Pangkat Nol** | $a^0 = 1$ (untuk $a \neq 0$) | $1.000.000^0 = 1$ |
+| **Pangkat Negatif** | $a^{-n} = \frac{1}{a^n}$ | $2^{-3} = \frac{1}{2^3} = \frac{1}{8}$ |
 
-### Pengertian Logaritma
+-----
 
-Logaritma adalah invers (kebalikan) dari eksponen. Jika $a^b = c$, maka $\log_a c = b$. Disini:
+**Refleksi Pemahaman**  
 
-- $a$ adalah basis logaritma
-- $c$ adalah numerus (bilangan yang dicari logaritmanya)
-- $b$ adalah hasil logaritma
+Mari kita uji pemahaman kalian dengan soal yang lebih menantang. Pilihlah jawaban yang paling tepat\!
 
-Contoh:
+1. Bentuk sederhana dari $\frac{27^2 \times 3^5}{81^3}$ adalah...
+    a. $3^1$
+    b. $3^{-1}$
+    c. $3^2$
+    d. $3^{-2}$
+    e. $3^0$
 
-- $\log_2 8 = 3$ karena $2^3 = 8$
-- $\log_{10} 100 = 2$ karena $10^2 = 100$
+2. Jika $x=2$ dan $y=3$, maka nilai dari $(x^2y^{-3})^{-2}$ adalah...
+    a. $\frac{729}{16}$
+    b. $\frac{16}{729}$
+    c. $\frac{64}{81}$
+    d. $\frac{81}{64}$
+    e. $\frac{9}{4}$
 
-### Sifat-Sifat Logaritma
+3. Hasil dari $5^3 + 5^3 + 5^3 + 5^3 + 5^3$ adalah...
+    a. $5^{15}$
+    b. $25^3$
+    c. $5^4$
+    d. $5^8$
+    e. $125^5$
 
-Berikut adalah sifat-sifat penting logaritma:
+4. Bentuk $\left(\frac{p^3 q^{-2}}{p^{-1} q^4}\right)^2$ dapat disederhanakan menjadi...
+    a. $p^4 q^{-12}$
+    b. $p^8 q^{-12}$
+    c. $p^8 q^{4}$
+    d. $p^4 q^{-4}$
+    e. $p^2 q^{-6}$
 
-1. $\log_a(m \times n) = \log_a m + \log_a n$
-2. $\log_a\left(\frac{m}{n}\right) = \log_a m - \log_a n$
-3. $\log_a(m^n) = n \log_a m$
-4. $\log_a a = 1$
-5. $\log_a 1 = 0$
-6. $a^{\log_a m} = m$
-7. $\log_a m = \frac{\log_b m}{\log_b a}$ (rumus perpindahan basis)
+5. Jika diketahui $3^{x-1} = 243$, maka nilai $x$ yang memenuhi adalah...
+    a. 4
+    b. 5
+    c. 6
+    d. 7
+    e. 8
 
-### Logaritma Khusus
+-----
 
-Ada dua jenis logaritma yang sering digunakan:
+**Asesmen Formatif**  
 
-1. **Logaritma Umum (Common Logarithm)**: Basis 10, ditulis sebagai $\log m$ atau $\log_{10} m$
-2. **Logaritma Natural**: Basis $e$, ditulis sebagai $\ln m$ atau $\log_e m$
+Kerjakan soal-soal berikut dengan singkat dan jelas di buku latihanmu\!
 
-### Fungsi Logaritma
+1. Sederhanakan bentuk berikut menggunakan sifat-sifat eksponen: $\frac{(x^5 y^2)^3}{x^7 y^2}$
+2. Sebuah jenis bakteri membelah diri menjadi dua setiap 10 menit. Jika pada pukul 08.00 ada sebanyak 50 bakteri, berapa jumlah bakteri pada pukul 09.00? (Tuliskan jawabanmu dalam bentuk bilangan berpangkat).
+3. Tentukan nilai $n$ jika $2^n = 128$.
 
-Fungsi logaritma dinyatakan sebagai $f(x) = \log_a x$, dengan $a > 0$ dan $a \neq 1$.
+-----
 
-Sifat-sifat penting fungsi logaritma:
+**Lampiran**  
 
-- Domain: semua bilangan real positif
-- Range: semua bilangan real
-- Jika $a > 1$, fungsi naik (grafik naik dari kiri ke kanan)
-- Jika $0 < a < 1$, fungsi turun (grafik turun dari kiri ke kanan)
-- Selalu memotong sumbu $x$ di titik $(1,0)$
+**Glosarium**  
 
-## Aplikasi Eksponen dan Logaritma
+* **Basis:** Bilangan pokok yang dipangkatkan dalam suatu notasi eksponen.
+* **Eksponen:** Angka yang menunjukkan berapa kali basis dikalikan dengan dirinya sendiri; disebut juga pangkat.
+* **Bilangan Berpangkat:** Bilangan yang dinyatakan dalam bentuk $a^n$, yang terdiri dari basis dan eksponen.
 
-### Pertumbuhan dan Peluruhan
+**Daftar Pustaka**  
 
-Eksponen dan logaritma sangat berguna untuk model pertumbuhan dan peluruhan:
-
-1. **Pertumbuhan Eksponensial**: $P(t) = P_0 \times a^t$ atau $P(t) = P_0 \times e^{kt}$
-   - $P_0$ adalah nilai awal
-   - $t$ adalah waktu
-   - $a$ atau $e^k$ adalah laju pertumbuhan
-
-2. **Peluruhan Eksponensial**: $P(t) = P_0 \times e^{-kt}$
-   - $P_0$ adalah nilai awal
-   - $t$ adalah waktu
-   - $k$ adalah konstanta peluruhan
-
-### Bunga Majemuk
-
-Jika sejumlah uang $P$ diinvestasikan dengan suku bunga $r$ per tahun yang dikomposisi $n$ kali per tahun selama $t$ tahun, maka jumlah akhir $A$ diberikan oleh:
-
-$$A = P\left(1 + \frac{r}{n}\right)^{nt}$$
-
-### pH dalam Kimia
-
-Dalam kimia, pH suatu larutan didefinisikan sebagai:
-
-$$\text{pH} = -\log_{10}[H^+]$$
-
-dimana $[H^+]$ adalah konsentrasi ion hidrogen dalam mol per liter.
-
-### Skala Richter
-
-Skala Richter untuk mengukur kekuatan gempa bumi menggunakan logaritma:
-
-$$M = \log_{10}\left(\frac{A}{A_0}\right)$$
-
-dimana $A$ adalah amplitudo getaran dan $A_0$ adalah amplitudo referensi.
-
-## Rangkuman
-
-Poin-poin penting dalam materi Eksponen dan Logaritma:
-
-1. **Eksponen**
-   - Merupakan cara singkat menuliskan perkalian berulang: $a^n = a \times a \times ... \times a$ ($n$ kali)
-   - Memiliki sifat-sifat dasar: $a^m \times a^n = a^{m+n}$, $\frac{a^m}{a^n} = a^{m-n}$, $(a^m)^n = a^{m \times n}$
-   - Eksponen khusus: $a^0 = 1$, $a^{-n} = \frac{1}{a^n}$, $a^{\frac{1}{n}} = \sqrt[n]{a}$
-
-2. **Logaritma**
-   - Merupakan invers dari eksponen: jika $a^b = c$, maka $\log_a c = b$
-   - Memiliki sifat-sifat dasar: $\log_a(m \times n) = \log_a m + \log_a n$, $\log_a(m^n) = n \log_a m$
-   - Logaritma khusus: logaritma umum ($\log_{10}$) dan logaritma natural ($\ln$ atau $\log_e$)
-
-3. **Aplikasi**
-   - Pertumbuhan dan peluruhan eksponensial
-   - Perhitungan bunga majemuk
-   - Pengukuran pH dan intensitas gempa bumi
-   - Pemodelan berbagai fenomena alam dan sosial
-
-Eksponen dan logaritma merupakan alat matematika yang powerful untuk memahami dan menjelaskan berbagai fenomena pertumbuhan dan peluruhan di alam, teknologi, ekonomi, dan berbagai bidang ilmu pengetahuan lainnya.
+* Kemendikbudristek. (2021). *Matematika untuk SMA/SMK Kelas X*. Jakarta: Pusat Kurikulum dan Perbukuan.
+* Kanginan, M. (2016). *Matematika untuk Kelas X SMA*. Jakarta: Erlangga.
