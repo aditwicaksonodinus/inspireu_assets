@@ -87,17 +87,17 @@ Mari kita uji pemahaman kalian dengan soal yang lebih menantang. Pilihlah jawaba
 
 a. $3^1$  
 b. $3^{-1}$  
-c. $3^2$
-d. $3^{-2}$  
-e. $3^0$  
+c. $3^2$  
+d. $3^{-2}$ 
+e. $3^0$ 
 
 2. Jika $x=2$ dan $y=3$, maka nilai dari $(x^2y^{-3})^{-2}$ adalah...  
 
 a. $\frac{729}{16}$  
-b. $\frac{16}{729}$  
+b. $\frac{16}{729}$   
 c. $\frac{64}{81}$  
-d. $\frac{81}{64}$  
-e. $\frac{9}{4}$
+d. $\frac{81}{64}$    
+e. $\frac{9}{4}$  
 
 5. Hasil dari $5^3 + 5^3 + 5^3 + 5^3 + 5^3$ adalah...  
 
@@ -143,6 +143,7 @@ Kerjakan soal-soal berikut dengan singkat dan jelas di buku latihanmu\!
 
 * Kemendikbudristek. (2021). *Matematika untuk SMA/SMK Kelas X*. Jakarta: Pusat Kurikulum dan Perbukuan.
 * Kanginan, M. (2016). *Matematika untuk Kelas X SMA*. Jakarta: Erlangga.
+
 
 
 
