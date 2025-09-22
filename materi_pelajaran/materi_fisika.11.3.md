@@ -1,175 +1,257 @@
-# Elastisitas
+# **BAB 3: Dinamika Gerak - Mengungkap Rahasia di Balik Gaya**
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Menjelaskan konsep kelembaman (inersia) suatu benda berdasarkan Hukum I Newton.
+2. Menerapkan hubungan antara gaya, massa, dan percepatan sesuai Hukum II Newton dalam penyelesaian masalah.
+3. Mengidentifikasi pasangan gaya aksi-reaksi sesuai Hukum III Newton.
+4. Menggambarkan diagram gaya bebas pada suatu sistem benda.
+5. Menjelaskan konsep momentum dan penerapannya pada peristiwa tumbukan.
 
-1. Menjelaskan konsep elastisitas dan sifat elastis benda
-2. Menganalisis hubungan antara tegangan, regangan, dan modulus elastisitas
-3. Menerapkan Hukum Hooke dalam penyelesaian masalah
-4. Menghitung energi potensial elastis pada pegas
-5. Mengaitkan konsep elastisitas dengan penerapannya dalam kehidupan sehari-hari
+**Pemahaman Bermakna:**
+Pada bab sebelumnya, kita telah belajar menjadi "pengamat" gerak melalui kacamata kinematika. Kita bisa mendeskripsikan seberapa cepat traktor bergerak, tapi kita belum menjawab pertanyaan paling mendasar: **Mengapa** traktor itu bisa bergerak? Dan **mengapa** dibutuhkan tenaga mesin yang lebih besar untuk menarik beban yang berat daripada yang ringan? Ilmu yang menjawab pertanyaan "mengapa" ini adalah **Dinamika**. Memahami dinamika berarti kita bisa memprediksi dan merekayasa gerak. Kita jadi paham mengapa sabuk pengaman di mobil itu penting, bagaimana roket bisa terbang, dan mengapa mendorong lemari yang berat terasa sangat sulit pada awalnya.
 
-## Pendahuluan
+**Pembukaan: Misteri Gerobak di Pasar**
+Pernahkah kamu memperhatikan seorang kuli panggul di pasar yang sedang mendorong gerobak penuh muatan? Di awal, ia harus mengerahkan segenap tenaganya, bahkan badannya sampai condong ke depan, hanya untuk membuat gerobak itu mulai bergerak. Namun, anehnya, setelah gerobak itu mulai berjalan, ia tidak perlu mendorong sekuat tenaga seperti di awal untuk menjaganya tetap bergerak.
 
-Pernahkah kamu memperhatikan bagaimana sebuah karet gelang bisa ditarik memanjang dan kembali ke bentuk semula saat dilepaskan? Atau mengapa trampolina bisa melontarkan tubuh kita ke udara setelah kita melompat di atasnya? Fenomena ini berkaitan erat dengan konsep elastisitas dalam fisika.
+Mengapa hal ini terjadi? Mengapa benda yang diam cenderung tetap diam, dan mengapa butuh gaya yang lebih kecil untuk mempertahankan gerak daripada untuk memulainya? Lalu, jika gerobak itu menabrak tumpukan karung, mengapa karung itu bisa terpental? Semua "misteri" ini akan terungkap jika kita memahami tiga hukum keramat dalam fisika gerak yang dirumuskan oleh seorang ilmuwan jenius, **Sir Isaac Newton**.
 
-Elastisitas merupakan kemampuan suatu benda untuk kembali ke bentuk dan ukuran semula setelah gaya yang bekerja padanya dihilangkan. Sifat ini menjadi dasar berbagai teknologi dan fenomena alam yang kita temui sehari-hari, mulai dari pegas pada suspensi kendaraan, senar gitar yang menghasilkan nada, hingga struktur jembatan yang harus mampu menahan beban dinamis.
+`#sisipkan gambar seorang pekerja sedang mendorong gerobak di pasar`
 
-Mari kita selami lebih dalam konsep menarik ini untuk memahami bagaimana prinsip elastisitas membentuk dan mempengaruhi dunia di sekitar kita.
+**Materi Pembelajaran**  
 
-## Isi Materi
+## Hukum I Newton: Hukum Kemalasan (Inersia)
 
-### Pengertian Elastisitas
+Bayangkan kamu sedang berada di dalam bus yang melaju kencang, lalu tiba-tiba sopir mengerem mendadak. Apa yang terjadi pada tubuhmu? Kamu akan terdorong ke depan, seolah-olah ingin terus melaju. Sebaliknya, saat bus dari keadaan diam tiba-tiba melaju, tubuhmu akan tersentak ke belakang, seolah ingin tetap diam.
 
-Elastisitas adalah kemampuan suatu benda untuk kembali ke bentuk dan ukuran aslinya setelah gaya deformasi dihilangkan. Sifat ini berbeda-beda pada setiap bahan, bergantung pada struktur molekulnya. Berdasarkan sifat elastisitasnya, benda dapat dibedakan menjadi:
+Fenomena ini dijelaskan oleh **Hukum I Newton**, yang sering juga disebut **Hukum Kelembaman** atau **Inersia**. Inersia adalah kecenderungan alami sebuah benda untuk **mempertahankan keadaannya**, baik itu diam ataupun bergerak.
 
-1. **Benda elastis**: Benda yang dapat kembali ke bentuk semula setelah gaya deformasi dihilangkan. Contoh: karet, pegas, dan senar gitar.
-2. **Benda plastis**: Benda yang tidak dapat kembali ke bentuk semula setelah gaya deformasi dihilangkan. Contoh: plastisin, tanah liat, dan lilin.
+> **Hukum I Newton berbunyi:** *"Jika resultan gaya yang bekerja pada suatu benda sama dengan nol, maka benda yang awalnya diam akan tetap diam, dan benda yang awalnya bergerak lurus beraturan akan tetap bergerak lurus beraturan."*
 
-Bahkan benda yang sangat kaku seperti baja dan beton memiliki sifat elastis, meskipun deformasinya sangat kecil dan sulit diamati dengan mata telanjang.
+$$\Sigma F = 0$$
 
-### Batas Elastisitas
+Inilah alasan mengapa kita butuh gaya besar di awal untuk mendorong gerobak. Kita harus "mengalahkan" kemalasan (inersia) si gerobak yang ingin tetap diam. Inilah juga alasan mengapa sabuk pengaman diciptakan, yaitu untuk menahan inersia tubuh kita yang ingin terus bergerak maju saat mobil direm mendadak.
 
-Setiap bahan memiliki batas kemampuan untuk kembali ke bentuk semula. Jika gaya yang diberikan terlalu besar, benda akan melewati **batas elastisitas** dan mengalami deformasi permanen. Hubungan antara gaya dan perubahan bentuk dapat digambarkan dalam diagram tegangan-regangan berikut:
+## Hukum II Newton: Hubungan Gaya, Massa, dan Percepatan
 
-![Kurva Tegangan-Regangan](Diagram tegangan-regangan menunjukkan beberapa titik penting: batas proporsional, batas elastis, titik luluh, dan titik patah.)
+Sekarang, bayangkan kamu mendorong dua gerobak. Gerobak pertama kosong, gerobak kedua penuh dengan karung beras. Dengan kekuatan dorongan yang sama, gerobak manakah yang akan melaju lebih cepat? Tentu gerobak yang kosong.
 
-Dalam kurva tersebut, terdapat beberapa titik penting:
+Hubungan ini dijelaskan secara matematis oleh **Hukum II Newton**.
 
-- **Batas proporsional**: Titik sampai dimana Hukum Hooke berlaku
-- **Batas elastis**: Titik maksimum dimana benda masih bersifat elastis
-- **Titik luluh**: Titik dimana benda mulai berubah bentuk secara permanen
-- **Titik patah**: Titik dimana benda mengalami kerusakan/patah
+> **Hukum II Newton berbunyi:** *"Percepatan yang dihasilkan oleh resultan gaya yang bekerja pada suatu benda berbanding lurus dengan resultan gayanya dan berbanding terbalik dengan massa benda tersebut."*
 
-### Tegangan (Stress)
+* **Berbanding lurus dengan gaya:** Semakin kuat kamu mendorong, semakin besar percepatannya.
+* **Berbanding terbalik dengan massa:** Semakin berat bendanya, semakin kecil percepatannya (dengan gaya yang sama).
 
-Tegangan adalah besaran yang menyatakan gaya per satuan luas penampang yang bekerja pada benda. Secara matematis, tegangan dapat dituliskan sebagai:
+**Rumus:**
 
-$$\sigma = \frac{F}{A}$$
+$$\Sigma F = m \times a$$
+dimana:
 
-Dimana:
+* $\Sigma F$ = Resultan Gaya (Newton, N)
+* m = Massa (kilogram, kg)
+* a = Percepatan (m/s²)
 
-- $\sigma$ (sigma) = tegangan (N/m² atau Pascal)
-- $F$ = gaya yang bekerja (N)
-- $A$ = luas penampang (m²)
+Hukum inilah yang menjadi dasar dari hampir seluruh perhitungan gerak dalam mekanika.
 
-Terdapat tiga jenis tegangan:
+## Hukum III Newton: Hukum Aksi-Reaksi
 
-1. **Tegangan tarik**: Terjadi ketika gaya menarik benda
-2. **Tegangan tekan**: Terjadi ketika gaya menekan benda
-3. **Tegangan geser**: Terjadi ketika gaya bekerja sejajar dengan luas penampang
+Coba tekan ujung jarimu ke permukaan dinding. Apa yang kamu rasakan? Dinding seolah-olah "menekan balik" jarimu. Saat seorang perenang mendorong dinding kolam dengan kakinya ke belakang (aksi), dinding akan mendorong perenang itu ke depan (reaksi) sehingga ia bisa meluncur.
 
-### Regangan (Strain)
+Fenomena pasangan gaya ini dijelaskan oleh **Hukum III Newton**.
 
-Regangan adalah perbandingan antara perubahan panjang benda dengan panjang awalnya. Regangan merupakan besaran tanpa satuan karena merupakan perbandingan dua besaran yang sama. Secara matematis, regangan dituliskan sebagai:
+> **Hukum III Newton berbunyi:** *"Untuk setiap aksi, selalu ada reaksi yang sama besar dan berlawanan arah."*
 
-$$\varepsilon = \frac{\Delta L}{L_0}$$
+$$\Sigma F_{aksi} = - \Sigma F_{reaksi}$$
 
-Dimana:
+**Penting untuk diingat:** Pasangan gaya aksi-reaksi selalu bekerja pada **dua benda yang berbeda**. Gaya aksimu (kaki) bekerja pada dinding, dan gaya reaksi dinding bekerja pada dirimu (perenang). Keduanya tidak saling meniadakan.
 
-- $\varepsilon$ (epsilon) = regangan (tanpa satuan)
-- $\Delta L$ = perubahan panjang (m)
-- $L_0$ = panjang awal (m)
+`#sisipkan gambar skema roket yang menyemburkan gas (aksi) dan terdorong ke atas (reaksi)`
 
-### Modulus Elastisitas (Modulus Young)
+## Momentum: Ukuran "Kekuatan" Gerak
 
-Modulus elastisitas atau modulus Young adalah perbandingan antara tegangan dan regangan yang dialami suatu bahan. Modulus ini menunjukkan tingkat kekakuan suatu bahan - semakin besar nilai modulusnya, semakin kaku bahan tersebut. Secara matematis, modulus elastisitas dinyatakan sebagai:
+Sebuah truk besar yang bergerak pelan (misalnya 10 km/jam) akan jauh lebih sulit dihentikan daripada sebuah sepeda yang melaju kencang (misalnya 30 km/jam). Mengapa? Karena truk memiliki **momentum** yang jauh lebih besar.
 
-$$E = \frac{\sigma}{\varepsilon} = \frac{F/A}{\Delta L/L_0} = \frac{F \cdot L_0}{A \cdot \Delta L}$$
+**Momentum (p)** adalah besaran yang mengukur tingkat kesulitan untuk menghentikan suatu benda yang sedang bergerak. Momentum merupakan hasil kali antara **massa** benda dan **kecepatannya**.
 
-Dimana:
+$$p = m \times v$$
 
-- $E$ = modulus elastisitas (N/m² atau Pascal)
-- $\sigma$ = tegangan (N/m²)
-- $\varepsilon$ = regangan (tanpa satuan)
+dimana:
+$p$ = momentum (Kg.m/s)
+$m$ = massa (Kg)
+$v$ = kecepatan (m/s)
 
-Berikut adalah nilai modulus elastisitas beberapa bahan umum:
+Momentum adalah besaran vektor, arahnya sama dengan arah kecepatan. Sama seperti energi, momentum juga memiliki hukum kekekalan. **Hukum Kekekalan Momentum** menyatakan bahwa jika tidak ada gaya luar yang bekerja, total momentum sistem sebelum dan sesudah tumbukan adalah sama.
 
-| Bahan | Modulus Young ($\times 10^{10}$ N/m²) |
-|-------|------------------------|
-| Baja | 20 |
-| Aluminium | 7 |
-| Tembaga | 11 |
-| Beton | 2 |
-| Karet | 0.0001 - 0.001 |
-| Tulang | 1.4 |
+## Impuls: Perubahan Momentum Gerak
 
-### Hukum Hooke
+Bayangkan kamu sedang bermain sepak bola. Ketika bola ditendang, bola yang awalnya diam tiba-tiba melesat dengan kecepatan tinggi. Apa yang menyebabkan perubahan ini? Jawabannya adalah **impuls**.
 
-Hukum Hooke menyatakan bahwa dalam batas elastisitas, pertambahan panjang pegas sebanding dengan gaya yang bekerja padanya. Secara matematis, Hukum Hooke dinyatakan sebagai:
+**Impuls** adalah hasil kali antara gaya yang bekerja pada suatu benda dan selang waktu gaya tersebut bekerja. Impuls menyebabkan perubahan momentum pada benda.
 
-$$F = k \cdot \Delta x$$
+**Rumus Impuls:**
 
-Dimana:
+$$I = F \times \Delta t$$
 
-- $F$ = gaya (N)
-- $k$ = konstanta pegas (N/m)
-- $\Delta x$ = pertambahan panjang pegas (m)
+dimana:
 
-Konstanta pegas ($k$) menunjukkan tingkat kekakuan pegas. Semakin besar nilai $k$, semakin kaku pegas tersebut dan semakin sulit untuk direnggangkan.
+* $I$ = Impuls (N.s)
+* $F$ = Gaya (N)
+* $\Delta t$ = Selang waktu gaya bekerja (s)
 
-### Susunan Pegas
+**Hubungan Impuls dengan Momentum:**
 
-Dalam aplikasi praktis, pegas sering disusun dengan berbagai konfigurasi untuk mendapatkan karakteristik elastisitas yang diinginkan.
+Menurut hukum kedua Newton, gaya yang bekerja pada suatu benda menyebabkan percepatan, yang pada akhirnya mengubah kecepatan benda. Karena momentum ($p$) adalah hasil kali massa ($m$) dan kecepatan ($v$), maka perubahan kecepatan akan menyebabkan perubahan momentum.
 
-#### Susunan Seri
+**Persamaan:**
 
-Saat pegas disusun secara seri, pertambahan panjang total adalah jumlah pertambahan panjang masing-masing pegas, dan konstanta pegas efektif menjadi lebih kecil:
+$$I = \Delta p$$
 
-$$\frac{1}{k_{seri}} = \frac{1}{k_1} + \frac{1}{k_2} + \frac{1}{k_3} + ... + \frac{1}{k_n}$$
+Artinya, impuls yang diberikan pada suatu benda sama dengan perubahan momentum benda tersebut.
 
-Untuk dua pegas seri: $k_{seri} = \frac{k_1 \cdot k_2}{k_1 + k_2}$
+## Tumbuk Menumbuk dan Elastis
 
-#### Susunan Paralel
+### Elastisitas: Sifat Lentur Benda
 
-Pada susunan paralel, gaya yang bekerja terbagi pada setiap pegas, dan konstanta pegas efektif menjadi lebih besar:
+Elastisitas adalah kemampuan suatu benda untuk kembali ke bentuk dan ukuran awalnya setelah gaya yang menyebabkan perubahan bentuk dihilangkan. Benda yang elastis, seperti karet, dapat meregang atau menekuk, tetapi akan kembali ke bentuk semula jika gaya dilepaskan.
 
-$$k_{paralel} = k_1 + k_2 + k_3 + ... + k_n$$
+**Hukum Hooke** menjelaskan hubungan antara gaya yang bekerja pada benda elastis dan perubahan panjangnya:
 
-### Energi Potensial Elastis
+$$F = k \times \Delta x$$
 
-Saat pegas diregangkan atau dimampatkan, energi disimpan dalam bentuk energi potensial elastis. Besarnya energi potensial elastis dinyatakan sebagai:
+dimana:
 
-$$E_p = \frac{1}{2} k (\Delta x)^2$$
+* $F$ = Gaya yang bekerja (N)
+* $k$ = Konstanta pegas (N/m)
+* $\Delta x$ = Perubahan panjang (m)
 
-Dimana:
+Contoh kontekstual: Ketika kamu menarik karet gelang, karet akan meregang. Jika dilepaskan, karet akan kembali ke panjang semula, selama gaya yang diberikan tidak melebihi batas elastisitasnya.
 
-- $E_p$ = energi potensial elastis (Joule)
-- $k$ = konstanta pegas (N/m)
-- $\Delta x$ = pertambahan panjang pegas (m)
+### Jenis Tumbukan dalam Satu Dimensi
 
-Persamaan ini menunjukkan bahwa energi potensial elastis sebanding dengan kuadrat perubahan panjang, yang menjelaskan mengapa perlu usaha yang lebih besar untuk meregangkan pegas yang sudah terentang.
+Tumbukan adalah interaksi antara dua benda yang menyebabkan perubahan kecepatan. Dalam fisika, tumbukan dibagi menjadi dua jenis utama:
 
-### Aplikasi Elastisitas dalam Kehidupan Sehari-hari
+#### 1. Tumbukan Elastis
 
-Konsep elastisitas memiliki banyak aplikasi praktis dalam kehidupan sehari-hari dan teknologi:
+Pada tumbukan elastis, energi kinetik total dan momentum total sistem tetap kekal. Benda-benda yang bertumbukan akan memantul tanpa kehilangan energi.
 
-1. **Sistem Suspensi Kendaraan**: Menggunakan pegas dan peredam kejut untuk menyerap guncangan dari permukaan jalan.
-2. **Alat Musik**: Senar gitar dan piano bergetar dengan frekuensi yang ditentukan oleh tegangan dan elastisitasnya.
-3. **Bungee Jumping**: Memanfaatkan elastisitas tali karet untuk memberikan sensasi jatuh yang aman.
-4. **Struktur Bangunan**: Desain bangunan tahan gempa dengan mempertimbangkan elastisitas material.
-5. **Alat Olahraga**: Trampolina, raket tenis, dan peralatan fitness menggunakan prinsip elastisitas.
-6. **Perangkat Medis**: Kateter, stent, dan alat ortodontik dirancang berdasarkan sifat elastis tertentu.
+**Persamaan Kekekalan Momentum:**
+$$m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}$$
 
-## Rangkuman Materi
+**Persamaan Kekekalan Energi Kinetik:**
+$$\frac{1}{2} m_1 v_{1i}^2 + \frac{1}{2} m_2 v_{2i}^2 = \frac{1}{2} m_1 v_{1f}^2 + \frac{1}{2} m_2 v_{2f}^2$$
 
-1. **Elastisitas** adalah kemampuan benda kembali ke bentuk semula setelah gaya deformasi dihilangkan.
+Contoh kontekstual: Dua bola biliar bertumbukan di atas meja. Setelah tumbukan, kedua bola bergerak dengan kecepatan berbeda, tetapi energi kinetik totalnya tetap sama.
 
-2. **Tegangan (Stress)** adalah gaya per satuan luas: $\sigma = \frac{F}{A}$
+#### 2. Tumbukan Tidak Elastis
 
-3. **Regangan (Strain)** adalah perbandingan perubahan panjang dengan panjang awal: $\varepsilon = \frac{\Delta L}{L_0}$
+Pada tumbukan tidak elastis, energi kinetik total tidak kekal karena sebagian energi berubah menjadi panas, suara, atau deformasi. Namun, momentum total tetap kekal.
 
-4. **Modulus Elastisitas** adalah perbandingan tegangan terhadap regangan: $E = \frac{\sigma}{\varepsilon}$
+**Persamaan Kekekalan Momentum:**
+$$m_1 v_{1i} + m_2 v_{2i} = (m_1 + m_2) v_f$$
 
-5. **Hukum Hooke** menyatakan dalam batas elastisitas, pertambahan panjang sebanding dengan gaya: $F = k \cdot \Delta x$
+Contoh kontekstual: Sebuah mobil mainan yang bergerak menabrak mobil mainan lain yang diam, lalu keduanya bergerak bersama dengan kecepatan yang sama.
 
-6. Konstanta pegas pada **susunan seri**: $\frac{1}{k_{seri}} = \frac{1}{k_1} + \frac{1}{k_2} + ... + \frac{1}{k_n}$
+## Koefisien Restitusi (e)
 
-7. Konstanta pegas pada **susunan paralel**: $k_{paralel} = k_1 + k_2 + ... + k_n$
+Koefisien restitusi adalah bilangan tanpa satuan yang menunjukkan tingkat kelentingan suatu tumbukan antara dua benda. Nilai koefisien restitusi berkisar antara 0 hingga 1:
 
-8. **Energi potensial elastis** pada pegas: $E_p = \frac{1}{2} k (\Delta x)^2$
+* $e = 1$: Tumbukan elastis sempurna, energi kinetik total sebelum dan sesudah tumbukan tetap kekal.
+* $0 < e < 1$: Tumbukan tidak elastis, sebagian energi kinetik hilang menjadi bentuk energi lain (misalnya panas atau suara).
+* $e = 0$: Tumbukan tidak elastis sempurna, benda-benda yang bertumbukan bergerak bersama setelah tumbukan.
 
-9. Benda memiliki **batas elastisitas** di mana setelah melewatinya, benda tidak dapat kembali ke bentuk semula.
+**Rumus Koefisien Restitusi:**
 
-10. Prinsip elastisitas diterapkan pada berbagai teknologi dan struktur dalam kehidupan sehari-hari, dari suspensi kendaraan hingga bangunan tahan gempa.
+$$e = \frac{|v_{2f} - v_{1f}|}{|v_{1i} - v_{2i}|}$$
+
+dimana:
+
+* $v_{1i}$ dan $v_{2i}$ adalah kecepatan awal benda 1 dan benda 2 sebelum tumbukan.
+* $v_{1f}$ dan $v_{2f}$ adalah kecepatan akhir benda 1 dan benda 2 setelah tumbukan.
+
+**Contoh Kontekstual:**
+
+Dua bola bertumbukan, bola pertama memiliki kecepatan awal 5 m/s, dan bola kedua diam. Setelah tumbukan, bola pertama bergerak dengan kecepatan 2 m/s, dan bola kedua bergerak dengan kecepatan 3 m/s. Hitung koefisien restitusi!
+
+**Penyelesaian:**
+
+Diketahui:
+
+* $v_{1i} = 5$ m/s, $v_{2i} = 0$ m/s
+* $v_{1f} = 2$ m/s, $v_{2f} = 3$ m/s
+
+Substitusi ke rumus:
+$$e = \frac{|v_{2f} - v_{1f}|}{|v_{1i} - v_{2i}|} = \frac{|3 - 2|}{|5 - 0|} = \frac{1}{5} = 0,2$$
+
+Jadi, koefisien restitusi tumbukan tersebut adalah 0,2, yang menunjukkan tumbukan tidak elastis.
+
+**Contoh Soal Kontekstual**  
+
+1. **Tumbukan Elastis:**
+    Dua bola, masing-masing bermassa 2 kg dan 3 kg, bergerak saling mendekati dengan kecepatan 4 m/s dan 2 m/s. Setelah bertumbukan, bola pertama bergerak dengan kecepatan 1 m/s. Hitung kecepatan bola kedua setelah tumbukan!
+
+2. **Tumbukan Tidak Elastis:**
+    Sebuah kereta bermassa 1000 kg bergerak dengan kecepatan 5 m/s menabrak kereta lain bermassa 500 kg yang diam. Setelah tumbukan, kedua kereta bergerak bersama. Hitung kecepatan gabungan kedua kereta!
+
+**Refleksi**  
+
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
+
+1. Ketika sebuah mobil direm mendadak, penumpang di dalamnya akan terdorong ke depan. Peristiwa ini sesuai dengan...
+    a. Hukum I Newton
+    b. Hukum II Newton
+    c. Hukum III Newton
+    d. Hukum Kekekalan Energi
+    e. Hukum Kekekalan Momentum
+
+2. Sebuah gaya sebesar 20 N bekerja pada benda bermassa 5 kg. Percepatan yang dialami benda tersebut adalah...
+    a. 0,25 m/s²
+    b. 4 m/s²
+    c. 15 m/s²
+    d. 25 m/s²
+    e. 100 m/s²
+
+3. Seekor burung dapat terbang di udara karena ia mengepakkan sayapnya ke bawah (aksi). Gaya reaksi yang membuat burung terangkat adalah...
+    a. Gaya gravitasi yang menarik burung ke bawah
+    b. Gaya berat burung itu sendiri
+    c. Gaya udara yang menekan burung dari atas
+    d. Gaya udara yang mendorong sayap burung ke atas
+    e. Gaya gesek udara pada tubuh burung
+
+4. Berikut ini adalah ciri-ciri pasangan gaya aksi-reaksi, **kecuali**...
+    a. Sama besar
+    b. Bekerja pada satu benda
+    c. Berlawanan arah
+    d. Bekerja pada dua benda yang berbeda
+    e. Terjadi secara bersamaan
+
+5. Sebuah bola bowling memiliki massa lebih besar daripada bola kasti. Jika keduanya bergerak dengan kecepatan yang sama, maka...
+    a. Momentum bola kasti lebih besar
+    b. Momentum bola bowling lebih besar
+    c. Momentum keduanya sama besar
+    d. Bola kasti tidak memiliki momentum
+    e. Bola bowling tidak memiliki momentum
+
+**Asesmen Formatif**  
+
+Jawablah pertanyaan berikut dengan singkat dan jelas!
+
+1. Mengapa astronot tampak melayang-layang di dalam pesawat luar angkasa yang sedang mengorbit? Hubungkan dengan Hukum I Newton!
+2. Dua buah balok, A (2 kg) dan B (4 kg), didorong dengan gaya yang sama besar. Balok manakah yang akan mengalami percepatan lebih besar? Jelaskan alasanmu menggunakan konsep Hukum II Newton.
+3. Saat kamu mendayung perahu, kamu mendorong air ke belakang dengan dayung. Jelaskan di mana gaya **aksi** dan gaya **reaksi** bekerja sehingga perahu bisa bergerak maju!  
+
+**Glosarium**  
+
+* **Dinamika:** Cabang mekanika yang mempelajari gerak benda dan penyebabnya (gaya).
+* **Gaya:** Tarikan atau dorongan yang dapat menyebabkan perubahan gerak atau bentuk benda.
+* **Inersia (Kelembaman):** Kecenderungan benda untuk mempertahankan keadaan geraknya.
+* **Massa:** Ukuran jumlah materi dalam suatu benda, sekaligus ukuran kelembaman benda tersebut.
+* **Momentum:** Ukuran kesukaran untuk menghentikan benda yang bergerak, hasil kali massa dan kecepatan.
+* **elastisitas:** Elastisitas adalah kemampuan suatu benda untuk kembali ke ukuran dan bentuk semula setelah gaya dari luar dihilangkan.
+
+**Daftar Pustaka**  
+
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2024). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran Fisika Fase F*. Kemendikbudristek.

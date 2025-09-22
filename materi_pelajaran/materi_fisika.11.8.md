@@ -1,196 +1,158 @@
-# Gelombang: Bunyi dan Cahaya
+# BAB 8: Termodinamika - Mengubah Panas Menjadi Kerja
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Menerapkan teori kinetik gas untuk menganalisis sifat-sifat gas dalam ruang tertutup.
+2. Menganalisis hubungan antara usaha, kalor, dan energi dalam berdasarkan Hukum I Termodinamika.
+3. Membedakan pernyataan tentang Hukum II Termodinamika dan menjelaskan konsep entropi.
+4. Menjelaskan prinsip kerja dan efisiensi mesin kalor sebagai penerapan konsep termodinamika.
 
-1. Menjelaskan konsep dasar gelombang dan karakteristiknya
-2. Menganalisis sifat-sifat gelombang bunyi dan penerapannya
-3. Mengidentifikasi sifat-sifat gelombang cahaya
-4. Menerapkan konsep pemantulan, pembiasan, interferensi, dan difraksi dalam kehidupan sehari-hari
-5. Menghitung besaran-besaran yang terkait dengan gelombang bunyi dan cahaya
+**Pemahaman Bermakna:**
+Pernahkah kamu bertanya-tanya bagaimana mesin motor atau traktor bisa memiliki tenaga begitu besar hanya dengan membakar sedikit bahan bakar? Bagaimana bisa panas dari pembakaran solar diubah menjadi gerakan kuat yang mampu membajak sawah? Jawabannya terletak pada **termodinamika**, yaitu ilmu yang mempelajari hubungan antara panas (kalor), kerja (usaha), dan energi. Memahami termodinamika berarti kita memahami cara kerja hampir semua mesin yang menggerakkan dunia modern, mulai dari mesin kendaraan, pembangkit listrik, hingga kulkas di rumah. Ilmu ini adalah kunci untuk menciptakan teknologi yang efisien dan mengubah energi panas menjadi sesuatu yang berguna.
 
-## Pendahuluan
+**Pembukaan: Jantung Mekanis di Tengah Sawah**
+Perhatikan sebuah traktor yang sedang bekerja di sawah. Dari knalpotnya keluar asap panas, dan dari badannya terpancar hawa hangat. Di dalam "jantung" traktor itu, yaitu mesin dieselnya, terjadi sebuah keajaiban fisika. Sejumlah kecil solar disemprotkan ke dalam silinder, lalu dibakar. Ledakan kecil dari pembakaran itu menghasilkan panas yang luar biasa. Panas inilah yang mendorong piston untuk bergerak turun-naik dengan sangat cepat. Gerakan naik-turun ini kemudian diubah menjadi gerak putar yang menggerakkan roda-roda besar traktor.
 
-Pernahkah kamu memperhatikan riak air di kolam ketika sebuah batu dilemparkan ke dalamnya? Atau mungkin kamu pernah melihat pelangi setelah hujan? Fenomena-fenomena ini merupakan contoh gelombang yang ada di sekitar kita. Gelombang adalah gangguan yang merambat melalui ruang dan waktu, mentransfer energi tanpa memindahkan medium perantaranya.
+Asap panas yang terbuang, hawa hangat dari badan mesin, dan tenaga besar yang dihasilkan adalah tiga komponen utama dalam cerita termodinamika. Ada **panas yang masuk** (dari pembakaran), ada **kerja yang dihasilkan** (menggerakkan roda), dan ada **panas yang dibuang**. Proses mengubah panas menjadi kerja inilah yang akan kita bedah dalam bab ini, seolah-olah kita sedang menjadi montir yang mengintip ke dalam cara kerja sebuah mesin.
 
-Dalam kehidupan sehari-hari, kita dikelilingi oleh dua jenis gelombang yang sangat penting: bunyi dan cahaya. Bunyi memungkinkan kita berkomunikasi dan menikmati musik, sementara cahaya memungkinkan kita melihat dunia dengan segala keindahannya. Keduanya merupakan bentuk gelombang dengan karakteristik yang unik dan menarik untuk dipelajari.
+`#sisipkan gambar skema sederhana mesin diesel pada traktor`
 
-Pada materi ini, kita akan menjelajahi sifat-sifat gelombang bunyi dan cahaya, serta bagaimana keduanya berinteraksi dengan lingkungan sekitar. Mari kita mulai petualangan menarik dalam dunia gelombang!
+## Teori Kinetik Gas dan Gas Ideal
 
-## Gelombang dan Karakteristiknya
+Untuk memahami mesin, kita perlu memahami "fluida kerja" di dalamnya, yaitu gas. **Teori Kinetik Gas** membayangkan gas sebagai kumpulan partikel (atom atau molekul) yang sangat banyak dan bergerak acak dengan kecepatan tinggi. Partikel-partikel ini terus-menerus bertumbukan satu sama lain dan dengan dinding wadahnya. Tumbukan partikel ke dinding inilah yang kita rasakan sebagai **tekanan gas**.
 
-Gelombang adalah gangguan yang merambat melalui medium atau ruang dengan membawa energi. Berdasarkan medium perambatannya, gelombang dibagi menjadi:
+Untuk menyederhanakan analisis, para ilmuwan menggunakan model **Gas Ideal**, yaitu gas hipotetis dengan sifat-sifat:
 
-1. **Gelombang Mekanik**: Memerlukan medium untuk merambat (contoh: gelombang air, gelombang bunyi)
-2. **Gelombang Elektromagnetik**: Tidak memerlukan medium untuk merambat (contoh: gelombang cahaya, gelombang radio)
+* Partikelnya bergerak acak dan merata.
+* Tidak ada gaya tarik-menarik antarpartikel.
+* Tumbukan antarpartikel bersifat lenting sempurna.
 
-Berdasarkan arah rambatannya terhadap arah getarannya, gelombang dibagi menjadi:
+Perilaku gas ideal ini dirangkum dalam satu persamaan elegan:
 
-1. **Gelombang Transversal**: Arah rambatan tegak lurus dengan arah getaran
-2. **Gelombang Longitudinal**: Arah rambatan sejajar dengan arah getaran
+**Persamaan Gas Ideal:**
 
-### Besaran-besaran pada Gelombang
+$$PV = nRT$$
 
-- **Panjang Gelombang ($\lambda$)**: Jarak antara dua puncak atau dua lembah yang berurutan
-- **Frekuensi ($f$)**: Jumlah gelombang yang melewati suatu titik tertentu dalam satu detik
-- **Periode ($T$)**: Waktu yang diperlukan untuk satu gelombang lengkap
-- **Cepat Rambat Gelombang ($v$)**: Kecepatan perambatan gelombang
+Dimana:
 
-Hubungan antara besaran-besaran tersebut:
+* P = Tekanan (Pascal, Pa)
+* V = Volume ($m^3$)
+* n = Jumlah mol gas (mol)
+* R = Konstanta gas ideal (8,314 J/mol·K)
+* T = Suhu (Kelvin, K)
 
-$$v = \lambda \times f$$
+## Hukum-Hukum Fundamental Termodinamika
 
-$$f = \frac{1}{T}$$
+**1. Hukum Awal (Ke-Nol) Termodinamika**
+Hukum ini terdengar sederhana tapi sangat mendasar. Jika benda A berada dalam kesetimbangan termal dengan benda B, dan benda B juga setimbang dengan benda C, maka A pasti setimbang dengan C. Artinya, mereka semua memiliki **suhu yang sama**. Hukum inilah yang menjadi dasar validitas pengukuran suhu menggunakan termometer.
 
-## Gelombang Bunyi
+**2. Hukum I Termodinamika (Kekekalan Energi)**
+Hukum ini adalah penerapan Hukum Kekekalan Energi pada sistem termodinamika. Hukum ini menghubungkan tiga besaran penting:
 
-Bunyi adalah gelombang longitudinal yang merambat melalui medium seperti udara, air, atau zat padat. Getaran dari sumber bunyi menyebabkan partikel-partikel medium bergetar sejajar dengan arah rambat gelombang.
+* **Energi Dalam ($\Delta U$):** Total energi kinetik dari seluruh partikel gas dalam sistem.
+* **Kalor (Q):** Energi panas yang masuk atau keluar dari sistem.
+* **Usaha (W):** Kerja yang dilakukan oleh sistem (misalnya gas mendorong piston) atau pada sistem.
 
-### Karakteristik Gelombang Bunyi
+> **Hukum I Termodinamika berbunyi:** *"Perubahan energi dalam dari suatu sistem termodinamika tertutup sama dengan total dari kalor yang ditambahkan ke dalam sistem dikurangi usaha yang dilakukan oleh sistem terhadap lingkungannya."*
 
-1. **Frekuensi Bunyi**:
-   - Infrasonik: $f < 20$ Hz (tidak dapat didengar manusia)
-   - Audiosonik: $20$ Hz $\leq f \leq 20.000$ Hz (dapat didengar manusia)
-   - Ultrasonik: $f > 20.000$ Hz (tidak dapat didengar manusia)
+dituliskan menjadi:
 
-2. **Cepat Rambat Bunyi**:
+$$\Delta U = Q - W$$
 
-   Cepat rambat bunyi bergantung pada medium perantaranya:
+**Aturan Tanda:**
 
-   | Medium | Suhu (°C) | Cepat Rambat (m/s) |
-   |--------|-----------|-------------------|
-   | Udara  | 0         | 331               |
-   | Udara  | 20        | 343               |
-   | Air    | 20        | 1.482             |
-   | Besi   | 20        | 5.000             |
-   | Kaca   | 20        | 5.500             |
+* Q (+): Sistem menerima kalor.
+* Q (-): Sistem melepaskan kalor.
+* W (+): Sistem melakukan usaha (misal: gas memuai).
+* W (-): Sistem dikenai usaha (misal: gas dimampatkan).
 
-   Pada medium gas (udara), cepat rambat bunyi pada suhu $t$ (°C) dapat dihitung dengan rumus:
+**3. Hukum II Termodinamika (Arah Aliran dan Entropi)**
+Jika Hukum I menyatakan energi itu kekal, Hukum II memberikan "aturan main"-nya. Hukum ini menjelaskan arah proses alami.
 
-   $$v_t = v_0 \sqrt{\frac{T_t}{T_0}} = v_0 \sqrt{\frac{273 + t}{273}}$$
+* **Pernyataan Aliran Kalor:** Kalor mengalir secara spontan dari benda bersuhu tinggi ke benda bersuhu rendah, dan tidak sebaliknya.
+* **Pernyataan Mesin Kalor:** Tidak ada mesin yang dapat mengubah seluruh kalor yang diterimanya menjadi usaha. Pasti ada sebagian kalor yang "terbuang" ke reservoir suhu rendah.
 
-   dengan $v_0 = 331$ m/s adalah cepat rambat bunyi pada suhu 0°C.
+Hukum II juga melahirkan konsep **Entropi (S)**, yaitu ukuran **ketidakteraturan** atau **keacakan** suatu sistem.
+> Hukum II Termodinamika dalam konsep entropi menyatakan bahwa total entropi alam semesta cenderung meningkat seiring waktu. Proses alami selalu bergerak menuju keadaan yang lebih tidak teratur.
 
-3. **Intensitas Bunyi**:
+**4. Hukum III Termodinamika**
+Hukum ini menyatakan bahwa entropi suatu sistem akan mendekati nilai minimum (mendekati nol) ketika suhunya mendekati **nol mutlak (0 Kelvin)**. Artinya, tidak mungkin mendinginkan suatu sistem hingga mencapai suhu nol mutlak.
 
-   Intensitas bunyi adalah energi gelombang bunyi yang melewati luas permukaan per satuan waktu.
+## Penerapan: Mesin Kalor
 
-   $$I = \frac{P}{A}$$
+**Mesin Kalor** adalah perangkat apa pun yang mengubah energi panas menjadi usaha mekanis secara terus-menerus. Mesin pada traktor atau motor adalah contohnya.
+Sebuah mesin kalor bekerja dengan cara:
 
-   dengan:
-   - $I$ = intensitas bunyi (W/m²)
-   - $P$ = daya bunyi (Watt)
-   - $A$ = luas permukaan (m²)
+1. Menyerap kalor ($Q_1$) dari reservoir suhu tinggi (T1), misalnya dari ruang pembakaran.
+2. Mengubah sebagian kalor tersebut menjadi usaha mekanis (W).
+3. Membuang sisa kalor ($Q_2$) ke reservoir suhu rendah (T2), misalnya melalui knalpot ke lingkungan.
 
-   Taraf intensitas bunyi diukur dengan satuan desibel (dB):
+Efisiensi ($\eta$) sebuah mesin kalor adalah perbandingan antara usaha yang dihasilkan dengan kalor yang diserap.
 
-   $$TI = 10 \log \frac{I}{I_0}$$
+$$\eta = \frac{W}{Q_1} = \frac{Q_1 - Q_2}{Q_1} = 1 - \frac{Q_2}{Q_1}$$
 
-   dengan $I_0 = 10^{-12}$ W/m² adalah intensitas bunyi terendah yang dapat didengar manusia.
+Menurut Hukum II Termodinamika, efisiensi mesin tidak akan pernah bisa 100% karena $Q_2$ tidak mungkin bernilai nol.
 
-### Efek Doppler
+**Refleksi**  
 
-Efek Doppler adalah perubahan frekuensi yang terdengar oleh pendengar akibat gerakan relatif antara sumber bunyi dan pendengar.
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
 
-$$f_p = f_s \left( \frac{v \pm v_p}{v \mp v_s} \right)$$
-
-dengan:
-
-- $f_p$ = frekuensi yang didengar pendengar (Hz)
-- $f_s$ = frekuensi sumber bunyi (Hz)
-- $v$ = cepat rambat bunyi di udara (m/s)
-- $v_p$ = kecepatan pendengar (m/s)
-- $v_s$ = kecepatan sumber bunyi (m/s)
-
-Catatan:
-
-- Tanda + pada pembilang digunakan jika pendengar mendekati sumber bunyi
-- Tanda - pada pembilang digunakan jika pendengar menjauhi sumber bunyi
-- Tanda - pada penyebut digunakan jika sumber bunyi mendekati pendengar
-- Tanda + pada penyebut digunakan jika sumber bunyi menjauhi pendengar
-
-### Aplikasi Gelombang Bunyi
-
-1. **Ultrasonografi (USG)**: Memanfaatkan gelombang ultrasonik untuk mencitrakan organ dalam tubuh
-2. **Sonar**: Menggunakan pantulan gelombang bunyi untuk mendeteksi objek di bawah air
-3. **Terapi Ultrasonik**: Menggunakan gelombang ultrasonik untuk mengobati berbagai penyakit
-
-## Gelombang Cahaya
-
-Cahaya adalah gelombang elektromagnetik transversal yang dapat merambat dalam ruang hampa dengan kecepatan $c = 3 \times 10^8$ m/s. Cahaya tampak memiliki panjang gelombang antara 400-700 nanometer.
-
-### Sifat-sifat Gelombang Cahaya
-
-1. **Pemantulan (Refleksi)**
-
-   Hukum pemantulan cahaya:
-   - Sinar datang, sinar pantul, dan garis normal terletak pada satu bidang datar
-   - Sudut datang sama dengan sudut pantul ($\theta_i = \theta_r$)
-
-2. **Pembiasan (Refraksi)**
-
-   Pembiasan terjadi ketika cahaya merambat dari satu medium ke medium lain yang berbeda kerapatannya. Hukum Snellius menyatakan:
-
-   $$n_1 \sin \theta_1 = n_2 \sin \theta_2$$
-
-   dengan:
-   - $n_1, n_2$ = indeks bias medium 1 dan 2
-   - $\theta_1, \theta_2$ = sudut datang dan sudut bias
-
-   Indeks bias relatif antara dua medium:
-
-   $$n_{21} = \frac{n_2}{n_1} = \frac{v_1}{v_2}$$
-
-   dengan $v_1, v_2$ adalah kecepatan cahaya pada medium 1 dan 2.
-
-3. **Interferensi**
-
-   Interferensi adalah perpaduan dua gelombang atau lebih yang menghasilkan gelombang baru. Interferensi konstruktif terjadi ketika beda fase gelombang-gelombang tersebut memenuhi:
-
-   $$\Delta x = m\lambda \quad (m = 0, 1, 2, ...)$$
-
-   Interferensi destruktif terjadi ketika beda fase gelombang-gelombang tersebut memenuhi:
-
-   $$\Delta x = (m + \frac{1}{2})\lambda \quad (m = 0, 1, 2, ...)$$
-
-4. **Difraksi**
-
-   Difraksi adalah peristiwa pembelokan gelombang ketika melewati celah sempit atau mengitari ujung penghalang. Pola difraksi dari celah tunggal dengan lebar $d$ menghasilkan minimum intensitas pada sudut $\theta$ yang memenuhi:
-
-   $$d \sin \theta = m\lambda \quad (m = 1, 2, 3, ...)$$
-
-5. **Polarisasi**
-
-   Polarisasi adalah peristiwa penyerapan sebagian arah getar gelombang cahaya. Intensitas cahaya yang melewati dua polarisator dengan sudut $\theta$ di antara keduanya memenuhi Hukum Malus:
-
-   $$I = I_0 \cos^2 \theta$$
-
-   dengan $I_0$ adalah intensitas cahaya awal.
-
-### Aplikasi Gelombang Cahaya
-
-1. **Lensa dan Alat Optik**: Kamera, mikroskop, teleskop
-2. **Komunikasi Optik**: Serat optik untuk mentransmisikan data
-3. **Holografi**: Penggunaan interferensi cahaya untuk menciptakan gambar tiga dimensi
-4. **Spektroskopi**: Analisis spektrum cahaya untuk menentukan komposisi benda
-
-## Rangkuman Materi
-
-- **Gelombang** adalah gangguan yang merambat melalui ruang dan waktu, mentransfer energi tanpa memindahkan medium.
-- **Gelombang Bunyi**:
-  - Merupakan gelombang longitudinal yang memerlukan medium untuk merambat
-  - Memiliki frekuensi audiosonik (20-20.000 Hz) yang dapat didengar manusia
-  - Mengalami efek Doppler ketika terjadi gerakan relatif antara sumber bunyi dan pendengar
-  - Dimanfaatkan dalam teknologi USG, sonar, dan terapi ultrasonik
-- **Gelombang Cahaya**:
-  - Merupakan gelombang elektromagnetik transversal yang dapat merambat dalam ruang hampa
-  - Memiliki sifat pemantulan, pembiasan, interferensi, difraksi, dan polarisasi
-  - Kecepatan cahaya dalam ruang hampa adalah $3 \times 10^8$ m/s
-  - Cahaya tampak memiliki panjang gelombang 400-700 nm
-  - Dimanfaatkan dalam alat optik, komunikasi optik, holografi, dan spektroskopi
-- **Persamaan Penting**:
-  - Cepat rambat gelombang: $v = \lambda \times f$
-  - Hukum Snellius: $n_1 \sin \theta_1 = n_2 \sin \theta_2$
-  - Efek Doppler: $f_p = f_s \left( \frac{v \pm v_p}{v \mp v_s} \right)$
-  - Hukum Malus: $I = I_0 \cos^2 \theta$
+1. Hukum Termodinamika yang menjadi dasar ilmiah bagi cara kerja termometer adalah...
+    a. Hukum I Termodinamika
+    b. Hukum II Termodinamika
+    c. Hukum III Termodinamika
+    d. Hukum Awal (Ke-Nol) Termodinamika
+    e. Hukum Kekekalan Energi
+
+2. Sebuah sistem gas menerima kalor sebesar 2000 J dan melakukan usaha sebesar 1200 J. Perubahan energi dalam sistem tersebut adalah...
+    a. Bertambah 3200 J
+    b. Berkurang 3200 J
+    c. Bertambah 800 J
+    d. Berkurang 800 J
+    e. Tetap
+
+3. Pernyataan bahwa "kalor tidak mungkin diubah seluruhnya menjadi usaha" adalah inti dari...
+    a. Hukum I Termodinamika
+    b. Hukum II Termodinamika
+    c. Persamaan Gas Ideal
+    d. Teori Kinetik Gas
+    e. Asas Black
+
+4. Ukuran tingkat ketidakteraturan atau keacakan dalam suatu sistem termodinamika disebut...
+    a. Entalpi
+    b. Energi dalam
+    c. Usaha
+    d. Kalor
+    e. Entropi
+
+5. Sebuah mesin kalor memiliki efisiensi 30%. Jika mesin tersebut menyerap kalor sebesar 10.000 Joule, maka usaha yang dihasilkan adalah...
+    a. 300 J
+    b. 700 J
+    c. 3.000 J
+    d. 7.000 J
+    e. 10.000 J
+
+**Asesmen Formatif**  
+
+Jawablah pertanyaan berikut dengan singkat dan jelas!
+
+1. Saat kamu memompa ban sepeda, tabung pompa akan terasa panas. Jelaskan fenomena ini menggunakan konsep Hukum I Termodinamika!
+2. Mengapa knalpot pada mesin motor atau traktor selalu panas? Hubungkan jawabanmu dengan prinsip kerja mesin kalor dan Hukum II Termodinamika!
+3. Gas di dalam sebuah tabung baja dipanaskan sehingga suhunya naik, namun volumenya tetap. Apakah gas tersebut melakukan usaha? Jelaskan mengapa!
+
+**Glosarium**  
+
+* **Termodinamika:** Cabang fisika yang mempelajari hubungan antara panas, kerja, dan energi.
+* **Gas Ideal:** Model gas teoretis yang digunakan untuk menyederhanakan perhitungan termodinamika.
+* **Energi Dalam (U):** Jumlah total energi kinetik dan potensial dari seluruh partikel dalam sistem.
+* **Usaha (W):** Energi yang ditransfer ketika sebuah gaya menyebabkan perpindahan. Dalam termodinamika, seringkali berupa gas yang memuai atau dimampatkan.
+* **Kalor (Q):** Energi yang berpindah karena adanya perbedaan suhu.
+* **Entropi (S):** Ukuran kuantitatif dari ketidakteraturan atau keacakan suatu sistem.
+* **Mesin Kalor:** Perangkat yang mengubah energi panas menjadi kerja mekanis.
+
+**Daftar Pustaka**  
+
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (*2010*). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2024). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran Fisika Fase F*. Kemendikbudristek.

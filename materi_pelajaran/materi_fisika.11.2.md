@@ -1,168 +1,218 @@
-# Rotasi dan Kesetimbangan Benda Tegar
+# BAB 2: Kinematika Gerak - Menganalisis Jejak Perjalanan
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Membedakan besaran-besaran fisis pada gerak lurus (posisi, jarak, perpindahan, kelajuan, kecepatan, dan percepatan).
+2. Menganalisis karakteristik Gerak Lurus Beraturan (GLB) dan Gerak Lurus Berubah Beraturan (GLBB) melalui grafik dan perhitungan.
+3. Menerapkan konsep gerak parabola dalam menyelesaikan masalah sederhana.
+4. Menganalisis besaran-besaran pada gerak melingkar beraturan.
 
-- Menjelaskan konsep rotasi benda tegar dan besaran-besaran fisisnya
-- Menganalisis momen inersia dan torsi dalam gerak rotasi
-- Menerapkan hukum kekekalan momentum sudut
-- Menganalisis kesetimbangan benda tegar
-- Menyelesaikan permasalahan terkait rotasi dan kesetimbangan benda tegar dalam kehidupan sehari-hari
+**Pemahaman Bermakna:**
+Gerak adalah bagian tak terpisahkan dari kehidupan. Mulai dari sepeda motor yang melintas di jalan raya, buah mangga yang jatuh dari pohon, hingga perputaran mesin penggilingan padi di pabrik. Kinematika adalah cabang Fisika yang menjadi "kacamata" bagi kita untuk menganalisis gerak tersebut secara detail, tanpa perlu pusing memikirkan apa penyebab geraknya. Dengan memahami kinematika, kita bisa memprediksi posisi suatu benda, mengetahui seberapa cepat ia bergerak, dan kapan ia akan tiba di tujuan. Kemampuan ini adalah dasar dari banyak teknologi, mulai dari pembuatan jadwal kereta api hingga peluncuran roket ke luar angkasa.
 
-## Pendahuluan
+**Pembukaan: Balapan di Jalan Lurus**
+Bayangkan ada dua orang sahabat, Adi dan Budi, yang akan pergi ke pabrik gula yang berjarak 2 kilometer dari sekolah. Mereka berangkat bersamaan dari gerbang sekolah. Adi mengendarai sepeda motor dengan kecepatan yang selalu tetap, terlihat dari speedometer motornya yang selalu menunjuk angka 40 km/jam. Sementara itu, Budi mengendarai sepeda kayuh. Awalnya ia mengayuh pelan, namun semakin lama kayuhannya semakin cepat dan kencang.
 
-Pernahkah kamu memerhatikan gerakan komidi putar di taman bermain? Atau bagaimana seorang penari balet berputar dengan indah? Atau mungkin kamu pernah bermain dengan fidget spinner? Semua fenomena tersebut merupakan contoh dari gerak rotasi benda tegar.
+Siapakah yang akan tiba lebih dulu di pabrik? Tentu kita semua bisa menjawab, Adi yang akan sampai lebih dulu. Namun, dalam Fisika, pertanyaannya bisa lebih detail: "Di posisi manakah Budi saat Adi tiba di pabrik?" atau "Berapa selisih waktu kedatangan mereka?". Untuk menjawab pertanyaan-pertanyaan ini, kita tidak bisa lagi sekadar mengandalkan intuisi. Kita perlu alat analisis yang disebut **Kinematika Gerak**. Perjalanan Adi adalah contoh **Gerak Lurus Beraturan (GLB)**, sedangkan perjalanan Budi adalah contoh **Gerak Lurus Berubah Beraturan (GLBB)**.
 
-Rotasi adalah gerakan memutar suatu benda terhadap suatu sumbu, berbeda dengan gerak translasi yang merupakan gerakan benda secara keseluruhan. Dalam kehidupan sehari-hari, banyak benda yang mengalami gerak rotasi seperti roda sepeda, kipas angin, atau bahkan Bumi yang berotasi pada porosnya. Konsep kesetimbangan benda tegar juga penting dalam konstruksi bangunan, jembatan, dan berbagai struktur lainnya.
+`#sisipkan gambar ilustrasi Adi dengan motornya dan Budi dengan sepedanya di titik start (sekolah) menuju titik finis (pabrik)`
 
-Mari kita jelajahi dunia rotasi dan kesetimbangan benda tegar yang menarik ini!
+**Materi Pembelajaran**  
 
-## Besaran-besaran dalam Gerak Rotasi
+## Kamus Istilah dalam Gerak
 
-### Perpindahan Sudut
+Sebelum menganalisis lebih jauh, kita harus sepakat dulu dengan beberapa istilah dasar:
 
-Perpindahan sudut ($\Delta\theta$) adalah besaran yang menyatakan seberapa jauh sebuah benda berotasi. Satuan SI untuk perpindahan sudut adalah radian (rad).
+* **Jarak:** Total panjang lintasan yang ditempuh. Jarak adalah besaran skalar (tidak peduli arah).
+* **Perpindahan:** Perubahan posisi dari titik awal ke titik akhir. Perpindahan adalah besaran vektor (memperhatikan arah).
+* **Kelajuan:** Seberapa cepat suatu benda bergerak, dihitung dari **jarak** dibagi waktu. Kelajuan adalah besaran skalar.
+* **Kecepatan:** Seberapa cepat suatu benda berpindah posisi, dihitung dari **perpindahan** dibagi waktu. Kecepatan adalah besaran vektor.
+* **Percepatan:** Perubahan kecepatan setiap detiknya. Jika kecepatan bertambah, percepatannya positif. Jika kecepatan berkurang (direm), percepatannya negatif (disebut perlambatan).
 
-Hubungan antara perpindahan sudut ($\Delta\theta$) dengan perpindahan linear ($\Delta s$) dan jari-jari ($r$) adalah:
+## Gerak Lurus Beraturan (GLB): Gerak si Konstan
 
-$$\Delta\theta = \frac{\Delta s}{r}$$
+Ini adalah jenis gerak paling sederhana. Ciri utamanya adalah **kecepatan (v) yang selalu tetap (konstan)** dan **percepatan (a) sama dengan nol**. Perjalanan Adi dengan motornya adalah contoh sempurna dari GLB.
 
-### Kecepatan Sudut
+* **Rumus:** Hanya ada satu rumus utama dalam GLB:
+  $s = v \times t$
+  dimana:
+  * s = jarak/perpindahan (meter)
+  * v = kecepatan (m/s)
+  * t = waktu (sekon)
+* **Grafik:** Grafik hubungan antara kecepatan (v) terhadap waktu (t) pada GLB akan berupa garis lurus horizontal, menandakan kecepatannya tidak berubah.
 
-Kecepatan sudut ($\omega$) adalah laju perubahan perpindahan sudut terhadap waktu. Satuan SI untuk kecepatan sudut adalah radian per sekon (rad/s).
+`#sisipkan grafik v-t untuk GLB (garis lurus horizontal)`
 
-$$\omega = \frac{\Delta\theta}{\Delta t}$$
+## Gerak Lurus Berubah Beraturan (GLBB): Gerak si "Makin Cepat" atau "Makin Lambat"
 
-Hubungan antara kecepatan sudut ($\omega$) dengan kecepatan linear ($v$) adalah:
+Ini adalah gerak yang sering kita temui. Ciri utamanya adalah **kecepatannya (v) berubah secara teratur** dan **percepatannya (a) tetap (konstan)**. Perjalanan Budi dengan sepedanya (dipercepat) atau mobil yang sedang mengerem (diperlambat) adalah contoh GLBB.
 
-$$v = \omega \times r$$
+* **Rumus:** Ada tiga rumus utama yang menjadi "senjata" kita:
+  1. $v_t = v_0 + a \times t$ (Untuk mencari kecepatan akhir)
+  2. $s = v_0 \times t + \frac{1}{2} \times a \times t^2$ (Untuk mencari jarak/posisi)
+  3. $v_t^2 = v_0^2 + 2 \times a \times s$ (Hubungan antara kecepatan dan jarak, tanpa variabel waktu)
 
-### Percepatan Sudut
+  Dimana:
+  * $v_t$ = kecepatan akhir (m/s)
+  * $v_0$ = kecepatan awal (m/s)
+  * a = percepatan (m/s²)
+  * t = waktu (s)
+  * s = jarak (m)
 
-Percepatan sudut ($\alpha$) adalah laju perubahan kecepatan sudut terhadap waktu. Satuan SI untuk percepatan sudut adalah radian per sekon kuadrat (rad/s²).
+`#sisipkan grafik v-t untuk GLBB dipercepat (garis lurus menanjak) dan diperlambat (garis lurus menurun)`
 
-$$\alpha = \frac{\Delta\omega}{\Delta t}$$
+## Gerak Parabola: Gerak si Peluru
 
-Hubungan antara percepatan sudut ($\alpha$) dengan percepatan linear ($a$) adalah:
+Apa persamaan antara bola yang ditendang melambung oleh penjaga gawang, air yang menyemprot dari selang pemadam kebakaran, dan peluru yang ditembakkan dari senapan? Semuanya bergerak dalam lintasan melengkung yang disebut **lintasan parabola**.
 
-$$a = \alpha \times r$$
+Gerak parabola pada dasarnya adalah **gabungan dua gerak sekaligus**:
 
-## Momen Inersia
+* **Pada sumbu horizontal (sumbu-x):** Benda bergerak secara **GLB** (kecepatannya konstan).
+* **Pada sumbu vertikal (sumbu-y):** Benda bergerak secara **GLBB** (dipengaruhi percepatan gravitasi yang arahnya selalu ke bawah).
 
-Momen inersia adalah ukuran resistansi benda terhadap perubahan dalam rotasinya. Momen inersia bergantung pada distribusi massa benda terhadap sumbu rotasi. Dalam rotasi, momen inersia berperan seperti massa dalam gerak translasi.
+Dengan menggabungkan analisis GLB pada sumbu-x dan GLBB pada sumbu-y, kita bisa memprediksi titik tertinggi yang dicapai benda dan jarak terjauhnya. Gerak Parabola = gabungan GLB pada sumbu $x$ (mendatar) dan GLBB (dipercepat gravitasi) pada sumbu $y$ vertikal.
 
-$$I = \sum_{i} m_i r_i^2$$
+maka, kecepatan awal $v_0,\theta$:
+$$v_0x = v_0\cos\theta$$ $$v_0y = v_0\sin\theta$$
 
+persamaan dasar:
+
+* posisi terhadap waktu : $$x_(t)=v_0x\cos\theta$$ $$x_(t)=v_0y\cos\theta$$
+* kecepatan terhadap waktu: $$v_x(t)=v_0x(konstan)$$ $$v_y(v_0y-gt) $$
+* waktu puncak : $$t_p=\frac{v_0 \sin\theta}{g}$$
+* tinggi maksimum : $$h_{max}=\frac{(v_0 \sin\theta)^2}{2g}$$
+* waktu total : $$T=\frac{2v_0 \sin\theta}{g}$$
+* jangkauan mendatar maksimum : $$R=\frac{v_0^2 \sin 2\theta}{g}$$
+
+## Gerak Melingkar: Gerak si Pemutar
+
+Perhatikan putaran roda sepeda, jarum jam, atau mesin sentrifugal di pabrik pengolahan tebu. Semuanya melakukan **gerak melingkar**. Jika kelajuan putarannya tetap, gerak ini disebut **Gerak Melingkar Beraturan (GMB)**. Walaupun kelajuannya tetap, arah kecepatannya selalu berubah di setiap titik, sehingga pada GMB selalu ada **percepatan sentripetal** yang arahnya menuju pusat lingkaran, berfungsi untuk "membelokkan" arah gerak benda.
+
+ada beberapa besaran yang perlu diperhatikan:
+
+1. sudut tempuh yaitu $\theta$
+2. hubungan lintasan dengan sudut yaitu $s = r\theta$
+3. perpindahan sudut yaitu $\delta\theta=\theta_1-\theta_0$
+
+Untuk waktu dan jalur putar:
+
+1. Periode yaitu waktu untuk 1 putaran (satuannya detik)
+2. Frekuensi yaitu waktu yang dibutuhkan untuk menyelesaikan satu siklus lengkap, dapat ditulis $1/T$
+3. Kecepatan Sudut yaitu kecepatan sudut adalah besaran vektor (lebih tepatnya, vektor semu) yang menyatakan frekuensi sudut suatu benda dan sumbu putarnya. Atau dikenal Gerak Melingkar Beraturan (GMB) dituliskan : $$\omega = \frac{\theta}{t} =\frac{2\pi}{T} = 2\pi f$$
+
+## Kecepatan Linear dan Percepatan Sentripetal
+
+Kelajuan linear (tangen) dapat dijabarkan $v = \omega r = \frac{2\pi r}{T} = 2\pi rf$, maka percepatan sentripetal **menuju pusat**, maka $a_c=\frac{v^2}{r}$, muncul $v$ konstan, karena arah $v$ berubah terus menurus.
+
+dijabarkan jika ada sudut $\alpha = \frac{d\omega}{dt}$:  
+
+* percepatan tangensial (arah singgung), $a_t = \alpha r$
+* percepatan total, $a=\sqrt{a_t^2 + a_c^2}$
+
+Gaya sentripetal, dapat dinyatakan:
+$$F_c = m a_c = m \frac{v^2}{r} = m \omega^2 r$$
+
+## Torsi dan Momen Gaya: Memutar Dunia
+
+Torsi adalah ukuran kemampuan gaya untuk menyebabkan rotasi pada suatu benda terhadap sumbu tertentu. Dalam kehidupan sehari-hari, torsi dapat ditemukan saat kita membuka pintu, memutar kunci, atau mengencangkan baut dengan kunci pas. Semakin besar torsi, semakin mudah benda berputar.
+
+**Persamaan Torsi**
+Torsi ($\tau$) dapat dihitung dengan persamaan:
+$$\tau = F \cdot r \cdot \sin\theta$$
 dimana:
 
-- $I$ = momen inersia (kg·m²)
-- $m_i$ = massa partikel ke-i (kg)
-- $r_i$ = jarak partikel ke-i dari sumbu rotasi (m)
+* $\tau$ = torsi (Nm)
+* $F$ = gaya yang bekerja (N)
+* $r$ = jarak tegak lurus dari sumbu rotasi ke garis kerja gaya (m)
+* $\theta$ = sudut antara gaya dan lengan torsi
 
-### Momen Inersia Beberapa Benda Tegar
+Jika gaya bekerja tegak lurus terhadap lengan torsi ($\theta = 90^\circ$), maka $\sin\theta = 1$ dan torsi menjadi maksimum:
+$$\tau = F \cdot r$$
 
-| Bentuk Benda | Momen Inersia |
-|--------------|---------------|
-| Batang tipis (sumbu di tengah) | $I = \frac{1}{12}ML^2$ |
-| Batang tipis (sumbu di ujung) | $I = \frac{1}{3}ML^2$ |
-| Silinder berongga | $I = MR^2$ |
-| Silinder pejal | $I = \frac{1}{2}MR^2$ |
-| Bola pejal | $I = \frac{2}{5}MR^2$ |
-| Bola berongga | $I = \frac{2}{3}MR^2$ |
+### Momen Gaya
 
-## Torsi
+Momen gaya adalah konsep yang berkaitan erat dengan torsi. Momen gaya menggambarkan kecenderungan gaya untuk memutar benda terhadap sumbu tertentu. Dalam sistem keseimbangan, jumlah momen gaya searah jarum jam harus sama dengan jumlah momen gaya berlawanan arah jarum jam agar benda tetap diam.
 
-Torsi ($\tau$) adalah ukuran kemampuan gaya untuk memutar benda. Torsi merupakan hasil kali gaya dengan lengan momen (jarak tegak lurus dari sumbu rotasi ke garis kerja gaya).
+**Persamaan Momen Gaya**  
+Momen gaya ($M$) dapat dihitung dengan persamaan:  
+$$M = F \cdot d$$  
+dimana:  
+* $M$ = momen gaya (Nm)  
+* $F$ = gaya yang bekerja (N)  
+* $d$ = jarak tegak lurus dari sumbu rotasi ke garis kerja gaya (m)  
 
-$$\tau = r \times F \sin\theta$$
+Jika terdapat beberapa gaya yang bekerja, maka momen gaya total adalah:  
+$$M_{\text{total}} = \sum (F \cdot d)$$  
 
-atau
+Untuk keseimbangan rotasi:  
+$$\sum M_{\text{searah}} = \sum M_{\text{berlawanan}}$$  
 
-$$\tau = r_{\perp} \times F$$
+### Konteks Kehidupan
 
-dimana:
+1. **Membuka Pintu:** Saat mendorong pintu, semakin jauh gaya dari engsel (sumbu rotasi), semakin besar torsi yang dihasilkan, sehingga pintu lebih mudah terbuka.
+2. **Kunci Pas:** Menggunakan kunci pas dengan lengan yang lebih panjang memberikan torsi lebih besar, sehingga baut lebih mudah dikencangkan atau dilepaskan.
+3. **Ayunan Jungkat-Jungkit:** Anak yang lebih berat harus duduk lebih dekat ke sumbu rotasi agar jungkat-jungkit seimbang, karena momen gaya mereka lebih besar.
 
-- $\tau$ = torsi (N·m)
-- $r$ = jarak dari sumbu rotasi ke titik kerja gaya (m)
-- $F$ = gaya yang bekerja (N)
-- $\theta$ = sudut antara $r$ dan $F$
-- $r_{\perp}$ = lengan momen (m)
+Dengan memahami torsi dan momen gaya, kita dapat menganalisis berbagai fenomena rotasi dan merancang alat yang lebih efisien untuk memanfaatkan prinsip ini.
 
-## Hubungan Torsi dengan Gerak Rotasi
+**Refleksi**  
 
-Torsi neto yang bekerja pada benda tegar akan menyebabkan benda berotasi dengan percepatan sudut tertentu. Hubungan ini dinyatakan dalam persamaan:
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
 
-$$\sum \tau = I \times \alpha$$
+1. Seorang siswa berjalan ke timur sejauh 80 meter, lalu kembali ke barat sejauh 30 meter. Jarak dan perpindahan yang ditempuh siswa tersebut adalah...
+    a. 110 m dan 50 m ke timur
+    b. 110 m dan 50 m ke barat
+    c. 50 m dan 110 m ke timur
+    d. 80 m dan 30 m ke timur
+    e. 110 m dan 110 m ke timur
 
-Persamaan ini analog dengan Hukum II Newton untuk gerak translasi ($\sum F = m \times a$).
+2. Sebuah mobil bergerak dengan kecepatan tetap 72 km/jam. Gerak mobil ini tergolong...
+    a. Gerak Lurus Berubah Beraturan (GLBB)
+    b. Gerak Lurus Beraturan (GLB)
+    c. Gerak Jatuh Bebas
+    d. Gerak Parabola
+    e. Gerak Melingkar
 
-## Energi dalam Gerak Rotasi
+3. Sebuah benda jatuh bebas dari ketinggian. Gerak benda ini merupakan contoh GLBB dengan...
+    a. Kecepatan awal nol dan percepatan sama dengan gravitasi
+    b. Kecepatan awal maksimum dan percepatan nol
+    c. Kecepatan konstan dan percepatan negatif
+    d. Kecepatan awal nol dan percepatan nol
+    e. Kecepatan berubah dan percepatan berubah
 
-### Energi Kinetik Rotasi
+4. Pada gerak parabola, komponen kecepatan pada sumbu horizontal (sumbu-x) besarnya...
+    a. Selalu bertambah
+    b. Selalu berkurang
+    c. Selalu tetap
+    d. Bertambah lalu berkurang
+    e. Berkurang lalu bertambah
 
-Energi kinetik rotasi adalah energi yang dimiliki benda karena gerak rotasinya.
+5. Percepatan yang selalu mengarah ke pusat lingkaran pada gerak melingkar beraturan disebut percepatan...
+    a. Tangensial
+    b. Sudut
+    c. Gravitasi
+    d. Sentripetal
+    e. Linier
 
-$$E_k = \frac{1}{2}I\omega^2$$
+**Asesmen Formatif**  
 
-### Energi Potensial Gravitasi dalam Rotasi
+Jawablah pertanyaan berikut dengan singkat dan jelas!
 
-Untuk benda yang berotasi dalam medan gravitasi, energi potensialnya dapat dihitung dengan:
+1. Sebuah traktor di sawah bergerak dari keadaan diam dan mencapai kecepatan 5 m/s dalam waktu 10 detik. Berapakah percepatan rata-rata traktor tersebut?
+2. Jelaskan mengapa seorang pelari di tikungan tajam harus memiringkan badannya ke arah dalam tikungan! Hubungkan dengan konsep pada gerak melingkar.
+3. Sebuah batu dilempar vertikal ke atas. Jelaskan apa yang terjadi pada kecepatan dan percepatan batu saat bergerak naik hingga mencapai titik tertingginya!
 
-$$E_p = mgh$$
+**Glosarium**  
 
-dimana $h$ adalah ketinggian pusat massa benda dari titik acuan.
+* **Kinematika:** Cabang mekanika yang mempelajari gerak benda tanpa memperhatikan penyebabnya.
+* **GLB (Gerak Lurus Beraturan):** Gerak benda pada lintasan lurus dengan kecepatan konstan.
+* **GLBB (Gerak Lurus Berubah Beraturan):** Gerak benda pada lintasan lurus dengan percepatan konstan.
+* **Gerak Parabola:** Gerak benda dengan lintasan berbentuk parabola, merupakan perpaduan antara GLB dan GLBB.
+* **Percepatan Sentripetal:** Percepatan pada gerak melingkar yang arahnya selalu menuju pusat lingkaran.
 
-## Momentum Sudut
+**Daftar Pustaka**  
 
-Momentum sudut ($L$) adalah ukuran kuantitas gerak rotasi, analog dengan momentum linear pada gerak translasi.
-
-$$L = I \times \omega$$
-
-### Hukum Kekekalan Momentum Sudut
-
-Jika tidak ada torsi eksternal yang bekerja pada sistem, maka momentum sudut total sistem akan konstan (kekal).
-
-$$L_{\text{awal}} = L_{\text{akhir}}$$
-
-Aplikasi hukum ini dapat dilihat pada penari balet yang berputar. Ketika penari merentangkan tangannya, kecepatan putarnya melambat (momen inersia bertambah), dan ketika penari menekuk tangannya, kecepatan putarnya bertambah (momen inersia berkurang).
-
-## Kesetimbangan Benda Tegar
-
-Sebuah benda tegar dikatakan dalam kesetimbangan jika benda tersebut tidak mengalami gerak translasi maupun rotasi. Syarat kesetimbangan benda tegar adalah:
-
-1. Resultan gaya yang bekerja pada benda sama dengan nol
-   $$\sum F = 0$$
-
-2. Resultan torsi yang bekerja pada benda sama dengan nol
-   $$\sum \tau = 0$$
-
-### Kesetimbangan Statis dan Dinamis
-
-1. Kesetimbangan statis: benda diam dan tetap diam
-2. Kesetimbangan dinamis: benda bergerak dengan kecepatan konstan (baik translasi maupun rotasi)
-
-### Jenis-jenis Kesetimbangan
-
-1. Kesetimbangan stabil: benda cenderung kembali ke posisi semula jika diganggu sedikit
-2. Kesetimbangan labil: benda cenderung menjauh dari posisi semula jika diganggu sedikit
-3. Kesetimbangan netral: benda tetap dalam kesetimbangan baru jika diganggu sedikit
-
-## Aplikasi Rotasi dan Kesetimbangan Benda Tegar
-
-1. Peralatan olahraga (sepeda, golf, baseball)
-2. Mesin dan peralatan industri (katrol, gir, turbin)
-3. Konstruksi bangunan dan jembatan
-4. Alat musik (gitar, piano)
-5. Benda-benda astronomi (rotasi planet, satelit)
-
-## Rangkuman
-
-- **Besaran Rotasi**: Perpindahan sudut ($\Delta\theta$), kecepatan sudut ($\omega$), dan percepatan sudut ($\alpha$) adalah besaran-besaran dalam gerak rotasi.
-- **Momen Inersia**: Ukuran resistansi benda terhadap perubahan dalam rotasi, bergantung pada distribusi massa terhadap sumbu rotasi.
-- **Torsi**: Kemampuan gaya untuk merotasi benda, $\tau = r \times F \sin\theta$.
-- **Hukum II Newton untuk Rotasi**: $\sum \tau = I \times \alpha$.
-- **Energi Kinetik Rotasi**: $E_k = \frac{1}{2}I\omega^2$.
-- **Momentum Sudut**: $L = I \times \omega$, kekal jika tidak ada torsi eksternal.
-- **Syarat Kesetimbangan Benda Tegar**: $\sum F = 0$ dan $\sum \tau = 0$.
-- **Jenis Kesetimbangan**: Stabil, labil, dan netral, bergantung pada posisi pusat massa dan titik tumpu.
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2024). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran Fisika Fase F*. Kemendikbudristek.

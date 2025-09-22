@@ -1,214 +1,125 @@
-# Kinematika dan Dinamika Gerak
+# **BAB 4: Energi Alternatif: Solusi Energi dari Lingkungan Sekitar**
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Menganalisis keterbatasan sumber energi fosil dan dampaknya bagi lingkungan.
+2. Mengidentifikasi berbagai potensi sumber energi alternatif yang ada di lingkungan sekitar.
+3. Menjelaskan prinsip kerja sederhana dari pembangkit energi surya, air, angin, dan biomassa.
+4. Merancang ide atau solusi pemanfaatan energi alternatif untuk mengatasi masalah energi di lingkungan sekitar.
 
-1. Memahami konsep kinematika gerak lurus dan gerak melingkar
-2. Menganalisis gerak benda menggunakan persamaan kinematika
-3. Menjelaskan hubungan antara gaya dan gerak dalam dinamika
-4. Mengaplikasikan Hukum Newton dalam penyelesaian masalah dinamika gerak
-5. Mengidentifikasi jenis-jenis gaya dalam kehidupan sehari-hari
+**Pemahaman Bermakna:**
+Listrik dan bahan bakar sudah seperti "napas" bagi kehidupan modern kita. Namun, "napas" yang kita gunakan selama ini (minyak bumi, batu bara) ternyata terbatas dan menimbulkan "penyakit" bagi bumi berupa pemanasan global. Dengan mempelajari energi alternatif, kita tidak hanya menjadi pengguna energi, tetapi juga menjadi pencari solusi. Kita akan sadar bahwa solusi untuk energi bersih dan berkelanjutan itu ternyata ada di sekitar kita: di terik matahari, di aliran air irigasi, di hembusan angin, bahkan pada tumpukan limbah sisa panen.
 
-## Pendahuluan
+**Pembukaan: Jika Dunia Kehabisan Baterai**
+Pernahkah kamu merasa panik saat indikator baterai ponsel menunjukkan warna merah dan akan segera mati, padahal kamu sedang membutuhkannya? Semua fitur canggih di ponselmu seketika tidak berguna.
 
-Pernahkah kamu memperhatikan kendaraan yang bergerak di jalan raya? Bagaimana mobil dapat berakselerasi dari keadaan diam hingga melaju kencang, atau bagaimana sepeda dapat berbelok di tikungan tanpa terjatuh? Semua fenomena tersebut dapat dijelaskan melalui konsep kinematika dan dinamika gerak.
+Sekarang, bayangkan jika kepanikan itu terjadi dalam skala yang lebih besar. Listrik di rumah padam, pabrik berhenti beroperasi, dan motor tidak bisa diisi bensin. Mengapa? Karena sumber energinya, yaitu bahan bakar fosil, mulai habis. Situasi ini bukanlah cerita fiksi, melainkan sebuah kemungkinan di masa depan jika kita tidak mencari sumber energi baru. Kabar baiknya, alam di sekeliling kita sebenarnya telah menyediakan sumber energi "cadangan" yang melimpah dan jauh lebih ramah lingkungan. Mari kita kenali para pahlawan energi ini!
 
-Kinematika mempelajari gerak benda tanpa memperhatikan penyebab geraknya, sementara dinamika mengkaji hubungan antara gaya yang bekerja pada benda dan gerak yang dihasilkannya. Kedua cabang ilmu ini merupakan pondasi penting dalam fisika mekanika yang membantu kita memahami berbagai fenomena gerak di sekitar kita, mulai dari gerak planet mengelilingi matahari hingga pergerakan elektron dalam atom.
+`#sisipkan gambar perbandingan antara cerobong asap pabrik yang hitam dan panel surya yang bersih`
 
-## Kinematika Gerak
+**Materi Pembelajaran**  
 
-### 1. Besaran-Besaran dalam Kinematika
+## Krisis Energi: Mengapa Kita Harus Berpindah Haluan?
 
-#### a. Posisi dan Perpindahan
+Sumber energi utama yang kita gunakan saat ini, seperti bensin (minyak bumi) dan listrik dari pembangkit tenaga uap (batu bara), disebut **sumber energi fosil**. Energi ini berasal dari sisa-sisa makhluk hidup yang terkubur jutaan tahun lalu. Masalahnya ada dua:
 
-Posisi adalah kedudukan suatu benda terhadap titik acuan tertentu. Perpindahan adalah perubahan posisi benda, merupakan besaran vektor yang memiliki nilai dan arah.
+1. **Tidak Terbarukan (Non-Renewable):** Energi fosil butuh jutaan tahun untuk terbentuk. Kita menggunakannya jauh lebih cepat daripada proses pembentukannya. Suatu saat, cadangan ini pasti akan habis.
+2. **Menyebabkan Polusi:** Pembakaran energi fosil melepaskan gas rumah kaca, seperti karbon dioksida ($CO_2$), ke atmosfer. Seperti yang sudah kita pelajari di bab sebelumnya, gas inilah yang menjadi penyebab utama pemanasan global dan perubahan iklim.
 
-Secara matematis, perpindahan dapat dinyatakan sebagai:
-$$\vec{\Delta x} = \vec{x}_2 - \vec{x}_1$$
+Karena dua alasan inilah, kita harus segera mencari dan beralih ke sumber energi lain yang lebih bersih dan tidak akan habis. Inilah yang disebut **energi alternatif terbarukan**.
 
-#### b. Jarak dan Perpindahan
+## Mengenal Para Pahlawan Energi Terbarukan
 
-Jarak adalah panjang lintasan yang ditempuh benda (besaran skalar), sedangkan perpindahan adalah selisih posisi akhir dan awal (besaran vektor).
+Energi terbarukan adalah energi yang berasal dari proses alam yang berkelanjutan. Potensinya ada di mana-mana, termasuk di sekitar kita!
 
-#### c. Kecepatan dan Kelajuan
+**1. Energi Surya (Matahari)** ☀️
+Matahari adalah sumber energi terbesar di tata surya. Panas dan cahayanya bisa kita manfaatkan secara langsung. Teknologi yang paling populer adalah **Panel Surya** atau **Sel Surya** (*Photovoltaic Cell*). Alat ini mampu mengubah cahaya matahari secara langsung menjadi energi listrik.
 
-Kecepatan rata-rata didefinisikan sebagai perpindahan dibagi waktu tempuh:
-$$\vec{v}_{rata-rata} = \frac{\vec{\Delta x}}{\Delta t}$$
+* **Prinsip Kerja:** Panel surya terbuat dari bahan semikonduktor. Ketika cahaya matahari menabraknya, elektron di dalamnya akan bergerak dan menghasilkan arus listrik.
+* **Konteks Lingkungan Kita:** Di area persawahan yang terbuka dan mendapat sinar matahari sepanjang hari, panel surya sangat ideal. Bisa dipasang di atap rumah, gubuk sawah, atau bahkan untuk memberi tenaga pada pompa air irigasi.
 
-Kecepatan sesaat adalah limit kecepatan rata-rata untuk selang waktu mendekati nol:
-$$\vec{v} = \lim_{\Delta t \to 0}\frac{\vec{\Delta x}}{\Delta t} = \frac{d\vec{x}}{dt}$$
+`#sisipkan gambar skema sederhana cara kerja panel surya`
 
-Kelajuan rata-rata adalah jarak total dibagi waktu tempuh:
-$$v_{rata-rata} = \frac{s_{total}}{\Delta t}$$
+**2. Energi Air (Mikrohidro)** 💧
+Gerakan air, seperti aliran sungai atau air terjun, memiliki energi gerak (kinetik) yang besar. Energi ini bisa kita manfaatkan untuk memutar turbin atau kincir air yang terhubung ke generator untuk menghasilkan listrik. Untuk skala kecil, teknologi ini disebut **Pembangkit Listrik Tenaga Mikrohidro (PLTMH)**.
 
-#### d. Percepatan
+* **Prinsip Kerja:** Aliran air memutar kincir/turbin -> Turbin memutar generator -> Generator mengubah energi gerak menjadi energi listrik.
+* **Konteks Lingkungan Kita:** Saluran irigasi di sawah yang alirannya cukup deras atau sungai kecil di desa bisa dipasangi kincir mikrohidro untuk menerangi beberapa rumah atau pos jaga malam.
 
-Percepatan rata-rata didefinisikan sebagai perubahan kecepatan dibagi waktu:
-$$\vec{a}_{rata-rata} = \frac{\vec{\Delta v}}{\Delta t}$$
+`#sisipkan gambar kincir air mikrohidro di sebuah saluran irigasi pedesaan`
 
-Percepatan sesaat adalah:
-$$\vec{a} = \lim_{\Delta t \to 0}\frac{\vec{\Delta v}}{\Delta t} = \frac{d\vec{v}}{dt}$$
+**3. Energi Angin** 💨
+Angin adalah udara yang bergerak. Sama seperti air, gerakan angin juga bisa dimanfaatkan untuk memutar kincir atau turbin angin raksasa yang akan menghasilkan listrik.
 
-### 2. Gerak Lurus Beraturan (GLB)
+* **Prinsip Kerja:** Angin mendorong baling-baling turbin untuk berputar -> Putaran ini diteruskan ke generator -> Generator menghasilkan listrik.
+* **Konteks Lingkungan Kita:** Daerah persawahan yang luas atau pinggir pantai biasanya memiliki hembusan angin yang cukup kencang dan stabil, menjadikannya lokasi yang potensial untuk memasang turbin angin.
 
-Gerak Lurus Beraturan adalah gerak benda dalam lintasan lurus dengan kecepatan tetap.  
+**4. Energi Biomassa** 🌱
+Biomassa adalah energi yang berasal dari bahan-bahan organik (makhluk hidup atau sisa-sisanya), seperti limbah pertanian, kotoran ternak, atau bahkan sampah organik dari pasar.
 
-Persamaan posisi pada GLB:
-$$x = x_0 + vt$$
+* **Prinsip Kerja:** Cara paling sederhana adalah dengan membakarnya untuk menghasilkan panas. Contohnya, **sekam padi** (kulit gabah) sisa dari pabrik penggilingan bisa dipadatkan menjadi **briket** untuk bahan bakar memasak, menggantikan kayu bakar atau gas elpiji.
+* **Konteks Lingkungan Kita:** Ini adalah potensi terbesar di lingkungan kita! Limbah sekam padi, jerami, atau sampah sayuran dari pasar tidak lagi menjadi masalah, tetapi bisa diubah menjadi sumber energi yang bernilai ekonomi.
 
-dimana:
+`#sisipkan gambar briket yang terbuat dari sekam padi`
 
-- $x$ = posisi akhir (m)
-- $x_0$ = posisi awal (m)
-- $v$ = kecepatan konstan (m/s)
-- $t$ = waktu tempuh (s)
+**Refleksi**  
 
-### 3. Gerak Lurus Berubah Beraturan (GLBB)
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
 
-GLBB adalah gerak benda pada lintasan lurus dengan percepatan tetap.
+1. Alasan utama mengapa kita perlu mengembangkan energi alternatif adalah karena energi fosil...
+    a. Harganya mahal dan teknologinya rumit
+    b. Jumlahnya terbatas dan menyebabkan polusi
+    c. Hanya ada di negara-negara tertentu
+    d. Sulit diolah menjadi bahan bakar
+    e. Menghasilkan energi yang tidak stabil
 
-Persamaan kinematika GLBB:
-$$v = v_0 + at$$
-$$x = x_0 + v_0t + \frac{1}{2}at^2$$
-$$v^2 = v_0^2 + 2a(x - x_0)$$
+2. Alat yang digunakan untuk mengubah energi cahaya matahari langsung menjadi energi listrik adalah...
+    a. Generator
+    b. Turbin angin
+    c. Panel surya
+    d. Kincir air
+    e. Briket
 
-dimana:
+3. Di sebuah desa yang dialiri sungai deras namun sering mendung, sumber energi alternatif yang paling cocok untuk dikembangkan adalah...
+    a. Energi surya
+    b. Energi angin
+    c. Energi biomassa
+    d. Energi nuklir
+    e. Energi air (mikrohidro)
 
-- $v$ = kecepatan akhir (m/s)
-- $v_0$ = kecepatan awal (m/s)
-- $a$ = percepatan (m/s²)
-- $t$ = waktu tempuh (s)
-- $x$ = posisi akhir (m)
-- $x_0$ = posisi awal (m)
+4. Sekam padi sisa dari penggilingan dapat diolah menjadi briket sebagai bahan bakar. Energi ini tergolong energi...
+    a. Fosil
+    b. Surya
+    c. Angin
+    d. Biomassa
+    e. Air
 
-### 4. Gerak Melingkar
+5. Berikut ini yang **bukan** merupakan keunggulan dari energi terbarukan adalah...
+    a. Ramah lingkungan
+    b. Tersedia secara melimpah di alam
+    c. Tidak akan habis jika dikelola dengan baik
+    d. Proses pembentukannya sangat cepat
+    e. Tidak menghasilkan emisi gas rumah kaca
 
-#### a. Gerak Melingkar Beraturan (GMB)
+**Asesmen Formatif**  
 
-GMB adalah gerak benda yang menempuh lintasan melingkar dengan kecepatan linear tetap.
+Jawablah pertanyaan berikut dengan singkat dan jelas!
 
-Besaran-besaran dalam GMB:
+1. Pabrik penggilingan padi di dekat sekolahmu menghasilkan berton-ton limbah sekam padi setiap hari. Berikan satu ide pemanfaatan limbah tersebut menjadi sumber energi alternatif!
+2. Mengapa panel surya sangat cocok dipasang di daerah persawahan tetapi kurang cocok jika dipasang di daerah lembah hutan yang lebat?
+3. Jelaskan secara singkat perubahan (transformasi) energi yang terjadi pada Pembangkit Listrik Tenaga Mikrohidro!
 
-- Kecepatan linear: $v = \omega r$
-- Kecepatan sudut: $\omega = \frac{2\pi}{T} = 2\pi f$
-- Percepatan sentripetal: $a_s = \frac{v^2}{r} = \omega^2 r$
+**Glosarium**  
 
-dimana:
+* **Energi Alternatif:** Semua jenis energi yang dapat digunakan untuk menggantikan bahan bakar konvensional (fosil).
+* **Energi Terbarukan:** Sumber energi yang berasal dari alam dan dapat dipulihkan secara alami dalam waktu singkat (contoh: surya, angin, air).
+* **Sel Surya:** Alat yang terbuat dari bahan semikonduktor untuk mengubah energi cahaya matahari menjadi energi listrik.
+* **Mikrohidro:** Pembangkit listrik tenaga air skala kecil (di bawah 100 kilowatt).
+* **Biomassa:** Bahan organik yang berasal dari tumbuhan atau hewan yang dapat digunakan sebagai sumber energi.
 
-- $v$ = kecepatan linear (m/s)
-- $\omega$ = kecepatan sudut (rad/s)
-- $r$ = jari-jari lintasan (m)
-- $T$ = periode (s)
-- $f$ = frekuensi (Hz)
-- $a_s$ = percepatan sentripetal (m/s²)
+**Daftar Pustaka**  
 
-#### b. Gerak Melingkar Berubah Beraturan (GMBB)
-
-GMBB adalah gerak melingkar dengan percepatan sudut konstan.
-
-Persamaan dalam GMBB:
-$$\omega = \omega_0 + \alpha t$$
-$$\theta = \theta_0 + \omega_0 t + \frac{1}{2}\alpha t^2$$
-$$\omega^2 = \omega_0^2 + 2\alpha(\theta - \theta_0)$$
-
-dimana:
-
-- $\omega$ = kecepatan sudut akhir (rad/s)
-- $\omega_0$ = kecepatan sudut awal (rad/s)
-- $\alpha$ = percepatan sudut (rad/s²)
-- $\theta$ = posisi sudut akhir (rad)
-- $\theta_0$ = posisi sudut awal (rad)
-
-## Dinamika Gerak
-
-### 1. Hukum Newton tentang Gerak
-
-#### Hukum I Newton (Hukum Inersia)
-
-Setiap benda akan tetap diam atau bergerak lurus beraturan jika tidak ada gaya yang bekerja padanya atau resultan gaya yang bekerja pada benda sama dengan nol.
-
-Secara matematis:
-$$\sum \vec{F} = 0$$
-
-#### Hukum II Newton
-
-Percepatan yang dihasilkan oleh resultan gaya yang bekerja pada suatu benda berbanding lurus dengan resultan gaya, searah dengan resultan gaya, dan berbanding terbalik dengan massa benda.
-
-Secara matematis:
-$$\sum \vec{F} = m\vec{a}$$
-
-dimana:
-
-- $\sum \vec{F}$ = resultan gaya (N)
-- $m$ = massa benda (kg)
-- $\vec{a}$ = percepatan benda (m/s²)
-
-#### Hukum III Newton
-
-Jika benda A memberikan gaya pada benda B, maka benda B akan memberikan gaya pada benda A yang besarnya sama tetapi arahnya berlawanan.
-
-Secara matematis:
-$$\vec{F}_{A \text{ pada } B} = -\vec{F}_{B \text{ pada } A}$$
-
-### 2. Aplikasi Hukum Newton
-
-#### a. Gaya Berat
-
-Gaya berat adalah gaya gravitasi yang bekerja pada benda dengan massa tertentu.
-$$\vec{w} = m\vec{g}$$
-
-dimana:
-
-- $\vec{w}$ = gaya berat (N)
-- $m$ = massa benda (kg)
-- $\vec{g}$ = percepatan gravitasi (m/s²)
-
-#### b. Gaya Normal
-
-Gaya normal adalah gaya yang diberikan oleh permukaan pada benda yang bersentuhan dengannya, arahnya tegak lurus permukaan.
-
-#### c. Gaya Gesek
-
-Gaya gesek adalah gaya yang bekerja pada dua permukaan yang bersentuhan dan bergerak relatif satu sama lain.
-
-Gaya gesek statis:
-$$f_s \leq \mu_s N$$
-
-Gaya gesek kinetis:
-$$f_k = \mu_k N$$
-
-dimana:
-
-- $f_s$ = gaya gesek statis (N)
-- $f_k$ = gaya gesek kinetis (N)
-- $\mu_s$ = koefisien gesek statis
-- $\mu_k$ = koefisien gesek kinetis
-- $N$ = gaya normal (N)
-
-#### d. Gaya Tegangan Tali
-
-Gaya tegangan tali adalah gaya yang bekerja pada tali yang ditarik, dengan arah sejajar tali.
-
-### 3. Aplikasi Dinamika Gerak Melingkar
-
-Pada gerak melingkar, terdapat gaya sentripetal yang menyebabkan benda bergerak melingkar:
-$$F_s = \frac{mv^2}{r} = m\omega^2 r$$
-
-dimana:
-
-- $F_s$ = gaya sentripetal (N)
-- $m$ = massa benda (kg)
-- $v$ = kecepatan linear (m/s)
-- $r$ = jari-jari lintasan (m)
-- $\omega$ = kecepatan sudut (rad/s)
-
-## Kesimpulan
-
-Kinematika dan dinamika gerak merupakan dua konsep fundamental dalam fisika yang membantu kita memahami bagaimana benda bergerak dan faktor-faktor yang mempengaruhi geraknya:
-
-1. **Kinematika** membahas tentang gerak benda tanpa memperhatikan penyebabnya, meliputi konsep posisi, perpindahan, kecepatan, dan percepatan. Kinematika memberi kita persamaan-persamaan matematis untuk mendeskripsikan gerak lurus beraturan, gerak lurus berubah beraturan, gerak melingkar beraturan, dan gerak melingkar berubah beraturan.
-
-2. **Dinamika** mengkaji hubungan antara gerak benda dengan gaya yang mempengaruhinya, didasarkan pada Hukum Newton. Dinamika membantu kita memahami berbagai jenis gaya (berat, normal, gesek, tegangan tali) dan pengaruhnya terhadap gerak benda.
-
-Pemahaman tentang kinematika dan dinamika gerak sangat penting dalam berbagai bidang, seperti teknik mesin, arsitektur, astronomi, dan bahkan dalam kehidupan sehari-hari. Dengan memahami konsep-konsep ini, kita dapat menjelaskan berbagai fenomena gerak dan memprediksi bagaimana benda akan bergerak dalam kondisi tertentu.
+* Daryanto. (2012). *Energi: Mengungkap Rahasia dan Potensinya*. Bandung: Yrama Widya.
+* Pusat Kurikulum dan Perbukuan. (2022). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran IPA*. Kemendikbudristek.
+* Sørensen, B. (2004). *Renewable Energy: Its Physics, Engineering, Use, Environmental Impacts, Economy, and Planning Aspects*. Academic Press.

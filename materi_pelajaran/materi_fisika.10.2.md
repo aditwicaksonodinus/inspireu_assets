@@ -1,185 +1,153 @@
-# Gaya, Usaha, dan Energi
+# BAB 2: Mengukur Dunia di Sekitar Kita
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-- Menjelaskan konsep gaya dan pengaruhnya terhadap benda
-- Menganalisis hubungan antara gaya, usaha, dan energi
-- Menghitung besar usaha yang dilakukan oleh gaya
-- Membedakan berbagai jenis energi dan prinsip kekekalan energi
-- Mengaplikasikan konsep usaha dan energi dalam penyelesaian masalah fisika
-- Menjelaskan hubungan antara gaya, usaha, dan energi
+1. Membedakan antara besaran pokok dan besaran turunan beserta satuannya.
+2. Menggunakan alat ukur panjang (jangka sorong & mikrometer sekrup) dan massa (neraca) sesuai prosedur yang benar.
+3. Menerapkan aturan angka penting dan notasi ilmiah dalam menyajikan data hasil pengukuran.
+4. Menyajikan data hasil pengukuran dalam bentuk tabel dan grafik sederhana secara sistematis dan informatif.
 
-## Pendahuluan
+**Pemahaman Bermakna:**
+Pernahkah kamu membeli beras di pasar? Penjual akan menimbangnya untuk memastikan jumlahnya pas. Atau saat seorang penjahit membuat baju, ia akan mengukur lingkar badanmu dengan teliti. Mengukur adalah kegiatan yang sangat lekat dengan kehidupan kita. Dalam Fisika, pengukuran adalah gerbang untuk memahami alam. Tanpa pengukuran yang akurat, kita tidak bisa membangun jembatan yang kokoh, membuat mesin yang presisi, atau bahkan memahami seberapa cepat laju pertumbuhan tanaman padi di sawah. Dengan belajar mengukur secara benar, kamu sedang melatih ketelitian, kejujuran, dan kemampuan berpikir logis.
 
-Pernahkah kamu mendorong meja atau mengangkat tas yang berat? Pernahkah kamu bertanya-tanya mengapa lebih mudah mendorong kardus di lantai licin dibandingkan di lantai kasar? Atau mengapa kita merasa lelah setelah melakukan aktivitas fisik? Semua pertanyaan ini berkaitan dengan konsep dasar fisika yang akan kita pelajari: **Gaya, Usaha, dan Energi**.
+**Pembukaan: Rahasia di Balik Sebutir Gabah**
+Bayangkan kamu adalah seorang peneliti di sebuah pabrik penggilingan padi. Kamu diminta untuk memeriksa kualitas gabah hasil panen terbaru. Bosmu bertanya, "Apakah gabah kali ini lebih 'berisi' daripada panen sebelumnya?" Bagaimana caramu menjawab pertanyaan itu secara ilmiah, bukan sekadar "kira-kira"?
 
-Konsep-konsep ini tidak hanya penting dalam fisika, tetapi juga memiliki aplikasi luas dalam kehidupan sehari-hari. Dari mendesain lift gedung bertingkat hingga perhitungan efisiensi bahan bakar kendaraan, pemahaman tentang gaya, usaha, dan energi sangat fundamental. Mari kita mulai perjalanan untuk memahami konsep-konsep mendasar ini.
+Kamu tentu perlu **mengukur**. Mungkin kamu akan mengukur **panjang** setiap butir gabah, mengukur **diameternya**, lalu menimbang **massanya**. Dari data-data angka hasil pengukuran itulah kamu bisa mengambil kesimpulan yang dapat dipercaya. Kegiatan sederhana ini menunjukkan betapa pentingnya pengukuran dalam dunia nyata, mulai dari pertanian hingga industri.
 
-## Isi Materi
+`#sisipkan gambar gabah yang sedang diukur dengan jangka sorong atau mikrometer sekrup`
 
-### 1. Gaya
+**Materi Pembelajaran**  
 
-#### 1.1 Pengertian Gaya
+## Besaran dan Satuan: Bahasa Universal dalam Sains
 
-Gaya adalah interaksi yang dapat menyebabkan perubahan keadaan gerak suatu benda. Dalam fisika, gaya dilambangkan dengan simbol $$\vec{F}$$ dan merupakan besaran vektor yang memiliki nilai dan arah. Satuan SI untuk gaya adalah Newton (N).
+Saat kamu mengatakan "panjang meja ini 5", orang akan bingung. Lima apa? Lima jengkalmu? Lima jengkal temanmu? Tentu berbeda. Agar semua orang paham, kita butuh kesepakatan.
 
-Satu Newton didefinisikan sebagai gaya yang diperlukan untuk memberikan percepatan sebesar 1 m/s² pada benda bermassa 1 kg.
+* **Besaran** adalah segala sesuatu yang dapat diukur dan dinyatakan dengan angka. Contoh: panjang, massa, waktu, suhu.
+* **Satuan** adalah pembanding dalam pengukuran. Contoh: meter, kilogram, detik, Celcius.
 
-$$F = m \times a$$
+Para ilmuwan di seluruh dunia sepakat menggunakan **Sistem Satuan Internasional (SI)** agar hasil pengukuran di Indonesia sama dan bisa dipahami oleh ilmuwan di Jepang atau Brazil. Dalam SI, ada dua jenis besaran:
 
-Dimana:
+## Besaran Pokok
 
-- $F$ = gaya (N)
-- $m$ = massa (kg)
-- $a$ = percepatan (m/s²)
+Ini adalah besaran dasar yang satuannya sudah ditetapkan terlebih dahulu. Ada tujuh besaran pokok, tapi di kelas X kita akan fokus pada beberapa yang utama:
 
-#### 1.2 Jenis-Jenis Gaya
+| Besaran Pokok | Satuan SI | Singkatan |
+| :--- | :--- | :--- |
+| Panjang | meter | m |
+| Massa | kilogram | kg |
+| Waktu | sekon (detik) | s |
+| Suhu | Kelvin | K |
 
-**a. Gaya Sentuh**  
+## Besaran Turunan  
 
-- **Gaya Normal**: Gaya yang bekerja pada bidang sentuh antara dua benda, arahnya selalu tegak lurus dengan bidang sentuh.
-- **Gaya Gesek**: Gaya yang menghambat gerak relatif antara dua permukaan yang bersentuhan.
-  - Gaya gesek statis: $f_s \leq \mu_s \times N$
-  - Gaya gesek kinetis: $f_k = \mu_k \times N$
-- **Gaya Pegas**: Gaya yang diberikan oleh pegas yang diregangkan atau dimampatkan, dirumuskan dengan Hukum Hooke: $F = -k \times \Delta x$
+Ini adalah besaran yang diturunkan dari satu atau lebih besaran pokok.
 
-**b. Gaya Tak Sentuh**  
+* **Luas:** diturunkan dari panjang × panjang (meter × meter), satuannya $m^2$.
+* **Kecepatan:** diturunkan dari panjang / waktu (meter / sekon), satuannya m/s.
+* **Massa Jenis:** diturunkan dari massa / volume (kilogram / $m^3$), satuannya $kg/m^3$.
 
-- **Gaya Gravitasi**: Gaya tarik-menarik antara dua benda bermassa. Hukum gravitasi Newton: $$F = G \frac{m_1 \times m_2}{r^2}$$
-- **Gaya Listrik**: Gaya yang timbul karena interaksi muatan listrik.
-- **Gaya Magnet**: Gaya yang ditimbulkan oleh magnet atau arus listrik.
+## B. Alat Ukur dan Cara Menggunakannya
 
-#### 1.3 Resultan Gaya
+Untuk mendapatkan hasil yang akurat, kita butuh alat yang tepat. Berikut beberapa alat ukur yang akan sering kita gunakan.
 
-Ketika beberapa gaya bekerja pada sebuah benda, kita menghitung resultan gaya untuk menentukan efek total. Untuk gaya-gaya yang segaris:
+**1. Jangka Sorong**
+Digunakan untuk mengukur panjang, diameter luar, dan diameter dalam suatu benda dengan tingkat ketelitian 0,1 mm atau 0,01 cm.
 
-$$\Sigma F = F_1 + F_2 + F_3 + ... + F_n$$
+* **Bagian-bagian:** Rahang tetap (skala utama) dan rahang geser (skala nonius).
+* **Cara Membaca:**
+    1. Baca **skala utama** yang terletak persis sebelum angka nol pada skala nonius.
+    2. Cari garis pada **skala nonius** yang berimpit (segaris lurus) dengan garis pada skala utama.
+    3. Hasil = Skala Utama + (Angka Nonius yang berimpit × 0,01 cm).
 
-Untuk gaya-gaya dengan arah berbeda, kita menggunakan metode vektor (seperti metode grafis atau analitis).
+`#sisipkan gambar animasi cara membaca hasil pengukuran jangka sorong`
 
-### 2. Usaha (Kerja)
+**2. Mikrometer Sekrup**
+Lebih teliti dari jangka sorong, dengan ketelitian 0,01 mm atau 0,001 cm. Biasanya digunakan untuk mengukur ketebalan benda tipis seperti kertas atau diameter kawat.
 
-#### 2.1 Pengertian Usaha
+* **Bagian-bagian:** Skala utama dan skala putar (nonius).
+* **Cara Membaca:**
+    1. Baca **skala utama** yang terlihat paling kanan pada selubung.
+    2. Baca **skala putar** yang segaris lurus dengan garis horizontal pada skala utama.
+    3. Hasil = Skala Utama + (Angka Skala Putar × 0,01 mm).
 
-Usaha dalam fisika memiliki definisi yang spesifik. Usaha dilakukan ketika gaya menyebabkan perpindahan pada benda. Secara matematis, usaha didefinisikan sebagai hasil kali antara gaya dan perpindahan dalam arah gaya.
+`#sisipkan gambar animasi cara membaca hasil pengukuran mikrometer sekrup`
 
-$$W = \vec{F} \cdot \vec{s} = F \times s \times \cos\theta$$
+## Angka Penting dan Notasi Ilmiah: Melaporkan Hasil dengan Jujur  
 
-Dimana:
+Dalam sains, cara kita menuliskan angka hasil pengukuran itu penting. Itu menunjukkan seberapa teliti kita mengukur.
 
-- $W$ = usaha (Joule)
-- $F$ = gaya (N)
-- $s$ = perpindahan (m)
-- $\theta$ = sudut antara arah gaya dan perpindahan
+**Angka Penting (AP)** adalah semua angka yang diperoleh dari hasil pengukuran, yang terdiri dari angka pasti dan satu angka taksiran (angka terakhir).
 
-#### 2.2 Kasus Khusus Usaha
+* Semua angka bukan nol adalah angka penting. (Contoh: **2,45** cm -> 3 AP)
+* Angka nol di antara angka bukan nol adalah angka penting. (Contoh: **30,5** kg -> 3 AP)
+* Angka nol di sebelah kanan tanda desimal dan mengikuti angka bukan nol adalah angka penting. (Contoh: **5,40** m -> 3 AP)
+* Angka nol di sebelah kiri angka bukan nol (baik di kiri atau kanan desimal) bukan angka penting. (Contoh: **0,052** -> 2 AP)
 
-- Jika gaya searah dengan perpindahan ($\theta = 0°$), maka $W = F \times s$
-- Jika gaya tegak lurus dengan perpindahan ($\theta = 90°$), maka $W = 0$
-- Jika gaya berlawanan arah dengan perpindahan ($\theta = 180°$), maka $W = -F \times s$
+**Notasi Ilmiah** digunakan untuk menuliskan angka yang sangat besar atau sangat kecil agar lebih sederhana.
 
-#### 2.3 Usaha oleh Beberapa Gaya
+* Jarak Bumi ke Matahari: 149.600.000.000 m ditulis $1,496 \times 10^{11}$ m.
+* Ukuran bakteri: 0,000002 m ditulis $2 \times 10^{-6}$ m.
 
-Jika terdapat beberapa gaya yang bekerja pada benda, usaha total adalah jumlah dari usaha masing-masing gaya:
+**Refleksi**  
 
-$$W_{total} = W_1 + W_2 + W_3 + ... + W_n$$
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
 
-### 3. Energi
-
-#### 3.1 Pengertian Energi
-
-Energi adalah kemampuan untuk melakukan usaha. Satuan energi dalam SI adalah Joule (J), sama dengan satuan usaha.
-
-#### 3.2 Jenis-Jenis Energi
-
-**a. Energi Kinetik**  
-
-Energi kinetik adalah energi yang dimiliki benda karena geraknya.
-
-$$E_k = \frac{1}{2} \times m \times v^2$$
-
-Dimana:
-
-- $E_k$ = energi kinetik (J)
-- $m$ = massa benda (kg)
-- $v$ = kecepatan benda (m/s)
-
-**b. Energi Potensial**  
-
-Energi potensial adalah energi yang dimiliki benda karena posisinya.
-
-- **Energi Potensial Gravitasi**:
-$$E_p = m \times g \times h$$
-
-  Dimana:
-  - $E_p$ = energi potensial gravitasi (J)
-  - $m$ = massa benda (kg)
-  - $g$ = percepatan gravitasi (m/s²)
-  - $h$ = ketinggian benda dari permukaan referensi (m)
-
-- **Energi Potensial Elastis**:
-$$E_p = \frac{1}{2} \times k \times \Delta x^2$$
-
-  Dimana:
-  - $E_p$ = energi potensial elastis (J)
-  - $k$ = konstanta pegas (N/m)
-  - $\Delta x$ = perubahan panjang pegas (m)
-
-#### 3.3 Hubungan Usaha dan Energi
-
-**a. Teorema Usaha-Energi**  
-
-Usaha total yang dilakukan pada sebuah benda sama dengan perubahan energi kinetiknya:
-
-$$W_{total} = \Delta E_k = E_{k2} - E_{k1}$$
-
-**b. Hubungan Usaha dan Energi Potensial**  
-
-Usaha yang dilakukan oleh gaya konservatif bernilai negatif dari perubahan energi potensial:
-
-$$W_{konservatif} = -\Delta E_p = -(E_{p2} - E_{p1})$$
-
-### 4. Hukum Kekekalan Energi Mekanik
-
-Energi mekanik adalah jumlah dari energi kinetik dan energi potensial:
-
-$$E_m = E_k + E_p$$
-
-Pada sistem yang tidak dipengaruhi oleh gaya non-konservatif (seperti gesekan), energi mekanik total sistem tetap konstan:
-
-$$E_{m1} = E_{m2}$$
-
-atau
-
-$$E_{k1} + E_{p1} = E_{k2} + E_{p2}$$
-
-### 5. Daya
-
-Daya adalah laju usaha dilakukan atau laju energi diubah. Satuan SI untuk daya adalah watt (W), dimana 1 watt = 1 joule/detik.
-
-$$P = \frac{W}{t}$$
-
-Daya juga dapat dinyatakan sebagai:
-
-$$P = \vec{F} \cdot \vec{v} = F \times v \times \cos\theta$$
-
-Dimana:
-
-- $P$ = daya (watt)
-- $W$ = usaha (J)
-- $t$ = waktu (s)
-- $F$ = gaya (N)
-- $v$ = kecepatan (m/s)
-- $\theta$ = sudut antara arah gaya dan kecepatan
-
-## Kesimpulan
-
-Dalam materi ini, kita telah mempelajari konsep-konsep dasar gaya, usaha, dan energi, yang merupakan fondasi penting dalam fisika mekanika:
-
-1. **Gaya** adalah interaksi yang dapat mengubah keadaan gerak benda, dinyatakan dalam Newton (N).
-2. **Usaha** terjadi ketika gaya menyebabkan perpindahan pada benda, dengan satuan Joule (J).
-3. **Energi** adalah kemampuan untuk melakukan usaha, yang terdiri dari berbagai bentuk seperti energi kinetik dan energi potensial.
-4. **Hukum Kekekalan Energi Mekanik** menyatakan bahwa energi total dalam sistem terisolasi tetap konstan.
-5. **Daya** mengukur laju dilakukannya usaha atau laju perubahan energi, dengan satuan watt (W).
-
-Pemahaman tentang konsep-konsep ini memungkinkan kita untuk menganalisis berbagai fenomena fisika dalam kehidupan sehari-hari, mulai dari gerak benda, konversi energi, hingga efisiensi mesin dan perangkat teknologi.
+1. Di antara kelompok besaran berikut, yang termasuk kelompok besaran pokok adalah...
+    a. Panjang, luas, waktu
+    b. Massa, kuat arus, kecepatan
+    c. Waktu, suhu, massa jenis
+    d. Panjang, massa, waktu
+    e. Volume, suhu, kuat arus
+
+2. Sebuah balok diukur dengan jangka sorong dan hasilnya adalah 2,45 cm. Angka 5 pada hasil pengukuran tersebut disebut...
+    a. Angka pasti
+    b. Angka taksiran
+    c. Angka penting
+    d. Angka nol
+    e. Angka mutlak
+
+3. Hasil pengukuran ketebalan sebuah koin adalah 0,150 cm. Jumlah angka penting pada hasil pengukuran tersebut adalah...
+    a. 1
+    b. 2
+    c. 3
+    d. 4
+    e. 5
+
+4. Kecepatan suara di udara adalah sekitar 340 m/s. Besaran kecepatan ini diturunkan dari besaran pokok...
+    a. Panjang dan massa
+    b. Massa dan waktu
+    c. Panjang dan waktu
+    d. Suhu dan panjang
+    e. Waktu dan suhu
+
+5. Bilangan 0,000780 jika ditulis dalam notasi ilmiah yang benar adalah...
+    a. $7,8 \times 10^{-4}$
+    b. $7,80 \times 10^{-4}$
+    c. $78 \times 10^{-5}$
+    d. $0,78 \times 10^{-3}$
+    e. $780 \times 10^{-6}$
+
+**Asesmen Formatif**  
+
+Jawablah pertanyaan berikut dengan singkat dan jelas!
+
+1. Seorang siswa mengukur panjang sebuah paku menggunakan jangka sorong. Skala utama menunjukkan 4,7 cm, dan skala nonius yang berimpit dengan skala utama adalah garis ke-6. Berapakah panjang paku tersebut?
+2. Massa sebuah karung beras adalah 50 kg. Sebutkan mana yang merupakan **besaran**, **nilai**, dan **satuan** dari pernyataan tersebut!
+3. Tuliskan hasil pengukuran 2.500.000 gram dalam satuan kilogram (kg) menggunakan notasi ilmiah dan aturan 2 angka penting!  
+
+**Glosarium**  
+
+* **Besaran Pokok:** Besaran dasar yang menjadi fondasi bagi besaran lainnya.
+* **Besaran Turunan:** Besaran yang didefinisikan dari satu atau lebih besaran pokok.
+* **Jangka Sorong:** Alat ukur panjang dengan ketelitian hingga 0,1 mm.
+* **Mikrometer Sekrup:** Alat ukur panjang dengan ketelitian hingga 0,01 mm.
+* **Angka Penting:** Angka hasil pengukuran yang menunjukkan tingkat ketelitian alat ukur.
+* **Notasi Ilmiah:** Cara penulisan bilangan yang sangat besar atau kecil dalam bentuk pangkat sepuluh.
+
+**Daftar Pustaka**  
+
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2022). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran IPA*. Kemendikbudristek.

@@ -1,178 +1,171 @@
-# Gerak Harmoni Sederhana
+# BAB 7: Suhu dan Kalor - Memahami Energi yang Tak Terlihat
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-- Menjelaskan konsep dasar gerak harmoni sederhana
-- Mengidentifikasi karakteristik gerak harmoni sederhana
-- Menganalisis persamaan matematis gerak harmoni sederhana
-- Menghitung besaran-besaran fisis pada gerak harmoni sederhana
-- Menerapkan konsep gerak harmoni sederhana dalam penyelesaian masalah
-- Mengaitkan gerak harmoni sederhana dengan fenomena dalam kehidupan sehari-hari
+1. Menghubungkan besaran suhu dan melakukan konversi antar satuannya.
+2. Menjelaskan Asas Black serta penerapannya dalam perubahan suhu dan wujud zat.
+3. Menguraikan konsep pemuaian panjang, luas, dan volume pada zat.
+4. Membedakan tiga jenis perpindahan kalor dan menganalisis penerapannya dalam kehidupan sehari-hari.
 
-## Pendahuluan
+**Pemahaman Bermakna:**
+Setiap hari kita berinteraksi dengan energi yang tak terlihat ini. Mengapa gagang panci dibuat dari plastik, bukan logam? Bagaimana termos bisa menjaga air tetap panas selama berjam-jam? Mengapa kabel listrik di pinggir jalan dipasang sedikit kendur dan tidak tegang? Semua pertanyaan ini dijawab oleh ilmu tentang **suhu** dan **kalor**. Memahami konsep ini tidak hanya membantu kita menjawab soal fisika, tetapi juga membuat kita mengerti cara kerja banyak peralatan di sekitar kita, mulai dari termometer, setrika, hingga mesin pendingin di pabrik, serta mengajarkan kita cara memanfaatkan energi panas secara efisien.
 
-Pernahkah kamu memperhatikan gerakan ayunan jam dinding? Atau mungkin mengamati gerakan pegas ketika ditarik dan dilepaskan? Kedua gerakan tersebut merupakan contoh dari **Gerak Harmoni Sederhana (GHS)**, suatu fenomena fisika yang sangat umum ditemukan dalam kehidupan sehari-hari.
+**Pembukaan: Api dan Besi di Bengkel Pandai Besi**
+Di ujung desa, tidak jauh dari pabrik, ada sebuah bengkel pandai besi yang selalu ramai. Di sana, sebatang besi yang awalnya dingin dan kaku, dimasukkan ke dalam tungku api yang membara. Perlahan, warnanya berubah dari hitam menjadi merah, lalu oranye, hingga berpijar kekuningan. Sang pandai besi tahu, pada saat itulah besi menjadi "lunak" dan siap untuk ditempa menjadi sebilah golok atau cangkul.
 
-Gerak Harmoni Sederhana adalah gerak bolak-balik benda melalui suatu titik kesetimbangan dengan besar dan arah gaya yang sebanding dengan simpangan benda tersebut. GHS merupakan dasar untuk memahami berbagai jenis getaran dan gelombang dalam fisika, mulai dari gelombang bunyi hingga gelombang elektromagnetik. Mari kita eksplorasi konsep menarik ini lebih dalam!
+Setelah ditempa, besi yang masih panas membara itu dicelupkan ke dalam bak berisi air dingin. Terdengar suara "cesss!" yang keras, dan uap air mengepul ke udara. Seketika, besi menjadi dingin dan kembali kaku, sementara air di dalam bak terasa menjadi lebih hangat. Fenomena di bengkel pandai besi ini adalah laboratorium fisika yang sempurna. Perubahan warna besi menunjukkan adanya kenaikan **suhu**. Proses pemanasan dan pendinginan adalah peristiwa perpindahan **kalor**. Dan suara "cesss" adalah bukti adanya pertukaran energi panas antara dua benda yang berbeda suhu. Mari kita selidiki rahasia di baliknya.
 
-## Konsep Dasar Gerak Harmoni Sederhana
+`#sisipkan gambar seorang pandai besi sedang menempa besi yang berpijar`
 
-### Pengertian GHS
+## Suhu dan Pengukurannya
 
-Gerak Harmoni Sederhana adalah gerak osilasi atau gerak bolak-balik suatu benda di mana gaya pemulih sebanding dengan simpangan dan selalu mengarah ke posisi kesetimbangan. Secara matematis, hubungan ini dinyatakan dengan Hukum Hooke:
+**Suhu** adalah ukuran derajat panas atau dinginnya suatu benda. Suhu menunjukkan tingkat energi kinetik rata-rata partikel dalam suatu zat. Alat untuk mengukur suhu secara akurat disebut **termometer**. Ada beberapa skala suhu yang umum digunakan:
 
-$$F = -k \cdot x$$
+* **Celcius (°C):** Paling umum digunakan di Indonesia. Titik beku air 0°C dan titik didih 100°C.
+* **Reamur (°R):** Titik beku air 0°R dan titik didih 80°R.
+* **Fahrenheit (°F):** Umum digunakan di beberapa negara Barat. Titik beku air 32°F dan titik didih 212°F.
+* **Kelvin (K):** Skala suhu mutlak yang digunakan dalam sains. Titik nol mutlak (0 K) adalah suhu terdingin yang mungkin, di mana semua gerak partikel berhenti.
 
-Dimana:
+**Konversi Skala Suhu:**
+Kita dapat mengkonversi satu skala ke skala lain menggunakan perbandingan rentang skala:
+(C : R : F-32) = 5 : 4 : 9
+Untuk Kelvin: K = C + 273
 
-- $F$ = gaya pemulih (N)
-- $k$ = konstanta pegas (N/m)
-- $x$ = simpangan dari posisi setimbang (m)
-- Tanda negatif menunjukkan arah gaya berlawanan dengan arah simpangan
+## Kalor: Energi yang Mengalir
 
-### Karakteristik GHS
+Jika suhu adalah *ukuran* derajat panas, maka **kalor** adalah **energi** panas yang berpindah dari benda bersuhu lebih tinggi ke benda bersuhu lebih rendah. Satuan kalor adalah Joule (J) atau kalori (1 kalori = 4,2 Joule).
 
-Beberapa besaran fisis yang menandai GHS:
+### Kalor Jenis (c)
 
-1. **Amplitudo ($A$)**: Simpangan maksimum dari posisi setimbang
-2. **Periode ($T$)**: Waktu yang diperlukan untuk melakukan satu getaran lengkap
-3. **Frekuensi ($f$)**: Jumlah getaran yang terjadi dalam satu satuan waktu
-   $$f = \frac{1}{T}$$
-4. **Frekuensi sudut ($\omega$)**: Kecepatan sudut benda
-   $$\omega = 2\pi f = \frac{2\pi}{T}$$
+Banyaknya kalor yang dibutuhkan untuk menaikkan suhu 1 kg zat sebesar 1°C atau 1 K. Setiap zat punya kalor jenis yang berbeda.
 
-### Persamaan GHS
+$$Q = m \cdot c \cdot \Delta T$$
 
-Persamaan posisi benda yang bergerak harmonis sederhana:
+dimana
+Q = Kalor (Joule)
+m = massa (kg)
+c = kalor jenis (J/kg°C)
+$\Delta T$ = perubahan suhu (°C)
 
-$$x(t) = A \sin(\omega t + \phi)$$
+### Kalor Laten (L)
 
-dengan $\phi$ adalah sudut fase awal.
+Kalor yang dibutuhkan untuk **mengubah wujud** zat pada suhu tetap. Misalnya, saat es mencair menjadi air pada suhu 0°C.
 
-Persamaan kecepatan benda:
+**Kalor Lebur (L):** Untuk perubahan dari padat ke cair.
+**Kalor Uap (U):** Untuk perubahan dari cair ke gas.
+$$Q = m \cdot L$$  atau  $$Q = m \cdot U$$
 
-$$v(t) = \frac{dx}{dt} = \omega A \cos(\omega t + \phi)$$
+## Asas Black: Keseimbangan Energi Panas
 
-Persamaan percepatan benda:
+Ketika besi panas dicelupkan ke air dingin oleh pandai besi, besi melepaskan kalor dan air menerima kalor hingga suhu keduanya menjadi sama (keseimbangan termal). Prinsip ini dirumuskan dalam **Asas Black**.
 
-$$a(t) = \frac{d^2x}{dt^2} = -\omega^2 A \sin(\omega t + \phi) = -\omega^2 x(t)$$
+> **Asas Black berbunyi:** *"Pada pencampuran dua zat, banyaknya kalor yang dilepas oleh zat yang suhunya lebih tinggi sama dengan banyaknya kalor yang diterima oleh zat yang suhunya lebih rendah."*
 
-## Contoh Sistem GHS
+$$Q_{lepas} = Q_{terima}$$
 
-### Sistem Pegas-Massa
+## Pemuaian Zat: Ketika Dipanaskan, Benda Membesar
 
-Ketika sebuah benda bermassa $m$ digantungkan pada pegas dengan konstanta $k$, frekuensi natural sistem adalah:
+Hampir semua zat (padat, cair, gas) akan memuai (bertambah ukurannya) jika dipanaskan dan menyusut jika didinginkan.
 
-$$f = \frac{1}{2\pi} \sqrt{\frac{k}{m}}$$
+### Pemuaian Panjang (zat padat) Pertambahan panjang benda
 
-atau periode:
+$$\Delta L = L_0 \cdot \alpha \cdot \Delta T$$
 
-$$T = 2\pi \sqrt{\frac{m}{k}}$$
+dimana:
+$\Delta L$ = pertambahan panjang (m)
+$L_0$ = panjang awal (m)
+$\alpha$ = koefisien muai panjang (1/°C)
+$\Delta T$ = perubahan suhu (°C)
 
-### Susunan Pegas
+### Pemuaian Luas (zat padat): Pertambahan luas benda
 
-Dalam banyak aplikasi praktis, pegas sering disusun dalam konfigurasi tertentu untuk mendapatkan karakteristik elastisitas yang diinginkan.
+$$\Delta A = A_0 \cdot \beta \cdot \Delta T$$ (dengan $\beta \approx 2\alpha$)
 
-#### Pegas Seri
+$\Delta A$ = pertambahan luas (m²)
+$A_0$ = luas awal (m²)
+$\beta$ = koefisien muai luas (1/°C)
+$\Delta T$ = perubahan suhu (°C)
 
-Ketika dua atau lebih pegas disusun secara seri (berurutan), konstanta pegas gabungan ($k_{eq}$) dapat dihitung dengan:
+### Pemuaian Volume (zat padat, cair, gas): Pertambahan volume benda
 
-$$\frac{1}{k_{eq}} = \frac{1}{k_1} + \frac{1}{k_2} + \frac{1}{k_3} + ... + \frac{1}{k_n}$$
+$$\Delta V = V_0 \cdot \gamma \cdot \Delta T$$ (dengan $\gamma \approx 3\alpha$)
 
-Pada susunan seri, konstanta pegas gabungan selalu lebih kecil dari konstanta pegas terkecil dalam susunan. Ini berarti pegas gabungan menjadi lebih "lunak" dibandingkan pegas-pegas penyusunnya.
+$\Delta L$ = pertambahan panjang (m)
+$L_0$ = panjang awal (m)
+$\gamma$ = koefisien muai volume (1/°C)
+$\Delta T$ = perubahan suhu (°C)
 
-#### Pegas Paralel
+Prinsip ini sangat penting dalam konstruksi. Celah pada sambungan rel kereta api atau jembatan sengaja dibuat untuk memberi ruang bagi pemuaian saat siang hari yang panas.
 
-Ketika pegas disusun secara paralel (berdampingan), konstanta pegas gabungan adalah jumlah dari konstanta masing-masing pegas:
-
-$$k_{eq} = k_1 + k_2 + k_3 + ... + k_n$$
-
-Pada susunan paralel, pegas gabungan menjadi lebih "kaku" dibandingkan pegas-pegas penyusunnya karena nilai konstanta gabungannya lebih besar.
-
-#### Contoh Aplikasi Susunan Pegas
-
-Susunan pegas seri dan paralel banyak diterapkan dalam:
-
-- Sistem suspensi kendaraan
-- Desain kasur dan sofa
-- Peredam getaran mesin
-- Peralatan olahraga seperti trampolin
-
-### Modulus Young dan Pegas
-
-Modulus Young adalah ukuran kekakuan material yang menggambarkan hubungan antara tegangan (stress) dan regangan (strain) dalam batas elastis material. Untuk kawat atau batang, konstanta pegas $k$ dapat dihubungkan dengan Modulus Young ($E$) melalui persamaan:
-
-$$k = \frac{EA}{L}$$
-
-Dimana:
-
-- $E$ = Modulus Young (N/m$^2$)
-- $A$ = Luas penampang kawat/batang (m$^2$)
-- $L$ = Panjang kawat/batang (m)
-
-Dengan mengetahui hubungan ini, kita dapat:
-
-1. Memilih material yang tepat untuk membuat pegas dengan karakteristik tertentu
-2. Menentukan dimensi pegas (panjang dan luas penampang) untuk mendapatkan konstanta pegas yang diinginkan
-3. Memprediksi perubahan konstanta pegas akibat perubahan suhu atau faktor lingkungan lain
-
-Beberapa nilai modulus Young untuk material umum:
-
-| Material  | Modulus Young (N/m$^2$)     |
-|-----------|----------------------------|
-| Baja      | 200 × 10$^9$                |
-| Aluminium | 70 × 10$^9$                 |
-| Tembaga   | 110 × 10$^9$                |
-| Karet     | 0,01-0,1 × 10$^9$           |
-| Kayu      | 10-20 × 10$^9$              |
-| Kaca      | 70 × 10$^9$                 |
-| Plastik   | 1-3 × 10$^9$                 |
-| Beton     | 20-30 × 10$^9$               |
-| Keramik   | 70-100 × 10$^9$              |
-| Kaca keramik | 70-100 × 10$^9$              |
-
-### Bandul Sederhana
-
-Untuk bandul sederhana dengan panjang tali $L$, periode getaran:
-
-$$T = 2\pi \sqrt{\frac{L}{g}}$$
-
-dimana $g$ adalah percepatan gravitasi (9,8 m/s$^2$). Persamaan ini berlaku untuk sudut simpangan yang kecil (< 15°).
-
-## Energi dalam GHS
-
-Dalam GHS terjadi perubahan energi potensial dan energi kinetik secara berkala. Total energi mekanik sistem adalah:
-
-$$E = E_p + E_k = \frac{1}{2}kA^2$$
-
-dengan:
-
-- Energi potensial: $E_p = \frac{1}{2}kx^2$
-- Energi kinetik: $E_k = \frac{1}{2}mv^2$
-
-Pada posisi setimbang ($x = 0$), energi potensial minimum (nol) dan energi kinetik maksimum. Pada simpangan maksimum ($x = A$), energi potensial maksimum dan energi kinetik minimum (nol). Energi total tetap konstan selama gerakan.
-
-## Aplikasi GHS dalam Kehidupan
-
-1. **Jam Bandul**: Menggunakan prinsip periode bandul untuk mengukur waktu
-2. **Sistem Suspensi Kendaraan**: Menggunakan pegas dan peredam untuk menyerap getaran
-3. **Seismograf**: Alat pengukur gempa yang bekerja berdasarkan prinsip GHS
-4. **Instrumen Musik**: Getaran senar gitar, biola, atau piano menghasilkan nada yang berbeda
-5. **Rangkaian LC**: Dalam elektronika, rangkaian induktor-kapasitor menghasilkan getaran listrik
-
-## Rangkuman Materi
-
-- **Gerak Harmoni Sederhana (GHS)** adalah gerak osilasi dengan gaya pemulih sebanding dengan simpangan ($F = -kx$)
-- **Besaran-besaran penting dalam GHS**:
-  - Amplitudo ($A$): simpangan maksimum
-  - Periode ($T$): waktu untuk satu getaran lengkap
-  - Frekuensi ($f = 1/T$): jumlah getaran per satuan waktu
-  - Frekuensi sudut ($\omega = 2\pi f$): kecepatan sudut gerak
-- **Persamaan GHS**: $x(t) = A \sin(\omega t + \phi)$
-- **Periode sistem pegas-massa**: $T = 2\pi \sqrt{\frac{m}{k}}$
-- **Periode bandul sederhana**: $T = 2\pi \sqrt{\frac{L}{g}}$
-- **Susunan pegas**:
-  - Seri: $\frac{1}{k_{eq}} = \frac{1}{k_1} + \frac{1}{k_2} + ... + \frac{1}{k_n}$
-  - Paralel: $k_{eq} = k_1 + k_2 + ... + k_n$
-- **Energi dalam GHS**: $E = \frac{1}{2}kA^2 = E_p + E_k$
-- **Aplikasi GHS** meliputi jam bandul, sistem suspensi, seismograf, instrumen musik, dan rangkaian elektronik
+## Perpindahan Kalor
+
+Kalor dapat berpindah dengan tiga cara:
+
+1. **Konduksi:** Perpindahan kalor melalui zat perantara (biasanya padat) **tanpa disertai perpindahan partikel** zat tersebut. Partikel hanya bergetar dan menularkan energi ke partikel di sebelahnya. Contoh: Ujung logam yang dipanaskan, ujung lainnya ikut panas.
+2. **Konveksi:** Perpindahan kalor melalui zat alir (cair atau gas) yang **disertai perpindahan partikel** zat tersebut. Partikel yang panas menjadi lebih ringan dan bergerak ke atas, digantikan partikel dingin. Contoh: Gerakan air saat direbus, terjadinya angin darat dan angin laut.
+3. **Radiasi:** Perpindahan kalor dalam bentuk gelombang elektromagnetik **tanpa memerlukan medium**. Contoh: Panas matahari yang sampai ke bumi, rasa hangat di dekat api unggun atau tungku pandai besi.
+
+**Refleksi**  
+
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
+
+1. Suhu suatu benda diukur dengan termometer Celcius menunjukkan 50°C. Jika diukur dengan termometer Kelvin, suhu tersebut adalah...
+    a. 223 K
+    b. 273 K
+    c. 300 K
+    d. 323 K
+    e. 373 K
+
+2. Ketika air panas dicampur dengan air dingin, kalor akan mengalir dari air panas ke air dingin hingga suhu keduanya sama. Prinsip ini dikenal sebagai...
+    a. Hukum I Newton
+    b. Prinsip Bernoulli
+    c. Asas Black
+    d. Hukum Archimedes
+    e. Efek Doppler
+
+3. Pemasangan kabel listrik di jalan raya dibuat sedikit kendur. Tujuannya adalah agar kabel...
+    a. Tidak memuai saat cuaca panas
+    b. Tidak putus saat menyusut di cuaca dingin
+    c. Mudah dialiri arus listrik
+    d. Tidak mudah terbakar
+    e. Terlihat lebih rapi
+
+4. Angin darat dan angin laut yang dirasakan oleh para nelayan di dekat sawah yang berbatasan dengan pantai adalah contoh perpindahan kalor secara...
+    a. Konduksi
+    b. Konveksi
+    c. Radiasi
+    d. Induksi
+    e. Isolasi
+
+5. Gagang sebuah setrika listrik biasanya terbuat dari bahan plastik, bukan besi. Hal ini karena plastik merupakan...
+    a. Konduktor panas yang baik
+    b. Isolator panas yang baik
+    c. Konduktor listrik yang baik
+    d. Isolator listrik yang buruk
+    e. Bahan yang mudah memuai
+
+**Asesmen Formatif**  
+
+Jawablah pertanyaan berikut dengan singkat dan jelas!
+
+1. Sebanyak 200 gram air bersuhu 80°C dituangkan ke dalam gelas berisi 300 gram air bersuhu 20°C. Jika tidak ada kalor yang hilang ke lingkungan, berapakah suhu akhir campuran? (Kalor jenis air = 4200 J/kg°C)
+2. Jelaskan cara kerja sebuah termos sehingga mampu mempertahankan suhu air di dalamnya! Sebutkan minimal dua cara perpindahan kalor yang dihambat oleh termos!
+3. Mengapa saat siang hari di tengah sawah yang terik, kita merasa lebih sejuk saat berada di bawah pohon rindang padahal kita tidak menyentuh pohon tersebut?
+
+**Glosarium**  
+
+* **Suhu:** Derajat atau tingkat panas suatu benda.
+* **Kalor:** Energi yang berpindah dari benda bersuhu lebih tinggi ke benda bersuhu lebih rendah.
+* **Kalor Jenis:** Banyaknya kalor yang diperlukan untuk menaikkan suhu 1 kg zat sebesar 1°C.
+* **Kalor Laten:** Kalor yang diserap atau dilepaskan saat terjadi perubahan wujud zat.
+* **Asas Black:** Prinsip kekekalan energi pada pertukaran kalor ($Q_{lepas} = Q_{terima}$).
+* **Konduksi:** Perpindahan kalor melalui zat padat tanpa perpindahan partikel.
+* **Konveksi:** Perpindahan kalor melalui fluida yang disertai perpindahan partikel.
+* **Radiasi:** Perpindahan kalor melalui pancaran gelombang elektromagnetik.
+
+**Daftar Pustaka**  
+
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2024). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran Fisika Fase F*. Kemendikbudristek.

@@ -1,202 +1,128 @@
-# Suhu dan Kalor
+# BAB 5: Getaran dan Gerak Harmonis - Denyut Nadi Gelombang
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Menjelaskan karakteristik dasar getaran (amplitudo, periode, frekuensi).
+2. Menganalisis besaran-besaran fisis pada Gerak Harmonis Sederhana (GHS) pada sistem bandul dan pegas.
+3. Menerapkan persamaan simpangan, kecepatan, dan percepatan pada GHS.
+4. Menghubungkan konsep GHS sebagai dasar dari fenomena gelombang.
 
-- Menjelaskan konsep suhu dan alat untuk mengukur suhu
-- Membedakan skala pengukuran suhu yang berbeda
-- Menganalisis hubungan antara suhu dan kalor
-- Menghitung kapasitas kalor dan kalor jenis suatu zat
-- Menjelaskan proses perpindahan kalor secara konduksi, konveksi, dan radiasi
-- Menganalisis perubahan wujud zat akibat pengaruh kalor
-- Mendeskripsikan pemuaian termal pada zat padat, cair, dan gas
+**Pemahaman Bermakna:**
+Pernahkah kamu merasakan getaran senar gitar saat dipetik? Atau melihat gerakan bandul pada jam dinding tua yang bergerak tik-tok dengan sangat teratur? Gerakan bolak-balik yang teratur ini adalah fondasi dari hampir semua jenis gelombang. Suara adalah getaran udara, cahaya adalah getaran medan elektromagnetik, dan gempa bumi adalah getaran tanah. Dengan memahami getaran, kita sedang mempelajari "alfabet" dasar dari bahasa alam semesta. Kita bisa mengerti bagaimana musik tercipta, bagaimana sinyal radio dikirim, dan bagaimana struktur jembatan dirancang agar tahan terhadap getaran.
 
-## Pendahuluan
+**Pembukaan: Filosofi Sebuah Ayunan**
+Di sore hari yang cerah, di bawah pohon rindang di halaman sebuah rumah sederhana, seorang kakak sedang mendorong adiknya yang bermain ayunan. *Dorong... melambung ke depan... kembali... melambung ke belakang... kembali lagi*. Gerakannya begitu ritmis dan menenangkan. Sang kakak memperhatikan, tidak peduli seberapa kuat ia mendorong (selama tidak keterlaluan), waktu yang dibutuhkan adiknya untuk satu kali ayunan penuh—dari depan, ke belakang, dan kembali ke depan lagi—terasa hampir selalu sama.
 
-Pernahkah kamu merasa tanganmu sangat dingin di pagi hari? Atau merasakan hangatnya secangkir teh di saat hujan? Sensasi yang kamu rasakan berkaitan erat dengan konsep suhu dan kalor. Saat memasak air, kita melihat air berubah dari dingin menjadi panas hingga mendidih. Fenomena ini adalah contoh nyata dari transfer energi dalam bentuk kalor.
+Ia juga melihat bahwa ayunan akan selalu berusaha kembali ke titik terendahnya, titik di mana tali ayunan menggantung lurus ke bawah. Seolah-olah ada "kekuatan tak terlihat" yang selalu menariknya kembali ke posisi seimbang. Mengapa gerakannya begitu teratur? Mengapa ada titik seimbang yang selalu menjadi tujuannya? Dan mengapa waktu untuk satu ayunan terasa konstan? Pengamatan sederhana dari permainan ayunan ini adalah gerbang kita untuk memahami salah satu konsep paling elegan dalam fisika: **Gerak Harmonis Sederhana**.
 
-Suhu dan kalor adalah dua konsep fundamental dalam fisika yang sangat memengaruhi kehidupan kita sehari-hari. Dari cara kita berpakaian berdasarkan cuaca, hingga prinsip kerja mesin pendingin dan pemanas ruangan—semuanya berkaitan dengan konsep ini. Bahkan kelangsungan hidup makhluk hidup sangat bergantung pada kemampuan untuk mempertahankan suhu tubuh yang ideal.
+`#sisipkan gambar seorang anak sedang bermain ayunan di bawah pohon`
 
-Mari kita jelajahi dunia suhu dan kalor untuk memahami bagaimana energi ini berperan dalam keseharian kita dan bagaimana ilmu fisika menjelaskan fenomena-fenomena alam yang berkaitan dengannya.
+## Getaran: Gerak Bolak-Balik di Sekitar Titik Setimbang
 
-## Isi Materi
+**Getaran** adalah gerak bolak-balik suatu benda melalui titik kesetimbangannya. Mari kita gunakan analogi ayunan tadi untuk mengenal istilah-istilah penting:
 
-### Konsep Suhu
+* **Titik Setimbang (O):** Posisi terendah ayunan, di mana ayunan akan diam jika tidak diberi gaya.
+* **Simpangan (y):** Jarak atau posisi ayunan pada suatu waktu, diukur dari titik setimbangnya.
+* **Amplitudo (A):** Simpangan terjauh atau simpangan maksimum. Ini adalah setinggi apa ayunan melambung dari titik setimbangnya.
+* **Periode (T):** Waktu yang dibutuhkan untuk melakukan **satu getaran penuh**. Satu getaran penuh pada ayunan adalah gerak dari depan -> belakang -> kembali ke depan. Satuan periode adalah sekon (s).
+* **Frekuensi (f):** Jumlah getaran penuh yang terjadi dalam **satu detik**. Satuan frekuensi adalah Hertz (Hz).
 
-Suhu adalah ukuran derajat panas atau dinginnya suatu benda. Secara mikroskopis, suhu berkaitan dengan energi kinetik rata-rata molekul-molekul penyusun benda. Semakin cepat gerakan partikel, semakin tinggi suhunya.
+Periode dan frekuensi memiliki hubungan yang berkebalikan:
 
-#### Skala Suhu
+$$f = \frac{1}{T}$$  atau  $$T = \frac{1}{f}$$
 
-Terdapat beberapa skala suhu yang umum digunakan:
+## Gerak Harmonis Sederhana (GHS): Getaran yang Paling Sempurna
 
-| Skala | Titik Beku Air | Titik Didih Air | Rumus Konversi ke Celsius |
-|-------|----------------|-----------------|---------------------------|
-| Celsius ($°$C) | $0°$C | $100°$C | - |
-| Fahrenheit ($°$F) | $32°$F | $212°$F | $T_C = \frac{5}{9}(T_F - 32)$ |
-| Kelvin (K) | 273,15 K | 373,15 K | $T_C = T_K - 273,15$ |
-| Reamur ($°$R) | $0°$R | $80°$R | $T_C = \frac{5}{4}T_R$ |
+Gerak Harmonis Sederhana (GHS) adalah jenis getaran ideal di mana terdapat **gaya pemulih** yang selalu bekerja untuk mengembalikan benda ke titik setimbangnya. Besarnya gaya pemulih ini sebanding dengan besar simpangannya. Semakin jauh ayunan disimpangkan, semakin kuat "tarikan" kembali ke titik tengah.
 
-Konversi antar skala suhu dapat dilakukan dengan persamaan:
+Dua contoh sistem GHS yang paling terkenal adalah:
 
-$$\frac{T_C}{100} = \frac{T_F - 32}{180} = \frac{T_K - 273,15}{100} = \frac{T_R}{80}$$
+**1. Bandul Sederhana (Ayunan)**
+Sebuah beban yang digantung pada seutas tali. Periode getarannya (waktu satu ayunan penuh) secara menakjubkan **tidak bergantung pada massa beban**, melainkan hanya bergantung pada **panjang tali (L)** dan **percepatan gravitasi (g)**.
+$$T = 2\pi\sqrt{\frac{L}{g}}$$
 
-#### Termometer
+**2. Getaran Pegas**
+Sebuah beban yang digantungkan atau dihubungkan pada sebuah pegas. Periode getarannya bergantung pada **massa beban (m)** dan **konstanta pegas (k)**, yaitu ukuran kekakuan pegas.
+$$T = 2\pi\sqrt{\frac{m}{k}}$$
 
-Termometer adalah alat untuk mengukur suhu. Beberapa jenis termometer:
+`#sisipkan gambar skema bandul sederhana dan getaran pegas`
 
-- Termometer air raksa
-- Termometer alkohol
-- Termometer gas
-- Termometer digital
-- Termometer inframerah
+## Persamaan Gerak Harmonis Sederhana
 
-### Konsep Kalor
+Gerak GHS yang teratur ini dapat dideskripsikan secara matematis. Persamaan simpangannya mengikuti fungsi sinus atau kosinus:
 
-Kalor adalah bentuk energi yang berpindah dari benda bersuhu tinggi ke benda bersuhu rendah. Satuan kalor dalam SI adalah Joule (J), meskipun sering juga digunakan satuan kalori (kal) dengan $1 \text{ kal} = 4,184 \text{ J}$.
+$$y = A \sin(\omega t)$$
+dimana:
 
-#### Kalor Jenis dan Kapasitas Kalor
+* **y** = simpangan pada waktu t
+* **A** = amplitudo
+* **$\omega$** = kecepatan sudut (rad/s), yang berhubungan dengan frekuensi ($\omega = 2\pi f$)
+* **t** = waktu (s)
 
-Kalor jenis ($c$) adalah jumlah kalor yang dibutuhkan untuk menaikkan suhu 1 kg zat sebesar $1°$C. Satuan kalor jenis adalah $\text{J}/(\text{kg} \cdot °\text{C})$.
+Dari persamaan simpangan ini, kita juga bisa menurunkan persamaan kecepatan dan percepatan getaran benda. Puncak dari gerak ini adalah:
 
-Kapasitas kalor ($C$) adalah jumlah kalor yang dibutuhkan untuk menaikkan suhu suatu benda sebesar $1°$C. Satuan kapasitas kalor adalah $\text{J}/°\text{C}$.
+* **Kecepatan maksimum** terjadi saat benda melewati **titik setimbang** ($y=0$).
+* **Percepatan maksimum** terjadi saat benda berada di **simpangan terjauh** (di Amplitudo), di mana gaya pemulihnya paling kuat.
 
-Hubungan antara kalor, massa, kalor jenis, dan perubahan suhu:
+**Refleksi**  
 
-$$Q = m \cdot c \cdot \Delta T$$
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
 
-Dimana:
+1. Waktu yang diperlukan untuk melakukan satu getaran penuh disebut...
+    a. Amplitudo
+    b. Frekuensi
+    c. Periode
+    d. Simpangan
+    e. Getaran
 
-- $Q$ = kalor (J)
-- $m$ = massa (kg)
-- $c$ = kalor jenis (J/kg·°C)
-- $\Delta T$ = perubahan suhu (°C)
+2. Sebuah bandul sederhana berayun dengan periode 2 detik. Frekuensi getaran bandul tersebut adalah...
+    a. 0,25 Hz
+    b. 0,5 Hz
+    c. 1 Hz
+    d. 2 Hz
+    e. 4 Hz
 
-Hubungan antara kapasitas kalor, kalor jenis, dan massa:
+3. Pada Gerak Harmonis Sederhana, kecepatan benda bernilai maksimum ketika benda berada di...
+    a. Titik setimbang
+    b. Simpangan terjauh
+    c. Tengah-tengah antara titik setimbang dan simpangan terjauh
+    d. Titik mana saja, karena kecepatannya konstan
+    e. Titik henti sesaat
 
-$$C = m \cdot c$$
+4. Besaran yang mempengaruhi periode getaran pada sebuah ayunan bandul sederhana adalah...
+    a. Massa beban dan panjang tali
+    b. Amplitudo dan massa beban
+    c. Panjang tali dan percepatan gravitasi
+    d. Massa beban dan percepatan gravitasi
+    e. Amplitudo dan panjang tali
 
-#### Asas Black
+5. Sebuah pegas digetarkan. Jika massa beban yang digantung pada pegas diperbesar, maka periode getarannya akan...
+    a. Menjadi lebih kecil
+    b. Menjadi lebih besar
+    c. Tetap sama
+    d. Menjadi nol
+    e. Tidak dapat ditentukan
 
-Asas Black menyatakan bahwa kalor yang dilepas oleh benda bersuhu lebih tinggi sama dengan kalor yang diterima oleh benda bersuhu lebih rendah. Secara matematis:
+**Asesmen Formatif**  
 
-$$Q_{\text{lepas}} = Q_{\text{terima}}$$
+Jawablah pertanyaan berikut dengan singkat dan jelas!
 
-Atau:
+1. Sebuah pegas pada *shockbreaker* sepeda motor bergetar naik-turun saat melewati jalan yang tidak rata. Di posisi manakah (tertekan maksimum, teregang maksimum, atau posisi normal) gaya pemulih pada pegas bernilai paling besar? Jelaskan!
+2. Jika kamu ingin membuat sebuah jam bandul sederhana yang berdetak setiap detik (periodenya 2 detik untuk satu ayunan penuh), apakah kamu akan menggunakan tali yang sangat panjang atau sangat pendek? Jelaskan alasanmu!
+3. Sebuah benda yang melakukan gerak harmonis sederhana memiliki amplitudo 10 cm. Berapakah simpangannya saat kecepatannya bernilai nol?
 
-$$m_1 \cdot c_1 \cdot (T_1 - T) = m_2 \cdot c_2 \cdot (T - T_2)$$
+**Glosarium**  
 
-Dimana $T$ adalah suhu akhir campuran.
+* **Getaran:** Gerak bolak-balik secara periodik melalui titik kesetimbangan.
+* **GHS (Gerak Harmonis Sederhana):** Jenis getaran ideal di mana gaya pemulih sebanding dengan simpangannya.
+* **Amplitudo (A):** Simpangan maksimum atau jarak terjauh dari titik setimbang.
+* **Periode (T):** Waktu yang dibutuhkan untuk satu getaran lengkap.
+* **Frekuensi (f):** Jumlah getaran lengkap per satuan waktu.
+* **Gaya Pemulih:** Gaya yang selalu berarah menuju titik kesetimbangan pada GHS.
 
-### Perubahan Wujud Zat
+**Daftar Pustaka**  
 
-Kalor dapat menyebabkan perubahan wujud zat tanpa perubahan suhu.
-
-| Perubahan Wujud | Definisi | Contoh |
-|-----------------|----------|--------|
-| Mencair | Padat → Cair | Es mencair |
-| Membeku | Cair → Padat | Air menjadi es |
-| Menguap | Cair → Gas | Air mendidih |
-| Mengembun | Gas → Cair | Embun di pagi hari |
-| Menyublim | Padat → Gas | Kapur barus menguap |
-| Mengkristal | Gas → Padat | Es kering terbentuk |
-
-Kalor yang dibutuhkan untuk perubahan wujud:
-
-$$Q = m \cdot L$$
-
-Dimana:
-
-- $L$ = kalor laten (J/kg)
-  - Kalor lebur ($L_f$) untuk mencair/membeku
-  - Kalor uap ($L_v$) untuk menguap/mengembun
-
-### Perpindahan Kalor
-
-Kalor dapat berpindah melalui tiga cara:
-
-1. **Konduksi**: Perpindahan kalor melalui zat perantara tanpa disertai perpindahan partikel zat.
-
-   $$\frac{Q}{t} = \frac{kA(T_1 - T_2)}{L}$$
-
-   Dimana:
-   - $\frac{Q}{t}$ = laju perpindahan kalor (J/s atau W)
-   - $k$ = konduktivitas termal (W/m·°C)
-   - $A$ = luas penampang (m²)
-   - $T_1 - T_2$ = perbedaan suhu (°C)
-   - $L$ = panjang atau ketebalan konduktor (m)
-
-2. **Konveksi**: Perpindahan kalor melalui zat perantara disertai perpindahan partikel zat.
-
-   $$\frac{Q}{t} = hA(T_1 - T_2)$$
-
-   Dimana:
-   - $h$ = koefisien konveksi (W/m²·°C)
-
-3. **Radiasi**: Perpindahan kalor tanpa melalui zat perantara.
-
-   $$\frac{Q}{t} = \sigma \varepsilon A T^4$$
-
-   Dimana:
-   - $\sigma$ = konstanta Stefan-Boltzmann ($5,67 \times 10^{-8} \text{ W}/\text{m}^2\text{K}^4$)
-   - $\varepsilon$ = emisivitas permukaan ($0 \leq \varepsilon \leq 1$)
-   - $T$ = suhu mutlak (K)
-
-### Pemuaian Termal
-
-Pemuaian adalah pertambahan ukuran benda akibat kenaikan suhu.
-
-#### Pemuaian Zat Padat
-
-1. **Pemuaian Panjang**:
-   $$\Delta L = \alpha \cdot L_0 \cdot \Delta T$$
-   $$L = L_0(1 + \alpha \cdot \Delta T)$$
-
-   Dimana:
-   - $\alpha$ = koefisien muai panjang (°C⁻¹)
-   - $L_0$ = panjang awal (m)
-   - $L$ = panjang akhir (m)
-   - $\Delta T$ = perubahan suhu (°C)
-
-2. **Pemuaian Luas**:
-   $$\Delta A = \beta \cdot A_0 \cdot \Delta T$$
-   $$A = A_0(1 + \beta \cdot \Delta T)$$
-
-   Dimana:
-   - $\beta = 2\alpha$ = koefisien muai luas (°C⁻¹)
-   - $A_0$ = luas awal (m²)
-
-3. **Pemuaian Volume**:
-   $$\Delta V = \gamma \cdot V_0 \cdot \Delta T$$
-   $$V = V_0(1 + \gamma \cdot \Delta T)$$
-
-   Dimana:
-   - $\gamma = 3\alpha$ = koefisien muai volume (°C⁻¹)
-   - $V_0$ = volume awal (m³)
-
-#### Pemuaian Zat Cair dan Gas
-
-Zat cair dan gas hanya mengalami pemuaian volume. Untuk gas pada keadaan tekanan tetap, volume gas berbanding lurus dengan suhu mutlaknya sesuai hukum Charles:
-
-$$\frac{V_1}{T_1} = \frac{V_2}{T_2}$$
-
-### Penerapan Suhu dan Kalor dalam Kehidupan
-
-1. **Termos**: Dirancang untuk mengurangi perpindahan kalor konduksi, konveksi, dan radiasi.
-2. **Pemanas Air Tenaga Surya**: Memanfaatkan radiasi matahari dan konveksi.
-3. **Pendingin Ruangan**: Menggunakan prinsip perpindahan kalor dan perubahan wujud.
-4. **Bimetal**: Digunakan pada termostat, memanfaatkan pemuaian yang berbeda pada dua logam.
-5. **Pemasangan Rel Kereta Api**: Mempertimbangkan pemuaian logam akibat perubahan suhu.
-
-## Rangkuman Materi
-
-- **Suhu** adalah ukuran derajat panas atau dingin, berkaitan dengan energi kinetik rata-rata molekul.
-- **Skala suhu** yang umum digunakan: Celsius, Fahrenheit, Kelvin, dan Reamur.
-- **Kalor** adalah energi yang berpindah dari benda bersuhu tinggi ke benda bersuhu rendah.
-- **Kalor jenis** ($c$) adalah jumlah kalor untuk menaikkan suhu 1 kg zat sebesar 1°C.
-- **Kapasitas kalor** ($C$) adalah jumlah kalor untuk menaikkan suhu benda sebesar 1°C.
-- **Asas Black**: $Q_{\text{lepas}} = Q_{\text{terima}}$
-- **Perubahan wujud zat** meliputi mencair, membeku, menguap, mengembun, menyublim, dan mengkristal.
-- **Perpindahan kalor** terjadi melalui konduksi, konveksi, dan radiasi.
-- **Pemuaian termal** terjadi pada zat padat, cair, dan gas ketika suhunya meningkat.
-- **Aplikasi suhu dan kalor** sangat luas dalam teknologi dan kehidupan sehari-hari.
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2024). *Capaipan Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran Fisika Fase F*. Kemendikbudristek.

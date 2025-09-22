@@ -1,141 +1,127 @@
-# Pemanasan Global
+# BAB 5: Bumi Demam: Pemanasan Global dan Perubahan Iklim
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Menganalisis gejala dan penyebab pemanasan global serta kaitannya dengan perubahan iklim.
+2. Menjelaskan mekanisme efek rumah kaca dan peran gas karbondioksida ($CO_2$) dalam meningkatkan suhu bumi.
+3. Mengaitkan dampak pemanasan global dengan fenomena yang terjadi di lingkungan sekitar.
+4. Merancang ide atau solusi nyata yang ramah lingkungan untuk mengurangi dampak pemanasan global.
 
-1. Menjelaskan konsep pemanasan global dan efek rumah kaca
-2. Mengidentifikasi penyebab terjadinya pemanasan global
-3. Menganalisis dampak pemanasan global terhadap lingkungan dan kehidupan
-4. Mengevaluasi upaya-upaya mitigasi pemanasan global
-5. Menyusun rencana aksi sederhana untuk mengurangi jejak karbon
+**Pemahaman Bermakna:**
+Pemanasan global bukan lagi sekadar isu di berita atau film. Dampaknya sudah kita rasakan langsung. Mungkin kamu mendengar keluhan para petani di sawah tentang musim tanam yang tak lagi menentu, atau merasakan suhu siang hari yang terasa lebih menyengat dari tahun-tahun sebelumnya. Mempelajari topik ini bukan untuk menakut-nakuti, melainkan untuk menyadarkan kita bahwa Bumi, rumah kita satu-satunya, sedang "sakit". Kabar baiknya, kita semua, termasuk kamu, bisa menjadi "dokter" yang membantu menyembuhkannya melalui tindakan-tindakan kecil yang nyata.
 
-## Pendahuluan
+**Pembukaan: Mengapa Jadwal Tanam Bapak di Sawah Berubah?**
+Coba tanyakan kepada orang tua atau kakek-nenekmu yang seorang petani. Dulu, mereka punya patokan musim yang sangat akurat untuk memulai menanam padi, yang sering disebut *pranata mangsa*. Mereka tahu persis kapan musim hujan akan tiba dan kapan musim kemarau akan datang.
 
-Pernahkah kamu merasakan hari-hari yang semakin panas dalam beberapa tahun terakhir? Atau mungkin mendengar berita tentang mencairnya es di kutub dan naiknya permukaan air laut? Semua fenomena ini berkaitan erat dengan satu permasalahan global yang kita kenal sebagai pemanasan global.
+Namun, beberapa tahun terakhir, "kalender alam" itu seolah menjadi kacau. Musim kemarau bisa menjadi sangat panjang dan kering, atau sebaliknya, musim hujan datang dengan curah hujan ekstrem yang menyebabkan banjir. Mengapa ini bisa terjadi? Apakah alam sedang "marah"? Fenomena ini adalah salah satu dampak paling nyata dari apa yang disebut para ilmuwan sebagai **Pemanasan Global** dan **Perubahan Iklim**. Mari kita selidiki apa penyebabnya dan apa peran kita dalam cerita ini.
 
-Bayangkan Bumi kita seperti sebuah rumah kaca. Sinar matahari masuk melewati atmosfer dan menghangatkan permukaan Bumi. Sebagian panas ini dipantulkan kembali ke angkasa, namun gas-gas tertentu di atmosfer menahannya—mirip seperti kaca pada rumah kaca yang menahan panas. Inilah yang disebut efek rumah kaca, proses alami yang sebenarnya penting untuk menjaga kestabilan suhu Bumi. Namun, aktivitas manusia telah meningkatkan konsentrasi gas-gas rumah kaca secara dramatis, menyebabkan Bumi semakin memanas.
+`#sisipkan gambar perbandingan sawah yang subur dengan sawah yang kekeringan/kebanjiran`
 
-Pemanasan global bukanlah sekadar isu lingkungan, tetapi juga menyangkut keberlangsungan hidup semua makhluk di planet ini, termasuk kita. Mari kita pelajari lebih dalam untuk memahami fenomena ini dan apa yang dapat kita lakukan untuk menghadapinya.
+**Materi Pembelajaran**  
 
-## Isi Materi
+## Gejala Pemanasan Global: Saat Suhu Bumi Naik
 
-### Memahami Pemanasan Global
+**Pemanasan Global** (*Global Warming*) adalah istilah yang digunakan untuk menggambarkan peningkatan suhu rata-rata atmosfer, laut, dan daratan Bumi. Ini seperti saat tubuh kita mengalami demam; kenaikan beberapa derajat saja sudah membuat seluruh sistem tubuh menjadi tidak nyaman.
 
-Pemanasan global adalah peningkatan suhu rata-rata permukaan Bumi secara bertahap akibat meningkatnya konsentrasi gas rumah kaca di atmosfer. Sejak era pra-industri, suhu rata-rata global telah meningkat sekitar 1,1°C, dan terus meningkat dengan kecepatan yang mengkhawatirkan.
+Para ilmuwan mengamati beberapa gejala bahwa Bumi kita sedang "demam":
 
-Gas-gas rumah kaca utama yang berkontribusi terhadap pemanasan global meliputi:
+* **Suhu Rata-rata Global Meningkat:** Data selama seratus tahun terakhir menunjukkan tren kenaikan suhu permukaan Bumi secara konsisten.
+* **Mencairnya Es di Kutub:** Peningkatan suhu menyebabkan lapisan es raksasa di Kutub Utara dan Selatan mencair dengan kecepatan yang mengkhawatirkan.
+* **Naiknya Permukaan Air Laut:** Air dari es yang mencair akan mengalir ke lautan, menyebabkan permukaan air laut naik dan mengancam daerah pesisir.
+* **Perubahan Iklim:** Pemanasan global mengganggu pola cuaca normal, menyebabkan terjadinya **perubahan iklim** (*climate change*), seperti musim yang tidak menentu, badai yang lebih kuat, dan kekeringan yang lebih panjang.
 
-| Gas Rumah Kaca | Sumber | Potensi Pemanasan Global (relatif terhadap CO₂) |
-|----------------|--------|------------------------------------------------|
-| Karbon dioksida (CO₂) | Pembakaran bahan bakar fosil, deforestasi | 1 |
-| Metana (CH₄) | Pertanian (terutama peternakan), limbah, produksi energi | 25 |
-| Dinitrogen oksida (N₂O) | Pupuk pertanian, pembakaran bahan bakar | 298 |
-| Gas-gas fluorinated | Pendingin udara, aerosol, proses industri | 1.000-22.800 |
+## Efek Rumah Kaca: Selimut Pelindung yang Terlalu Tebal  
 
-### Penyebab Pemanasan Global
+Sebenarnya, Bumi kita secara alami memiliki "selimut" pelindung bernama **Efek Rumah Kaca**. Selimut ini terdiri dari gas-gas di atmosfer (disebut Gas Rumah Kaca/GRK) yang memerangkap sebagian panas matahari agar tidak semuanya kembali ke angkasa. Tanpa efek rumah kaca alami ini, Bumi akan menjadi sangat dingin dan tidak bisa ditinggali.
 
-#### Aktivitas Manusia
+`#sisipkan gambar skema sederhana mekanisme efek rumah kaca yang normal`
 
-1. **Pembakaran Bahan Bakar Fosil**
-   Penggunaan bahan bakar fosil (batubara, minyak bumi, dan gas alam) untuk transportasi, pembangkit listrik, dan industri melepaskan jumlah CO₂ yang sangat besar ke atmosfer.
+Masalahnya muncul ketika "selimut" ini menjadi **terlalu tebal**. Aktivitas manusia, terutama sejak Revolusi Industri, telah melepaskan Gas Rumah Kaca dalam jumlah yang sangat besar ke atmosfer. Akibatnya, terlalu banyak panas yang terperangkap, dan suhu Bumi pun perlahan-lahan meningkat.
 
-2. **Deforestasi dan Perubahan Tata Guna Lahan**
-   Penebangan hutan mengurangi penyerapan CO₂ oleh pepohonan dan tumbuhan. Selain itu, pembakaran hutan untuk membuka lahan pertanian atau pemukiman juga melepaskan karbon yang tersimpan di dalam biomassa.
+## Sang Biang Keladi: Gas Rumah Kaca ($CO_2$ dan Kawan-kawan)
 
-3. **Pertanian dan Peternakan**
-   Ternak ruminansia (seperti sapi dan domba) menghasilkan metana dalam jumlah besar melalui proses pencernaan mereka. Penggunaan pupuk nitrogen sintetis juga melepaskan N₂O ke atmosfer.
+Gas Rumah Kaca utama yang konsentrasinya meningkat drastis adalah **Karbondioksida ($CO_2$)**. Dari mana saja gas ini berasal?
 
-4. **Industri**
-   Berbagai proses industri melepaskan gas rumah kaca, terutama industri semen, baja, dan kimia.
+1. **Pembakaran Bahan Bakar Fosil:** Asap dari knalpot motor yang lalu-lalang ke pasar, cerobong asap pabrik di sekitar kita, dan pembangkit listrik tenaga batu bara semuanya melepaskan $CO_2$ dalam jumlah besar.
+2. **Deforestasi (Penebangan Hutan):** Hutan adalah paru-paru dunia yang menyerap $CO_2$. Ketika hutan ditebang, kemampuan Bumi untuk "bernapas" dan membersihkan udara menjadi berkurang.
+3. **Aktivitas Pertanian dan Peternakan:** Penggunaan pupuk kimia dan gas metana ($CH_4$) dari kotoran ternak juga merupakan sumber Gas Rumah Kaca yang signifikan.
 
-#### Fenomena Fisika di Balik Pemanasan Global
+## Dampak Nyata di Lingkungan Sekitar Kita
 
-Pemanasan global dapat dijelaskan dengan konsep fisika tentang radiasi dan kesetimbangan energi. Sinar matahari yang mencapai Bumi sebagian besar berupa radiasi gelombang pendek yang dapat menembus atmosfer dengan mudah. Setelah mencapai permukaan Bumi, energi ini diubah menjadi panas dan dipancarkan kembali sebagai radiasi infra merah (gelombang panjang).
+Pemanasan global bukan hanya tentang es di kutub, tapi juga tentang kehidupan kita sehari-hari:
 
-Gas-gas rumah kaca di atmosfer bersifat transparan terhadap radiasi gelombang pendek dari matahari, tetapi menyerap radiasi infra merah yang dipancarkan Bumi. Akibatnya, sebagian panas terperangkap di atmosfer dan meningkatkan suhu Bumi.
+* **Bagi Petani di Sawah:** Perubahan pola hujan menyebabkan gagal panen, baik karena kekeringan maupun kebanjiran. Munculnya hama dan penyakit tanaman baru yang lebih sulit dikendalikan.
+* **Bagi Pedagang di Pasar:** Kenaikan harga hasil panen akibat gagal panen akan memengaruhi daya beli masyarakat. Cuaca ekstrem juga dapat merusak infrastruktur seperti jalan dan jembatan, mengganggu distribusi barang ke pasar.
+* **Bagi Kesehatan Kita:** Gelombang panas yang lebih sering terjadi dapat menyebabkan dehidrasi dan penyakit lainnya. Perubahan iklim juga dapat memperluas penyebaran penyakit yang dibawa oleh nyamuk.
 
-Secara matematis, kesetimbangan energi Bumi dapat dinyatakan dengan persamaan:
+## Menjadi Pahlawan Bumi: Solusi di Tangan Kita
 
-Ein = Eout
+Menghadapi masalah sebesar ini bukan berarti kita tidak bisa berbuat apa-apa. Setiap tindakan, sekecil apa pun, akan sangat berarti jika dilakukan bersama-sama.
 
-Dimana:
+1. **Hemat Energi:** Matikan lampu dan alat elektronik jika tidak digunakan. Ini akan mengurangi permintaan listrik dari pembangkit yang menggunakan bahan bakar fosil.
+2. **Gunakan Transportasi Publik atau Sepeda:** Mengurangi jumlah kendaraan di jalan berarti mengurangi emisi $CO_2$.
+3. **Prinsip 3R (Reduce, Reuse, Recycle):** Kurangi sampah, gunakan kembali barang yang masih bisa dipakai, dan daur ulang sampah. Sampah yang menumpuk di TPA menghasilkan gas metana, salah satu Gas Rumah Kaca.
+4. **Menanam Pohon:** Mulailah dari halaman rumah atau sekolah. Setiap pohon yang kita tanam adalah mesin penyerap $CO_2$ alami.
+5. **Inovasi Sederhana:** Bagaimana jika sampah organik dari pasar diolah menjadi pupuk kompos untuk para petani di sawah? Ini akan mengurangi sampah sekaligus mengurangi penggunaan pupuk kimia.
 
-- Ein adalah energi yang masuk ke sistem Bumi
-- Eout adalah energi yang keluar dari sistem Bumi
+**Refleksi**  
 
-Pemanasan global terjadi karena Ein > Eout, yang menyebabkan akumulasi energi dan peningkatan suhu.
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
 
-### Dampak Pemanasan Global
+1. Peningkatan suhu rata-rata di seluruh permukaan Bumi disebut...
+    a. Efek rumah kaca
+    b. Perubahan iklim
+    c. Pemanasan global
+    d. Revolusi industri
+    e. Deforestasi
 
-#### Dampak Fisik dan Lingkungan
+2. Gas utama yang dianggap sebagai penyebab terbesar pemanasan global adalah...
+    a. Oksigen ($O_2$)
+    b. Nitrogen ($N_2$)
+    c. Hidrogen ($H_2$)
+    d. Karbondioksida ($CO_2$)
+    e. Ozon ($O_3$)
 
-1. **Kenaikan Permukaan Air Laut**
-   Akibat mencairnya es di kutub dan ekspansi termal air laut. Diproyeksikan akan naik antara 0,3-2,5 meter pada akhir abad ini, mengancam wilayah pesisir dan pulau-pulau kecil.
+3. Mekanisme terperangkapnya panas matahari oleh gas-gas di atmosfer sehingga suhu Bumi menjadi hangat disebut...
+    a. Efek Doppler
+    b. Efek fotolistrik
+    c. Efek rumah kaca
+    d. Efek Compton
+    e. Efek serapan
 
-2. **Perubahan Pola Cuaca**
-   Peningkatan frekuensi dan intensitas cuaca ekstrem seperti badai, banjir, kekeringan, dan gelombang panas.
+4. Berikut ini yang merupakan dampak langsung dari pemanasan global bagi petani adalah...
+    a. Harga pupuk menjadi mahal
+    b. Pola musim tanam menjadi tidak menentu
+    c. Sulit mendapatkan pinjaman bank
+    d. Jalan menuju sawah menjadi rusak
+    e. Teknologi pertanian semakin canggih
 
-3. **Perubahan Ekosistem**
-   Pergeseran zona iklim menyebabkan perubahan habitat spesies, migrasi, dan dalam beberapa kasus kepunahan.
+5. Tindakan berikut yang dapat membantu mengurangi laju pemanasan global adalah...
+    a. Menggunakan kantong plastik sekali pakai
+    b. Membiarkan lampu menyala sepanjang hari
+    c. Menebang pohon untuk memperluas lahan
+    d. Mengendarai motor untuk jarak yang sangat dekat
+    e. Mengolah sampah organik menjadi kompos
 
-4. **Pengasaman Laut**
-   CO₂ yang larut dalam air laut membentuk asam karbonat, menurunkan pH air laut dan mengancam organisme laut berkarang.
+**Asesmen Formatif**  
 
-#### Dampak Sosial dan Ekonomi
+Jawablah pertanyaan berikut dengan singkat dan jelas!
 
-1. **Ketahanan Pangan**
-   Perubahan pola cuaca memengaruhi produksi pertanian, berpotensi menyebabkan krisis pangan di berbagai wilayah.
+1. Jelaskan dengan bahasamu sendiri, mengapa efek rumah kaca yang seharusnya baik untuk Bumi kini justru menjadi masalah?
+2. Sebutkan satu contoh aktivitas di pabrik dekat sekolahmu yang berpotensi menyumbang pada pemanasan global dan berikan alasannya!
+3. Jika kamu menjadi kepala desa di lingkunganmu, usulkan satu program sederhana yang bisa dilakukan wargamu untuk membantu mengurangi dampak perubahan iklim!
 
-2. **Krisis Air**
-   Perubahan pola curah hujan dan penguapan dapat menyebabkan kelangkaan air di beberapa daerah.
+**Glosarium**  
 
-3. **Kesehatan**
-   Peningkatan suhu mendukung penyebaran penyakit tropis dan meningkatkan risiko penyakit terkait panas.
+* **Pemanasan Global:** Proses peningkatan suhu rata-rata atmosfer, lautan, dan daratan Bumi.
+* **Perubahan Iklim:** Perubahan signifikan pada pola cuaca dalam periode waktu yang panjang.
+* **Efek Rumah Kaca:** Proses alami di mana gas di atmosfer memerangkap panas matahari, menjaga suhu Bumi tetap hangat.
+* **Gas Rumah Kaca (GRK):** Gas-gas di atmosfer yang dapat memerangkap panas, seperti $CO_2$, $CH_4$, $N_2O$.
+* **Deforestasi:** Kegiatan penebangan hutan atau penggundulan hutan.
 
-4. **Migrasi Iklim**
-   Populasi dari daerah yang terkena dampak parah mungkin terpaksa berpindah, menciptakan 'pengungsi iklim'.
+**Daftar Pustaka**  
 
-### Mitigasi Pemanasan Global
-
-#### Transisi Energi
-
-1. **Energi Terbarukan**
-   Beralih dari bahan bakar fosil ke sumber energi terbarukan seperti surya, angin, hidro, dan geotermal.
-
-2. **Efisiensi Energi**
-   Meningkatkan efisiensi energi di semua sektor, termasuk bangunan, transportasi, dan industri.
-
-#### Solusi Berbasis Alam
-
-1. **Reforestasi dan Aforestasi**
-   Menanam pohon dan memulihkan hutan untuk menyerap CO₂ dari atmosfer.
-
-2. **Pertanian Berkelanjutan**
-   Metode pertanian yang mengurangi emisi dan bahkan dapat menyerap karbon dalam tanah.
-
-#### Inovasi Teknologi
-
-1. **Penangkapan dan Penyimpanan Karbon (CCS)**
-   Teknologi untuk menangkap CO₂ dari sumber emisi dan menyimpannya di bawah tanah.
-
-2. **Geoengineering**
-   Teknik manipulasi iklim skala besar, seperti menambahkan partikel reflektif di atmosfer atau menyuburkan lautan untuk menyerap lebih banyak CO₂.
-
-#### Kebijakan dan Kerjasama Global
-
-1. **Kesepakatan Iklim Internasional**
-   Seperti Perjanjian Paris yang bertujuan membatasi pemanasan global di bawah 2°C, lebih baik lagi 1,5°C.
-
-2. **Harga Karbon**
-   Pajak karbon atau sistem cap-and-trade untuk memberikan insentif ekonomi bagi pengurangan emisi.
-
-## Rangkuman Materi
-
-- **Pemanasan Global**: Peningkatan suhu rata-rata permukaan Bumi akibat konsentrasi gas rumah kaca yang meningkat di atmosfer.
-- **Penyebab Utama**: Pembakaran bahan bakar fosil, deforestasi, pertanian, dan proses industri.
-- **Gas Rumah Kaca Utama**: CO₂, CH₄, N₂O, dan gas-gas fluorinated.
-- **Dampak**: Kenaikan permukaan air laut, cuaca ekstrem, perubahan ekosistem, ancaman terhadap ketahanan pangan dan sumber air.
-- **Mitigasi**: Transisi ke energi terbarukan, efisiensi energi, reforestasi, pertanian berkelanjutan, dan kerjasama internasional.
-- **Urgensi**: Diperlukan tindakan segera untuk membatasi pemanasan global di bawah 1,5°C untuk menghindari dampak katastrofik.
-- **Tanggung Jawab Bersama**: Pemanasan global adalah tantangan global yang membutuhkan aksi dari semua pihak, dari tingkat individu hingga kerjasama internasional.
+* Intergovernmental Panel on Climate Change (IPCC). (2021). *Climate Change 2021: The Physical Science Basis*.
+* Kementrian Lingkungan Hidup dan Kehutanan. (2020). *Laporan Inventarisasi Gas Rumah Kaca (GRK) dan Monitoring, Pelaporan, Verifikasi (MPV)*.
+* Pusat Kurikulum dan Perbukuan. (2022). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran IPA*. Kemendikbudristek.

@@ -1,221 +1,139 @@
-# Fluida Statis dan Dinamis
+# BAB 4: Fluida - Seni Mengalir dan Mengapung
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Menerapkan konsep tekanan hidrostatis dalam permasalahan sehari-hari.
+2. Menganalisis prinsip Archimedes pada benda yang terapung, melayang, dan tenggelam.
+3. Menjelaskan fenomena tegangan permukaan dan viskositas pada zat cair.
+4. Menerapkan Asas Kontinuitas dan Prinsip Bernoulli pada fluida yang bergerak.
 
-1. Menjelaskan konsep dasar fluida statis dan dinamis
-2. Menerapkan konsep tekanan hidrostatis dalam fenomena sehari-hari
-3. Menganalisis penerapan hukum Pascal dan hukum Archimedes
-4. Menjelaskan persamaan kontinuitas pada fluida
-5. Menerapkan prinsip Bernoulli dalam pemecahan masalah fluida dinamis
-6. Mengidentifikasi aplikasi fluida statis dan dinamis dalam teknologi
+**Pemahaman Bermakna:**
+Pernahkah kamu berpikir mengapa kapal laut yang terbuat dari ribuan ton baja bisa mengapung, sementara paku kecil yang kamu jatuhkan langsung tenggelam? Atau bagaimana bisa air dari menara penampungan bisa mengalir deras ke rumah-rumah warga di bawahnya? Jawabannya ada pada ilmu tentang **fluida**, yaitu ilmu yang mempelajari zat-zat yang dapat mengalir (zat cair dan gas). Memahami fluida membuka wawasan kita tentang cara kerja bendungan, sistem irigasi di sawah, dongkrak hidrolik di bengkel, hingga cara pesawat terbang bisa mengudara. Ilmu ini adalah kunci untuk merekayasa dan mengendalikan kekuatan air dan udara di sekitar kita.
 
-## Pendahuluan
+**Pembukaan: Rahasia Sumur Tua dan Infus di Rumah Sakit**
+Di banyak pedesaan, kita masih bisa menemukan sumur-sumur tua yang airnya ditimba. Pernahkah kamu perhatikan, mengapa semakin dalam sebuah sumur, semakin sulit rasanya menarik timba yang penuh air? Ini bukan sekadar perasaan, tapi ada penjelasan fisikanya. Dinding sumur harus dibuat semakin tebal di bagian bawah untuk menahan "dorongan" air yang lebih kuat.
 
-Pernahkah kamu memperhatikan bagaimana kapal besar dapat mengapung di lautan, atau bagaimana pesawat terbang yang berat dapat terangkat ke udara? Atau mungkin kamu pernah bertanya-tanya mengapa aliran air di sungai kadang tenang dan kadang deras? Semua fenomena itu berkaitan erat dengan konsep fluida dalam fisika!
+Di sisi lain, coba perhatikan kantong infus yang dipasang pada seorang pasien di puskesmas atau rumah sakit. Mengapa kantong infus itu selalu digantung di posisi yang lebih tinggi dari lengan pasien? Apakah agar mudah dilihat? Ternyata tidak. Posisi kantong infus yang lebih tinggi bertujuan agar cairan infus memiliki "dorongan" yang cukup untuk bisa mengalir masuk ke dalam pembuluh darah pasien. Kedua fenomena ini—dinding sumur yang tebal di bawah dan posisi kantong infus—diatur oleh prinsip yang sama, yaitu **tekanan hidrostatis**.
 
-Fluida—baik berupa cairan seperti air atau gas seperti udara—adalah bagian tak terpisahkan dari kehidupan kita. Setiap hari, kita berinteraksi dengan berbagai jenis fluida tanpa menyadarinya. Dari mengisi gelas dengan air, menghirup udara untuk bernapas, hingga berenang di kolam, semua aktivitas tersebut melibatkan interaksi dengan fluida dan diatur oleh hukum-hukum fisika.
+`#sisipkan gambar perbandingan antara dinding sumur dan kantong infus`
 
-Dalam materi ini, kita akan menjelajahi dua aspek utama fluida: fluida statis (fluida dalam keadaan diam) dan fluida dinamis (fluida dalam keadaan bergerak). Pemahaman tentang konsep-konsep ini tidak hanya menarik secara intelektual, tetapi juga memiliki banyak aplikasi praktis dalam kehidupan modern—mulai dari desain kapal dan pesawat hingga sistem perpipaan dan teknologi hidrolik.
+**Materi Pembelajaran**  
 
-## Isi Materi
+## Fluida Statis: Saat Fluida Beristirahat
 
-### Fluida Statis
+Fluida statis adalah cabang ilmu fluida yang mempelajari fluida dalam keadaan diam.
 
-#### Pengertian Fluida
+### Tekanan Hidrostatis ($P_h$)
 
-Fluida adalah zat yang dapat mengalir dan mengambil bentuk sesuai dengan wadahnya. Fluida mencakup zat cair dan gas. Perbedaan utama antara zat cair dan gas adalah:
+Ini adalah tekanan yang diberikan oleh zat cair yang diam karena pengaruh beratnya sendiri. Tekanan ini bergantung pada tiga hal: massa jenis zat cair ($\rho$), percepatan gravitasi ($g$), dan kedalaman ($h$) dari permukaan.
 
-| Karakteristik | Zat Cair | Gas |
-|---------------|----------|-----|
-| Volume | Tetap | Tidak tetap |
-| Bentuk | Mengikuti wadah | Mengisi seluruh ruang |
-| Kompresibilitas | Sangat kecil | Besar |
-| Jarak antar molekul | Kecil | Besar |
+> Semakin dalam kamu menyelam, semakin besar tekanan hidrostatis yang kamu rasakan.
 
-Fluida memiliki sifat penting yaitu massa jenis (densitas), yang didefinisikan sebagai perbandingan massa terhadap volume:
+**Rumus:**
+$P_h = \rho \times g \times h$
 
-$$\rho = \frac{m}{V}$$
+Inilah alasan mengapa bagian bawah bendungan atau dinding sumur dibuat lebih tebal. Mereka harus menahan tekanan hidrostatis yang jauh lebih besar di dasar daripada di permukaan.
 
-Dengan:
+### Hukum Archimedes: Rahasia Mengapung
 
-- $\rho$ = massa jenis (kg/m³)
-- $m$ = massa (kg)
-- $V$ = volume (m³)
+Kisah Archimedes yang berteriak "Eureka!" di bak mandinya melahirkan sebuah hukum legendaris.
 
-#### Tekanan Hidrostatis
+> **Hukum Archimedes berbunyi:** *"Sebuah benda yang dicelupkan sebagian atau seluruhnya ke dalam zat cair akan mengalami gaya ke atas (gaya apung) yang besarnya sama dengan berat zat cair yang dipindahkan oleh benda tersebut."*
 
-Tekanan hidrostatis adalah tekanan yang dihasilkan oleh fluida diam pada kedalaman tertentu. Tekanan hidrostatis dirumuskan:
+Gaya apung inilah yang "melawan" gaya berat benda. Ada tiga kemungkinan yang terjadi:
 
-$$P_h = \rho \times g \times h$$
+* **Tenggelam:** Jika gaya berat > gaya apung (Massa jenis benda > massa jenis air).
+* **Melayang:** Jika gaya berat = gaya apung (Massa jenis benda = massa jenis air).
+* **Terapung:** Jika gaya berat < gaya apung (Massa jenis benda < massa jenis air).
 
-Dengan:
+Prinsip inilah yang menjelaskan mengapa kapal laut dari baja bisa terapung. Meskipun bajanya padat, kapal memiliki rongga besar berisi udara, sehingga massa jenis total kapal menjadi lebih kecil dari massa jenis air laut.
 
-- $P_h$ = tekanan hidrostatis (N/m² atau Pascal)
-- $\rho$ = massa jenis fluida (kg/m³)
-- $g$ = percepatan gravitasi (m/s²)
-- $h$ = kedalaman dari permukaan fluida (m)
+## Fluida Dinamis: Saat Fluida Bergerak
 
-Tekanan hidrostatis menjelaskan mengapa:
+Fluida dinamis mempelajari fluida yang sedang bergerak atau mengalir.
 
-- Semakin dalam kita menyelam, semakin besar tekanan air yang kita rasakan
-- Bendungan dibuat lebih tebal di bagian bawah
-- Kapal selam memiliki dinding yang sangat kuat untuk menahan tekanan air laut
+### Asas Kontinuitas
 
-#### Hukum Pascal
+Pernahkah kamu menyiram tanaman dengan selang? Saat kamu menekan ujung selang hingga lubangnya menyempit, apa yang terjadi? Air akan memancar lebih kencang. Fenomena ini dijelaskan oleh **Asas Kontinuitas**.
 
-Hukum Pascal menyatakan bahwa tekanan yang diberikan pada fluida dalam ruang tertutup akan diteruskan sama besar ke segala arah. Secara matematis:
+> Asas Kontinuitas menyatakan bahwa pada fluida yang mengalir, hasil kali antara kelajuan fluida (v) dengan luas penampangnya (A) adalah konstan.
 
-$$\frac{F_1}{A_1} = \frac{F_2}{A_2}$$
-
-Dengan:
-
-- $F_1$ dan $F_2$ = gaya pada penampang 1 dan 2 (N)
-- $A_1$ dan $A_2$ = luas penampang 1 dan 2 (m²)
-
-Aplikasi hukum Pascal antara lain:
-
-- Dongkrak hidrolik
-- Rem hidrolik pada kendaraan
-- Lift hidrolik
-- Mesin pengepres hidrolik
-
-#### Hukum Archimedes
-
-Hukum Archimedes menyatakan bahwa sebuah benda yang terendam sebagian atau seluruhnya dalam fluida akan mengalami gaya apung sebesar berat fluida yang dipindahkan oleh benda tersebut.
-
-$$F_A = \rho_f \times g \times V_t$$
-
-Dengan:
-
-- $F_A$ = gaya apung (N)
-- $\rho_f$ = massa jenis fluida (kg/m³)
-- $g$ = percepatan gravitasi (m/s²)
-- $V_t$ = volume benda yang tercelup (m³)
-
-Berdasarkan hukum Archimedes, benda dalam fluida dapat:
-
-1. Tenggelam: jika $\rho_{\text{benda}} > \rho_{\text{fluida}}$
-2. Melayang: jika $\rho_{\text{benda}} = \rho_{\text{fluida}}$
-3. Mengapung: jika $\rho_{\text{benda}} < \rho_{\text{fluida}}$
-
-Aplikasi hukum Archimedes:
-
-- Kapal laut dan perahu
-- Balon udara dan kapal udara
-- Hidrometer (alat ukur massa jenis cairan)
-- Jaket pelampung
-
-### Fluida Dinamis
-
-#### Pengertian Fluida Dinamis
-
-Fluida dinamis adalah cabang ilmu fisika yang mempelajari fluida bergerak. Fluida dinamis memiliki beberapa asumsi:
-
-- Fluida bersifat ideal (tak termampatkan dan tak kental)
-- Aliran fluida bersifat tunak (kecepatan di suatu titik konstan terhadap waktu)
-- Aliran fluida bersifat laminar (teratur)
-
-#### Persamaan Kontinuitas
-
-Persamaan kontinuitas menyatakan bahwa pada fluida inkompresibel (tak termampatkan), hasil kali luas penampang dengan kecepatan aliran fluida selalu konstan:
+persamaan:
 
 $$A_1 \times v_1 = A_2 \times v_2$$
 
-Atau dalam bentuk laju aliran massa:
+Artinya, jika luas penampang pipa mengecil, maka kecepatan aliran fluida di dalamnya akan meningkat. Prinsip ini sangat penting dalam desain sistem perpipaan dan irigasi.
 
-$$\rho \times A_1 \times v_1 = \rho \times A_2 \times v_2$$
+### Prinsip Bernoulli: Tekanan dan Kecepatan
 
-Dengan:
+Daniel Bernoulli menemukan hubungan yang menarik antara tekanan dan kecepatan fluida.
 
-- $A_1$ dan $A_2$ = luas penampang 1 dan 2 (m²)
-- $v_1$ dan $v_2$ = kecepatan aliran di penampang 1 dan 2 (m/s)
-- $\rho$ = massa jenis fluida (kg/m³)
+> **Prinsip Bernoulli menyatakan:** *"Pada pipa mendatar, tekanan fluida paling besar adalah pada bagian yang kelajuan alirnya paling kecil, dan tekanan paling kecil adalah pada bagian yang kelajuan alirnya paling besar."*
+>
+persamaan:$$P + \frac{1}{2} \rho v^2 + \rho g h = \text{konstan}$$
 
-Persamaan kontinuitas menjelaskan:
+Prinsip inilah yang menjadi kunci bagaimana sayap pesawat terbang bisa menghasilkan gaya angkat. Bentuk sayap pesawat dirancang agar udara di bagian atas bergerak lebih cepat daripada di bagian bawah. Akibatnya, tekanan di bawah sayap menjadi lebih besar daripada di atas, sehingga menghasilkan gaya angkat yang mendorong pesawat ke atas.
 
-- Mengapa air mengalir lebih cepat saat nozzle selang diperkecil
-- Penyempitan aliran sungai menyebabkan aliran air menjadi lebih deras
-- Desain pipa air di perumahan
+`#sisipkan gambar skema aliran udara pada sayap pesawat terbang`
 
-#### Prinsip Bernoulli
+### **Refleksi**
 
-Prinsip Bernoulli menyatakan bahwa pada aliran fluida yang steady, jumlah dari tekanan ($P$), energi potensial per satuan volume ($\rho gh$), dan energi kinetik per satuan volume ($\frac{1}{2}\rho v^2$) selalu konstan di setiap titik. Secara matematis:
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
 
-$$P_1 + \frac{1}{2}\rho v_1^2 + \rho gh_1 = P_2 + \frac{1}{2}\rho v_2^2 + \rho gh_2$$
+1. Bagian dasar sebuah bendungan dibuat lebih tebal daripada bagian atasnya. Hal ini berkaitan dengan konsep...
+    a. Hukum Archimedes
+    b. Tegangan permukaan
+    c. Prinsip Bernoulli
+    d. Tekanan hidrostatis
+    e. Asas Kontinuitas
 
-Dengan:
+2. Sebuah kapal selam dapat melayang di dalam air laut. Hal ini terjadi karena...
+    a. Massa jenis kapal selam lebih besar dari massa jenis air laut
+    b. Massa jenis kapal selam lebih kecil dari massa jenis air laut
+    c. Berat kapal selam sama dengan gaya apung yang dialaminya
+    d. Gaya apung yang dialami kapal selam sama dengan nol
+    e. Tekanan hidrostatis di dalam dan di luar kapal selam sama
 
-- $P$ = tekanan (N/m² atau Pascal)
-- $\rho$ = massa jenis fluida (kg/m³)
-- $v$ = kecepatan aliran (m/s)
-- $g$ = percepatan gravitasi (m/s²)
-- $h$ = ketinggian dari titik referensi (m)
+3. Ketika kita menyemprotkan air dengan selang dan menekan ujungnya, air akan memancar lebih cepat. Fenomena ini dijelaskan oleh...
+    a. Asas Black
+    b. Hukum Newton
+    c. Prinsip Bernoulli
+    d. Hukum Archimedes
+    e. Asas Kontinuitas
 
-Aplikasi prinsip Bernoulli:
+4. Gaya angkat pada sayap pesawat terbang dapat terjadi karena...
+    a. Kecepatan aliran udara di atas dan di bawah sayap sama
+    b. Tekanan udara di atas sayap lebih besar dari di bawah sayap
+    c. Kecepatan aliran udara di atas sayap lebih besar dari di bawah sayap
+    d. Massa jenis udara di atas sayap lebih besar dari di bawah sayap
+    e. Udara di bawah sayap tidak bergerak
 
-- Gaya angkat pada sayap pesawat terbang
-- Venturimeter dan tabung pitot (alat ukur kecepatan fluida)
-- Karburator pada mesin kendaraan
-- Aliran darah dalam pembuluh darah
-- Atomizer parfum dan alat semprot
-- Fenomena bola yang berputar dalam olahraga (efek Magnus)
+5. Sebuah balok kayu terapung di atas air. Hal ini menunjukkan bahwa...
+    a. Massa jenis kayu lebih besar dari massa jenis air
+    b. Massa jenis kayu sama dengan massa jenis air
+    c. Massa jenis kayu lebih kecil dari massa jenis air
+    d. Gaya apung lebih kecil dari berat balok
+    e. Gaya apung sama dengan nol
 
-#### Viskositas dan Aliran Turbulen
+### **Asesmen Formatif**
 
-Pada kenyataannya, fluida memiliki kekentalan (viskositas) dan dapat mengalami aliran turbulen (tidak teratur). Viskositas adalah ukuran hambatan internal fluida untuk mengalir.
+Jawablah pertanyaan berikut dengan singkat dan jelas!
 
-Hukum Stokes menyatakan gaya hambat pada benda yang bergerak dalam fluida kental:
+1. Mengapa seorang penyelam tradisional sering mengalami sakit pada telinganya jika menyelam terlalu dalam? Hubungkan dengan konsep tekanan!
+2. Sebuah bongkahan es terapung di dalam segelas air. Apa yang akan terjadi pada ketinggian permukaan air di gelas tersebut ketika seluruh es mencair? Jelaskan alasanmu berdasarkan Hukum Archimedes!
+3. Karburator pada mesin motor bekerja dengan menyemprotkan bensin ke dalam aliran udara yang bergerak cepat. Prinsip fluida apakah yang mendasari cara kerja alat ini? Jelaskan!  
 
-$$F_s = 6\pi\eta rv$$
+**Glosarium**  
 
-Dengan:
+* **Fluida:** Zat yang dapat mengalir, mencakup zat cair dan gas.
+* **Tekanan Hidrostatis:** Tekanan dalam zat cair diam yang disebabkan oleh berat zat cair itu sendiri.
+* **Gaya Apung (Archimedes):** Gaya ke atas yang dialami benda ketika berada di dalam fluida.
+* **Asas Kontinuitas:** Prinsip kekekalan massa pada fluida yang mengalir, menyatakan bahwa debit aliran adalah konstan.
+* **Prinsip Bernoulli:** Prinsip kekekalan energi pada fluida yang bergerak, yang menghubungkan tekanan, kecepatan, dan ketinggian.
 
-- $F_s$ = gaya Stokes (N)
-- $\eta$ = koefisien viskositas fluida (N·s/m²)
-- $r$ = jari-jari benda (m)
-- $v$ = kecepatan relatif benda terhadap fluida (m/s)
+**Daftar Pustaka**  
 
-Aliran fluida dapat bersifat:
-
-1. Laminar (teratur) - terjadi pada kecepatan rendah
-2. Turbulen (tidak teratur) - terjadi pada kecepatan tinggi
-
-Jenis aliran ditentukan oleh bilangan Reynolds:
-
-$$Re = \frac{\rho vL}{\eta}$$
-
-Dengan:
-
-- $Re$ = bilangan Reynolds (tak berdimensi)
-- $\rho$ = massa jenis fluida (kg/m³)
-- $v$ = kecepatan fluida (m/s)
-- $L$ = panjang karakteristik (m)
-- $\eta$ = viskositas dinamik fluida (N·s/m²)
-
-Aliran fluida bersifat:
-
-- Laminar jika $Re < 2000$
-- Transisi jika $2000 < Re < 4000$
-- Turbulen jika $Re > 4000$
-
-## Rangkuman Materi
-
-1. **Fluida Statis:**
-   - Fluida adalah zat yang dapat mengalir dan mengambil bentuk sesuai wadahnya
-   - Tekanan hidrostatis: $P_h = \rho gh$ (tekanan meningkat dengan kedalaman)
-   - Hukum Pascal: tekanan pada fluida tertutup diteruskan sama besar ke segala arah
-   - Hukum Archimedes: benda yang terendam dalam fluida mendapat gaya apung sebesar berat fluida yang dipindahkan
-
-2. **Fluida Dinamis:**
-   - Persamaan kontinuitas: $A_1v_1 = A_2v_2$ (laju volume aliran konstan)
-   - Prinsip Bernoulli: $P + \frac{1}{2}\rho v^2 + \rho gh =$ konstan (jumlah energi per satuan volume konstan)
-   - Viskositas menyebabkan hambatan internal pada fluida yang mengalir
-   - Aliran fluida dapat bersifat laminar atau turbulen tergantung pada bilangan Reynolds
-
-3. **Aplikasi dalam kehidupan:**
-   - Dongkrak hidrolik, rem hidrolik (Hukum Pascal)
-   - Kapal laut, balon udara (Hukum Archimedes)
-   - Sistem perpipaan (Persamaan Kontinuitas)
-   - Gaya angkat pesawat, atomizer, karburator (Prinsip Bernoulli)
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2024). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran Fisika Fase F*. Kemendikbudristek.

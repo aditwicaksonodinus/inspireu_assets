@@ -1,187 +1,136 @@
-# Besaran dan Satuan
+# BAB 1: Mengenal Fisika dan Cara Kerja Ilmuwan
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Menjelaskan hakikat ilmu Fisika sebagai bagian dari Ilmu Pengetahuan Alam (IPA).
+2. Mengidentifikasi langkah-langkah operasional dalam metode ilmiah.
+3. Merancang sebuah prosedur kerja ilmiah sederhana untuk menyelidiki fenomena di lingkungan sekitar.
+4. Menerapkan prinsip-prinsip keselamatan kerja saat melakukan pengamatan atau percobaan.
 
-1. Menjelaskan konsep besaran dan satuan dalam fisika
-2. Membedakan besaran pokok dan besaran turunan
-3. Menggunakan sistem satuan internasional (SI) dengan tepat
-4. Melakukan konversi antar satuan
-5. Menjelaskan dimensi besaran dan menganalisis kesetaraan persamaan
-6. Memahami konsep angka penting dan penerapannya
-7. Menganalisis prinsip pengukuran, ketelitian, dan kesalahan pengukuran
+**Pemahaman Bermakna:**
+Pernahkah kamu bertanya, "mengapa"? Mengapa pelangi muncul setelah hujan? Mengapa mesin traktor di sawah bisa mengolah lahan yang begitu luas dengan cepat? Rasa ingin tahu adalah awal dari sains. Dengan mempelajari cara kerja ilmuwan, kita tidak hanya belajar Fisika, tetapi juga belajar cara berpikir runtut, memecahkan masalah secara sistematis, dan tidak mudah percaya pada berita bohong (hoax). Kemampuan ini sangat berguna, tidak hanya di sekolah, tetapi juga dalam kehidupan sehari-hari.
 
-## Pendahuluan
+**Pembukaan: Belajar dari Pak Tani**
+Coba perhatikan seorang petani di sawah saat akan menanam padi. Sebelum benih disemai, biasanya para petani merendamnya terlebih dahulu dalam larutan air garam. Mereka akan membuang benih yang mengapung dan hanya menggunakan benih yang tenggelam. Mengapa demikian? Mereka percaya bahwa benih yang tenggelam memiliki kualitas yang lebih baik dan akan tumbuh subur.
 
-Pernahkah kamu bertanya-tanya mengapa kita perlu mengukur segala sesuatu di sekitar kita? Bayangkan jika kita ingin membeli kain untuk baju baru, tetapi tidak ada satuan meter atau yard. Atau bagaimana jika kita ingin memantau berat badan tanpa satuan kilogram? Dunia akan penuh kebingungan!
+`#sisipkan gambar petani sedang menyeleksi benih padi`
 
-Dalam fisika, pengukuran adalah jantung dari segala kegiatan ilmiah. Saat ilmuwan pertama kali mengamati jatuhnya apel, mereka tidak hanya bertanya "mengapa apel jatuh?" tetapi juga "seberapa cepat apel jatuh?" dan "berapa gaya yang menyebabkan apel jatuh?". Untuk menjawab pertanyaan-pertanyaan ini, kita memerlukan konsep besaran dan satuan.
+Tanpa kita sadari, Pak Tani sedang menerapkan sebuah metode yang sangat mirip dengan cara kerja ilmuwan. Ia **mengamati** adanya benih berkualitas baik dan buruk. Ia punya **dugaan** (hipotesis) bahwa benih yang tenggelam lebih baik. Lalu ia **menguji** dugaannya dengan menanam benih tersebut dan melihat hasilnya dari panen ke panen. Proses inilah inti dari apa yang akan kita pelajari: **hakikat Fisika dan metode ilmiah**.  
 
-Mari kita mulai petualangan memahami dunia melalui angka dan ukuran!
+**Materi Pembelajaran**  
 
-## Isi Materi
+## Hakikat Ilmu Fisika: Lebih dari Sekadar Rumus
 
-### 1. Pengertian Besaran dan Satuan
+Banyak yang mengira Fisika itu hanya soal rumus dan hitungan yang rumit. Padahal, itu hanya sebagian kecil saja. Pada intinya, **Fisika** adalah ilmu yang mempelajari gejala alam semesta, mencoba memahami bagaimana segala sesuatu bekerja, mulai dari partikel terkecil yang tak terlihat hingga galaksi yang maha luas. Fisika mencoba menjawab pertanyaan "bagaimana" dan "mengapa" tentang segala kejadian di sekitar kita.
 
-**Besaran** adalah segala sesuatu yang dapat diukur dan dinyatakan dengan angka. Dalam kehidupan sehari-hari, kita sering mengukur berbagai hal seperti panjang, masa, waktu, kecepatan, dan suhu.
+Ilmu Fisika bisa kita pandang dari tiga sisi:
 
-**Satuan** adalah ukuran dari suatu besaran yang digunakan untuk melakukan pengukuran. Tanpa satuan, nilai suatu besaran tidak memiliki arti. Misalnya, ketika kita mengatakan tinggi seseorang adalah 170, informasi ini tidak lengkap tanpa menyebutkan satuannya (170 cm).
+1. **Fisika sebagai Produk:** Ini adalah hasil-hasil penemuan para ilmuwan yang sudah kita kenal. Bentuknya berupa **fakta**, **konsep**, **prinsip**, **hukum**, **rumus**, dan **teori**. Contohnya adalah Hukum Newton tentang gerak yang menjelaskan mengapa motor di pasar bisa bergerak atau mengapa buah kelapa jatuh ke bawah.
+2. **Fisika sebagai Proses:** Ini adalah cara atau prosedur untuk mendapatkan "produk" tadi. Proses inilah yang disebut **metode ilmiah**. Fisika bukan ilmu "katanya", tapi ilmu yang didapat dari penyelidikan yang teliti, pengamatan, dan percobaan.
+3. **Fisika sebagai Sikap:** Ini adalah sikap yang harus dimiliki seorang ilmuwan (dan juga kita semua!). Sikap itu antara lain **rasa ingin tahu**, **jujur** terhadap data, **objektif** (tidak memihak), **tekun**, **teliti**, dan **terbuka** terhadap pendapat orang lain.
 
-Berdasarkan cara memperolehnya, besaran dibagi menjadi dua jenis:
+## Metode Ilmiah: Langkah Jitu Memecahkan Misteri
 
-1. **Besaran Pokok** - besaran yang satuannya didefinisikan sendiri dan berdiri sendiri
-2. **Besaran Turunan** - besaran yang diturunkan dari besaran pokok
+Bayangkan kamu seorang detektif yang ingin memecahkan sebuah kasus. Tentu kamu butuh langkah-langkah yang sistematis, kan? Nah, metode ilmiah adalah serangkaian langkah sistematis yang digunakan para ilmuwan untuk mempelajari alam.
 
-### 2. Sistem Satuan
+Berikut adalah langkah-langkah dalam metode ilmiah:
 
-Ada beberapa sistem satuan yang digunakan di dunia, diantaranya:
+`#sisipkan diagram alur atau infografis langkah-langkah metode ilmiah`
 
-1. **Sistem Satuan Internasional (SI)** - sistem yang paling umum digunakan dalam ilmu pengetahuan dan teknologi di seluruh dunia
-2. **Sistem CGS (Centimeter, Gram, Second)** - sistem yang sering digunakan dalam fisika klasik
-3. **Sistem MKS (Meter, Kilogram, Second)** - cikal bakal sistem SI
-4. **Sistem British/Imperial** - sistem yang masih digunakan di beberapa negara seperti Amerika Serikat
+1. **Melakukan Observasi (Pengamatan):** Mengamati suatu fenomena atau masalah dengan pancaindra.
+    * *Contoh Kontekstual:* Kamu melihat ikan-ikan di sungai dekat pabrik banyak yang mati, sementara di bagian sungai yang jauh dari pabrik, ikannya tetap hidup.
 
-Sejak tahun 1960, Sistem Satuan Internasional (SI) telah diakui dan digunakan secara internasional. Sistem ini terdiri dari tujuh besaran pokok yang menjadi dasar untuk semua pengukuran fisika.
+2. **Merumuskan Masalah:** Membuat pertanyaan dari hasil pengamatan tadi. Pertanyaan ini harus spesifik dan bisa diuji.
+    * *Contoh:* "Apakah limbah dari pabrik menyebabkan kematian ikan di sungai?"
 
-### 3. Besaran Pokok
+3. **Mengumpulkan Informasi (Studi Pustaka):** Mencari informasi dari berbagai sumber terpercaya (buku, jurnal, internet) yang berkaitan dengan masalah tersebut.
+    * *Contoh:* Mencari tahu jenis limbah yang dihasilkan pabrik dan apa dampaknya bagi makhluk hidup di air.
 
-Besaran pokok adalah besaran yang satuannya didefinisikan tersendiri dan tidak bergantung pada besaran lain. Sistem SI menetapkan tujuh besaran pokok sebagai berikut:
+4. **Membuat Hipotesis (Dugaan Sementara):** Membuat jawaban sementara yang logis berdasarkan informasi yang sudah dikumpulkan.
+    * *Contoh:* "Limbah pabrik X mengandung zat kimia berbahaya yang menurunkan kualitas air sehingga menyebabkan ikan mati."
 
-| Nama Besaran | Satuan SI | Simbol |
-|--------------|-----------|--------|
-| Panjang | meter | m |
-| Massa | kilogram | kg |
-| Waktu | sekon (detik) | s |
-| Arus Listrik | ampere | A |
-| Suhu | kelvin | K |
-| Jumlah Zat | mol | mol |
-| Intensitas Cahaya | kandela | cd |
+5. **Melakukan Eksperimen (Percobaan):** Merancang dan melakukan percobaan untuk menguji kebenaran hipotesis. Dalam percobaan, kita mengenal adanya **variabel** (faktor yang bisa berubah atau diubah).
+    * *Contoh:* Menyiapkan dua akuarium. Akuarium A diisi air sungai yang jernih dan beberapa ikan. Akuarium B diisi air sungai yang sama, tapi ditambahkan sedikit sampel air limbah pabrik, lalu diisi ikan dengan jenis dan jumlah yang sama.
 
-### 4. Besaran Turunan
+6. **Menganalisis Data:** Mencatat semua hasil pengamatan dari eksperimen dalam bentuk tabel, grafik, atau catatan, lalu menafsirkannya.
+    * *Contoh:* Setelah 24 jam, semua ikan di Akuarium B mati, sementara ikan di Akuarium A tetap hidup. Data ini dicatat.
 
-Besaran turunan adalah besaran yang diturunkan dari besaran pokok. Berikut adalah beberapa contoh besaran turunan:
+7. **Menarik Kesimpulan:** Menyimpulkan apakah hasil eksperimen mendukung atau menolak hipotesis.
+    * *Contoh:* "Berdasarkan percobaan, terbukti bahwa limbah pabrik X menyebabkan kematian ikan. Maka, hipotesis diterima."
 
-| Nama Besaran | Rumus | Satuan SI | Dimensi |
-|--------------|-------|-----------|---------|
-| Luas | panjang × lebar | $\text{m}^2$ | $[\text{L}^2]$ |
-| Volume | panjang × lebar × tinggi | $\text{m}^3$ | $[\text{L}^3]$ |
-| Kecepatan | $\frac{\text{perpindahan}}{\text{waktu}}$ | $\text{m/s}$ | $[\text{L}\text{T}^{-1}]$ |
-| Percepatan | $\frac{\text{perubahan kecepatan}}{\text{waktu}}$ | $\text{m/s}^2$ | $[\text{L}\text{T}^{-2}]$ |
-| Gaya | massa × percepatan | $\text{kg} \cdot \text{m/s}^2$ (newton, N) | $[\text{M}\text{L}\text{T}^{-2}]$ |
-| Tekanan | $\frac{\text{gaya}}{\text{luas}}$ | $\text{N/m}^2$ (pascal, Pa) | $[\text{M}\text{L}^{-1}\text{T}^{-2}]$ |
-| Energi | gaya × perpindahan | $\text{N} \cdot \text{m}$ (joule, J) | $[\text{M}\text{L}^2\text{T}^{-2}]$ |
-| Daya | $\frac{\text{energi}}{\text{waktu}}$ | $\text{J/s}$ (watt, W) | $[\text{M}\text{L}^2\text{T}^{-3}]$ |
+## Keselamatan Kerja di Laboratorium
 
-### 5. Dimensi Besaran Pokok dan Besaran Turunan
+Laboratorium adalah tempat yang menyenangkan untuk bereksperimen, tapi juga bisa berbahaya jika kita tidak hati-hati. Selalu patuhi aturan keselamatan kerja untuk menjaga diri sendiri dan orang lain!
 
-**Dimensi** adalah cara penulisan suatu besaran berdasarkan kombinasi besaran-besaran pokok. Dimensi ditulis dalam tanda kurung siku [ ].
+**Aturan Umum:**
 
-Dimensi besaran pokok:
+* Gunakan jas laboratorium dan sepatu tertutup.
+* Ikat rambutmu jika panjang.
+* Jangan makan, minum, atau bercanda di laboratorium.
+* Baca petunjuk praktikum dengan teliti sebelum memulai.
+* Kenali letak alat pemadam api dan P3K.
+* Jika terjadi kecelakaan (terkena bahan kimia atau api), segera lapor pada guru!
 
-- Panjang: $[\text{L}]$
-- Massa: $[\text{M}]$
-- Waktu: $[\text{T}]$
-- Arus listrik: $[\text{I}]$
-- Suhu: $[\Theta]$
-- Jumlah zat: $[\text{N}]$
-- Intensitas cahaya: $[\text{J}]$
+`#sisipkan gambar simbol-simbol bahaya di laboratorium (mudah terbakar, korosif, beracun, dll)`
 
-Contoh analisis dimensi:
+**Refleksi**  
 
-1. Kecepatan = perpindahan/waktu
-   Dimensi = $[\text{L}]/[\text{T}] = [\text{L}\text{T}^{-1}]$
+Untuk mengukur pemahamanmu, coba jawab pertanyaan berikut dengan memilih salah satu jawaban yang paling tepat!
 
-2. Gaya = massa × percepatan
-   Dimensi = $[\text{M}] \times [\text{L}\text{T}^{-2}] = [\text{M}\text{L}\text{T}^{-2}]$
+1. Hukum Newton yang menjelaskan mengapa benda bergerak adalah contoh Fisika sebagai...
+    a. Proses
+    b. Produk
+    c. Sikap
+    d. Metode
+    e. Eksperimen
 
-Analisis dimensi sangat penting untuk:
+2. Seorang siswa menduga bahwa tanaman akan lebih cepat tinggi jika diberi pupuk A. Dugaan ini dalam metode ilmiah disebut...
+    a. Observasi
+    b. Kesimpulan
+    c. Hipotesis
+    d. Analisis
+    e. Masalah
 
-- Memeriksa kesetaraan persamaan fisika
-- Menurunkan persamaan baru
-- Mengkonversi satuan antara sistem yang berbeda
+3. Langkah pertama yang harus dilakukan dalam metode ilmiah adalah...
+    a. Membuat hipotesis
+    b. Melakukan eksperimen
+    c. Menarik kesimpulan
+    d. Melakukan observasi
+    e. Menganalisis data
 
-### 6. Angka Penting
+4. Saat melakukan eksperimen untuk menguji pengaruh jenis tanah terhadap pertumbuhan kacang hijau, faktor yang sengaja dibuat berbeda (misalnya, jenis tanah humus dan tanah liat) disebut...
+    a. Variabel kontrol
+    b. Variabel terikat
+    c. Variabel bebas
+    d. Variabel pengganggu
+    e. Variabel tetap
 
-Angka penting adalah semua angka yang diperoleh dari hasil pengukuran, termasuk angka terakhir yang ditaksir (diragukan).
+5. Berikut ini yang **bukan** merupakan sikap ilmiah adalah...
+    a. Rasa ingin tahu
+    b. Jujur
+    c. Objektif
+    d. Tekun
+    e. Percaya pada katanya
 
-Aturan angka penting:
+**Asesmen Formatif**  
 
-1. Semua angka bukan nol adalah angka penting
-   Contoh: 123,45 memiliki 5 angka penting
+Jawablah pertanyaan berikut dengan singkat dan jelas!
 
-2. Angka nol di antara angka bukan nol adalah angka penting
-   Contoh: 102,345 memiliki 6 angka penting
+1. Kamu melihat bahwa es teh di warung yang gelasnya diaduk lebih cepat dingin daripada yang tidak diaduk. Buatlah satu **rumusan masalah** yang sesuai dari pengamatan tersebut!
+2. Dari rumusan masalah di soal nomor 1, buatlah satu **hipotesis** yang logis!
+3. Sebutkan tiga aturan keselamatan kerja yang paling penting saat kamu akan melakukan praktikum di laboratorium!  
 
-3. Angka nol di belakang angka bukan nol dan terletak di belakang koma desimal adalah angka penting
-   Contoh: 12,3400 memiliki 6 angka penting
+**Glosarium**  
 
-4. Angka nol di depan angka bukan nol bukan angka penting
-   Contoh: 0,00234 memiliki 3 angka penting
+* **Fisika:** Cabang IPA yang mempelajari materi, energi, dan interaksi antara keduanya.
+* **Hipotesis:** Dugaan atau jawaban sementara terhadap suatu masalah yang perlu diuji kebenarannya.
+* **Metode Ilmiah:** Proses berpikir dan bekerja secara sistematis yang digunakan ilmuwan untuk memecahkan masalah.
+* **Observasi:** Kegiatan pengamatan suatu objek atau fenomena menggunakan pancaindra.
+* **Variabel:** Faktor, kondisi, atau unsur yang dapat berubah atau diubah dalam suatu eksperimen.
 
-5. Angka nol di belakang angka bukan nol tetapi tidak ada koma desimal bukan angka penting, kecuali jika diberi tanda khusus (seperti garis bawah)
-   Contoh: 12300 umumnya dianggap memiliki 3 angka penting, tetapi 12300̅ memiliki 5 angka penting
+**Daftar Pustaka**  
 
-Dalam operasi matematika dengan angka penting:
-
-- Penjumlahan dan pengurangan: hasilnya memiliki jumlah angka desimal yang paling sedikit
-- Perkalian dan pembagian: hasilnya memiliki jumlah angka penting yang paling sedikit
-
-### 7. Pengukuran
-
-Pengukuran adalah proses membandingkan nilai besaran dengan suatu satuan. Ada tiga aspek penting dalam pengukuran:
-
-#### a. Ketelitian (Presisi)
-
-Ketelitian adalah tingkat kedekatan hasil pengukuran terhadap nilai rata-rata serangkaian pengukuran. Pengukuran yang presisi menghasilkan nilai-nilai yang saling berdekatan satu sama lain ketika diulang-ulang.
-
-#### b. Ketepatan (Akurasi)
-
-Ketepatan adalah tingkat kedekatan hasil pengukuran terhadap nilai sebenarnya. Pengukuran yang akurat menghasilkan nilai yang dekat dengan nilai sebenarnya.
-
-#### c. Kesalahan Pengukuran
-
-Kesalahan pengukuran dibagi menjadi tiga jenis:
-
-1. **Kesalahan Sistematik**
-   - Disebabkan oleh alat ukur, metode pengukuran, atau lingkungan
-   - Bersifat konsisten dan dapat dikoreksi
-   - Contoh: kesalahan kalibrasi alat, kesalahan titik nol
-
-2. **Kesalahan Acak**
-   - Disebabkan oleh faktor-faktor yang tidak dapat diprediksi
-   - Bersifat tidak konsisten dan sulit dikoreksi
-   - Contoh: fluktuasi tegangan listrik, getaran pada alat
-
-3. **Kesalahan Paralaks**
-   - Disebabkan oleh posisi pengamat yang tidak tepat saat membaca skala
-   - Dapat diminimalkan dengan posisi pengamatan yang tepat tegak lurus terhadap skala
-
-Untuk meminimalkan kesalahan pengukuran, kita dapat:
-
-- Menggunakan alat ukur yang terkalibrasi dengan baik
-- Melakukan pengukuran berulang kali dan menghitung nilai rata-ratanya
-- Memperhatikan posisi pengamatan yang tepat
-- Mengendalikan faktor lingkungan (suhu, tekanan, kelembaban)
-
-## Rangkuman
-
-1. **Besaran** adalah segala sesuatu yang dapat diukur dan dinyatakan dengan angka, sedangkan **satuan** adalah ukuran dari besaran tersebut.
-
-2. **Besaran pokok** adalah besaran dasar yang satuannya didefinisikan sendiri, sementara **besaran turunan** diturunkan dari besaran pokok.
-
-3. **Sistem Satuan Internasional (SI)** adalah sistem satuan yang diakui secara internasional, terdiri dari 7 besaran pokok: panjang, massa, waktu, arus listrik, suhu, jumlah zat, dan intensitas cahaya.
-
-4. **Dimensi** adalah cara penulisan besaran berdasarkan kombinasi besaran pokok, berguna untuk menganalisis kesetaraan persamaan fisika.
-
-5. **Angka penting** adalah semua angka yang diperoleh dari hasil pengukuran, termasuk angka terakhir yang ditaksir, dengan aturan khusus untuk penentuan dan perhitungannya.
-
-6. Dalam pengukuran, penting untuk memperhatikan **ketelitian** (presisi), **ketepatan** (akurasi), dan **kesalahan pengukuran** (sistematik, acak, dan paralaks).
-
-7. Konversi satuan dilakukan dengan menggunakan faktor konversi yang tepat dan memperhatikan dimensi besaran.
-
-### keywords
-
-- Sistem Satuan Internasional (SI)
-- Besaran
-- Satuan
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2022). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran IPA*. Kemendikbudristek.

@@ -1,239 +1,151 @@
-# Kinetik Gas dan Termodinamika
+# BAB 6: Gelombang Bunyi dan Cahaya - Pesan dari Alam Semesta
 
-## Tujuan Pembelajaran
+**Tujuan Pembelajaran:**
+Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
 
-Setelah mempelajari materi ini, peserta didik diharapkan mampu:
+1. Membedakan karakteristik gelombang transversal dan gelombang longitudinal.
+2. Menganalisis fenomena pada gelombang bunyi, seperti Efek Doppler dan resonansi, secara kualitatif dan kuantitatif.
+3. Menganalisis fenomena pada gelombang cahaya, seperti interferensi, difraksi, dan polarisasi, secara kualitatif dan kuantitatif.
+4. Menerapkan konsep dan persamaan gelombang bunyi dan cahaya dalam memecahkan masalah fisis sederhana.
 
-1. Menjelaskan konsep dasar teori kinetik gas dan termodinamika
-2. Menganalisis sifat-sifat gas ideal berdasarkan teori kinetik gas
-3. Menerapkan persamaan keadaan gas ideal dalam pemecahan masalah
-4. Mengidentifikasi proses-proses termodinamika dan hukum-hukumnya
-5. Menghitung usaha, kalor, dan perubahan energi dalam dalam proses termodinamika
-6. Menganalisis efisiensi mesin kalor berdasarkan hukum termodinamika kedua
+**Pemahaman Bermakna:**
+Setiap hari kita dibanjiri oleh gelombang. Suara temanmu yang memanggil dari seberang lapangan, musik dari radio, warna-warni pelangi, hingga sinyal Wi-Fi yang menghubungkan ponselmu ke internet, semuanya adalah bentuk gelombang. Bunyi dan cahaya adalah cara alam "berkomunikasi" dan mengirimkan energi serta informasi melintasi ruang. Memahami sifat-sifat mereka akan membuka mata kita tentang cara kerja alat musik, teknologi telekomunikasi, kacamata, dan bahkan rahasia mengapa langit berwarna biru. Ini adalah fisika yang kita dengar dan kita lihat setiap saat.
 
-## Pendahuluan
+**Pembukaan: Balapan antara Kilat dan Guntur**
+Saat hujan deras disertai badai, pernahkah kamu memperhatikan fenomena petir? Sebuah kilatan cahaya yang menyilaukan muncul di langit, dan beberapa saat kemudian, barulah terdengar suara guntur yang menggelegar. Kilat dan guntur sebenarnya terjadi pada waktu yang bersamaan di lokasi yang sama. Namun, mengapa "pesan" cahaya (kilat) selalu sampai ke mata kita lebih dulu daripada "pesan" suara (guntur) yang sampai ke telinga kita?
 
-Pernahkah kamu memperhatikan uap yang keluar dari cerek yang mendidih? Atau bagaimana ban sepeda mengembang saat dipompa? Fenomena sehari-hari ini berhubungan erat dengan konsep kinetik gas dan termodinamika. Bayangkan saja, setiap kali kamu memasak dengan panci presto atau menyalakan mesin kendaraan, kamu sedang menyaksikan prinsip-prinsip termodinamika dalam aksi!
+Kisah balapan antara kilat dan guntur ini adalah demonstrasi alam yang paling dramatis untuk menunjukkan bahwa meskipun keduanya sama-sama gelombang, cahaya dan bunyi memiliki sifat dan kecepatan yang sangat berbeda. Cahaya adalah pelari super cepat yang hampir tak butuh waktu untuk sampai ke kita, sementara bunyi adalah pelari yang lebih santai dan butuh medium untuk merambat. Perbedaan fundamental inilah yang akan kita jelajahi dalam bab ini.
 
-Kinetik gas dan termodinamika adalah cabang fisika yang mempelajari hubungan antara panas, energi, dan kerja. Ilmu ini menjadi landasan dari berbagai teknologi modern—dari mesin pembangkit listrik hingga sistem pendingin di lemari es. Bahkan tubuh kita sendiri beroperasi mengikuti hukum-hukum termodinamika, mengubah energi dari makanan menjadi gerakan dan panas.
+`#sisipkan gambar petir di langit malam`
 
-Dalam materi ini, kita akan menjelajahi dunia mikroskopis gas—bagaimana partikel-partikel kecil yang tak terlihat bergerak dan berinteraksi—hingga dampak makroskopisnya yang dapat kita amati dan manfaatkan dalam kehidupan sehari-hari.
+## Sifat Dasar Gelombang: Cara Pesan Merambat
 
-## Teori Kinetik Gas
+Sebelum membahas bunyi dan cahaya secara spesifik, kita perlu tahu dua cara dasar gelombang merambat:
 
-### Asumsi Dasar Teori Kinetik Gas
+**1. Gelombang Transversal**
+Ini adalah gelombang di mana arah getarnya **tegak lurus** dengan arah rambatnya. Bayangkan kamu menggerakkan seutas tali naik-turun. Getarannya vertikal, tapi gelombangnya merambat horizontal.
 
-Teori kinetik gas didasarkan pada beberapa asumsi berikut:
+* **Contoh Utama:** **Cahaya**, gelombang pada tali, gelombang di permukaan air.
+* **Bagian-bagian:** Puncak gelombang dan lembah gelombang.
 
-1. Gas terdiri dari partikel-partikel yang sangat kecil (molekul-molekul)
-2. Molekul gas bergerak secara acak dengan kecepatan tinggi
-3. Jarak antar molekul jauh lebih besar dibandingkan ukuran molekul
-4. Tumbukan antar molekul dan dengan dinding wadah bersifat elastik sempurna
-5. Tidak ada gaya tarik menarik antar molekul kecuali saat tumbukan
-6. Energi total gas hanya bergantung pada suhu
+**2. Gelombang Longitudinal**
+Ini adalah gelombang di mana arah getarnya **sejajar** dengan arah rambatnya. Bayangkan kamu menekan dan meregangkan sebuah pegas (slinky). Getarannya maju-mundur, dan gelombangnya juga merambat maju-mundur.
 
-### Gas Ideal
+* **Contoh Utama:** **Bunyi**.
+* **Bagian-bagian:** Rapatan (area mampat) dan renggangan.
 
-Gas ideal adalah model teoritis gas yang memenuhi semua asumsi teori kinetik gas. Persamaan keadaan gas ideal dinyatakan dalam:
+`#sisipkan gambar animasi gelombang transversal dan longitudinal`
 
-$$PV = nRT$$
+Untuk semua jenis gelombang, berlaku satu persamaan fundamental yang menghubungkan kecepatan, panjang gelombang, dan frekuensinya.
 
-Dengan:
+**Persamaan Dasar Gelombang:**
 
-- $P$ = tekanan gas (Pa)
-- $V$ = volume gas ($\text{m}^3$)
-- $n$ = jumlah mol gas (mol)
-- $R$ = konstanta gas universal ($8,314$ J/mol·K)
-- $T$ = suhu mutlak (K)
+$$v = \lambda \times f$$
+Dimana:
 
-Persamaan ini juga dapat ditulis dalam bentuk:
+* **v** = Cepat rambat gelombang (m/s)
+* **$\lambda$** (lambda) = Panjang gelombang (meter)
+* **f** = Frekuensi gelombang (Hertz, Hz)
 
-$$PV = NkT$$
+---
 
-Dengan:
+## Gelombang Bunyi: Getaran yang Bisa Kita Dengar
 
-- $N$ = jumlah partikel gas
-- $k$ = konstanta Boltzmann ($1,38 \times 10^{-23}$ J/K)
+Bunyi adalah gelombang longitudinal yang dihasilkan oleh benda bergetar dan **membutuhkan medium** (zat padat, cair, atau gas) untuk merambat. Inilah alasan mengapa di luar angkasa yang hampa udara tidak ada suara.
 
-### Energi Kinetik Molekul Gas
+* **Cepat Rambat Bunyi:** Kecepatan bunyi sangat bergantung pada mediumnya. Secara umum, $v_{padat} > v_{cair} > v_{gas}$. Inilah jawaban mengapa guntur terdengar belakangan; kecepatan bunyi di udara hanya sekitar **340 m/s**, jauh lebih lambat dari cahaya. Pada suhu udara yang lebih tinggi, kecepatan bunyi juga meningkat.
 
-Energi kinetik rata-rata molekul gas ideal berhubungan langsung dengan suhu gas:
+* **Efek Doppler:** Pernah mendengar suara sirine ambulans atau motor yang melintas? Saat mendekat, suaranya terdengar lebih tinggi (frekuensi tinggi), dan saat menjauh suaranya terdengar lebih rendah (frekuensi rendah). Perubahan frekuensi akibat gerak relatif antara sumber dan pendengar inilah yang disebut **Efek Doppler**.
+**Persamaan Efek Doppler:**
+    $$f_p = \left( \frac{v \pm v_p}{v \mp v_s} \right) f_s$$
+    Dimana:
+  * **$f_p$** = Frekuensi pendengar (Hz)
+  * **$f_s$** = Frekuensi sumber (Hz)
+  * **v** = Cepat rambat bunyi (m/s)
+  * **$v_p$** = Kecepatan pendengar (m/s) (+ jika mendekati, - jika menjauhi)
+  * **$v_s$** = Kecepatan sumber (m/s) (- jika mendekati, + jika menjauhi)
 
-$$\bar{E_k} = \frac{3}{2}kT$$
+* **Resonansi:** Peristiwa ikut bergetarnya suatu benda karena getaran benda lain yang memiliki frekuensi sama. Fenomena ini dimanfaatkan pada alat musik untuk menghasilkan nada-nada harmonik.
+    **Frekuensi pada Dawai (misal: gitar):**
+    $$f_n = \frac{n \times v}{2L}$$ (dengan n = 1, 2, 3, ... orde nada)
 
-Untuk gas yang terdiri dari $N$ molekul, energi kinetik totalnya adalah:
+## Gelombang Cahaya: Getaran yang Bisa Kita Lihat
 
-$$E_k = \frac{3}{2}NkT = \frac{3}{2}nRT$$
+Cahaya adalah gelombang transversal elektromagnetik yang **tidak butuh medium** untuk merambat dan memiliki kecepatan fantastis sekitar **300.000.000 m/s** (dibulatkan $3 \times 10^8$ m/s) di ruang hampa.
 
-### Kecepatan Molekul Gas
+* **Interferensi (Perpaduan):** Pernah melihat lapisan minyak di atas genangan air yang memunculkan warna-warni? Itu adalah contoh interferensi. Ketika dua gelombang cahaya bertemu, mereka bisa saling menguatkan atau melemahkan. Pada percobaan celah ganda Young:
+**Syarat Terjadi Terang (Konstruktif):**
+    $$\frac{d \cdot y}{L} = n \lambda$$ (dengan n = 0, 1, 2, ...)
+    **Syarat Terjadi Gelap (Destruktif):**
+    $$\frac{d \cdot y}{L} = (n - \frac{1}{2}) \lambda$$ (dengan n = 1, 2, 3, ...)
+    Dimana: **d** = jarak antar celah, **y** = jarak terang/gelap dari pusat, **L** = jarak celah ke layar, **$\lambda$** = panjang gelombang.
 
-Dalam teori kinetik gas, terdapat tiga jenis kecepatan yang sering digunakan:
+* **Difraksi (Pelenturan):** Peristiwa melenturnya gelombang cahaya saat melewati celah sempit. Untuk difraksi pada celah tunggal:
+    **Syarat Terjadi Gelap (Difraksi Minimum):**
+    $$d \sin\theta = n \lambda$$ (dengan n = 1, 2, 3, ...)
+    Dimana: **d** = lebar celah.
 
-1. Kecepatan rata-rata ($\bar{v}$):
+* **Polarisasi (Penyerapan Arah Getar):** Proses "menyaring" arah getiran cahaya. Kacamata hitam *polarized* menggunakan prinsip ini untuk mengurangi silau dari pantulan cahaya pada permukaan air atau jalanan basah.
 
-   $$\bar{v} = \sqrt{\frac{8RT}{\pi M}}$$
+**Refleksi**  
 
-2. Kecepatan efektif/akar rata-rata kuadrat ($v_{rms}$):
+Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
 
-   $$v_{rms} = \sqrt{\frac{3RT}{M}} = \sqrt{\frac{3kT}{m}}$$
+1. Perbedaan mendasar antara gelombang bunyi dan gelombang cahaya adalah...
+    a. Bunyi adalah gelombang mekanik, cahaya adalah gelombang elektromagnetik
+    b. Bunyi adalah gelombang transversal, cahaya adalah gelombang longitudinal
+    c. Bunyi dapat merambat di ruang hampa, cahaya tidak
+    d. Kecepatan bunyi lebih besar dari kecepatan cahaya
+    e. Bunyi tidak dapat dipantulkan, cahaya dapat dipantulkan
 
-3. Kecepatan paling mungkin ($v_p$):
-
-   $$v_p = \sqrt{\frac{2RT}{M}}$$
-
-Dengan:
-
-- $M$ = massa molar gas (kg/mol)
-- $m$ = massa molekul gas (kg)
-
-## Termodinamika
-
-### Sistem Termodinamika
-
-Sistem termodinamika adalah bagian dari alam semesta yang menjadi objek penelitian. Sistem termodinamika dapat dibedakan menjadi:
-
-1. Sistem tertutup: dapat bertukar energi tetapi tidak dapat bertukar materi dengan lingkungan
-2. Sistem terbuka: dapat bertukar energi dan materi dengan lingkungan
-3. Sistem terisolasi: tidak dapat bertukar energi maupun materi dengan lingkungan
-
-### Usaha dalam Termodinamika
-
-Usaha yang dilakukan oleh gas saat mengalami perubahan volume dinyatakan oleh:
-
-$$W = \int_{V_1}^{V_2} P \, dV$$
-
-Untuk proses dengan tekanan tetap (isobarik):
-
-$$W = P(V_2 - V_1) = P\Delta V$$
-
-### Hukum Pertama Termodinamika
-
-Hukum pertama termodinamika adalah bentuk dari hukum kekekalan energi:
-
-$$\Delta U = Q - W$$
-
-Dengan:
-
-- $\Delta U$ = perubahan energi dalam sistem
-- $Q$ = kalor yang diterima sistem
-- $W$ = usaha yang dilakukan oleh sistem
-
-Untuk gas ideal, perubahan energi dalam hanya bergantung pada perubahan suhu:
-
-$$\Delta U = nC_V\Delta T$$
-
-Dengan $C_V$ adalah kapasitas kalor pada volume tetap.
-
-### Proses Termodinamika
-
-#### 1. Proses Isotermal (T konstan)
-
-Pada proses isotermal, suhu gas tetap sehingga $\Delta U = 0$. Berdasarkan hukum pertama termodinamika:
-
-$$Q = W = nRT \ln\frac{V_2}{V_1} = nRT \ln\frac{P_1}{P_2}$$
-
-#### 2. Proses Isobarik (P konstan)
-
-Pada proses isobarik, tekanan tetap sehingga:
-
-$$W = P\Delta V = nR\Delta T$$
-$$Q = nC_P\Delta T$$
-$$\Delta U = nC_V\Delta T$$
-
-Dengan $C_P$ adalah kapasitas kalor pada tekanan tetap.
-
-#### 3. Proses Isokhorik (V konstan)
-
-Pada proses isokhorik, volume tetap sehingga $W = 0$. Maka:
-
-$$Q = \Delta U = nC_V\Delta T$$
-
-#### 4. Proses Adiabatik (Q = 0)
-
-Pada proses adiabatik, tidak ada pertukaran kalor sehingga:
-
-$$\Delta U = -W$$
-$$PV^{\gamma} = \text{konstan}$$
-$$TV^{\gamma-1} = \text{konstan}$$
-
-Dengan $\gamma = \frac{C_P}{C_V}$ adalah rasio kapasitas kalor.
-
-### Siklus Termodinamika
-
-Siklus termodinamika adalah serangkaian proses yang membawa sistem kembali ke keadaan awal. Contoh siklus termodinamika yang penting:
-
-#### Siklus Carnot
-
-Siklus Carnot terdiri dari dua proses isotermal dan dua proses adiabatik. Efisiensi siklus Carnot adalah:
-
-$$\eta_C = 1 - \frac{T_C}{T_H}$$
-
-Dengan:
-
-- $T_H$ = suhu reservoir panas (K)
-- $T_C$ = suhu reservoir dingin (K)
-
-Siklus Carnot merupakan siklus termodinamika paling efisien yang dapat beroperasi antara dua suhu.
-
-| Mesin Kalor | Proses | Efisiensi Maksimum |
-|-------------|--------|-------------------|
-| Carnot | 2 isotermal, 2 adiabatik | $\eta_C = 1 - \frac{T_C}{T_H}$ |
-| Otto (mesin bensin) | 2 adiabatik, 2 isokhorik | $\eta_O = 1 - \frac{1}{r^{\gamma-1}}$ |
-| Diesel | 2 adiabatik, 1 isobarik, 1 isokhorik | $\eta_D = 1 - \frac{1}{r^{\gamma}} \left(\frac{r_c^{\gamma} - 1}{\gamma(r_c - 1)}\right)$ |
-
-Dengan $r$ adalah rasio kompresi dan $r_c$ adalah rasio cut-off.
-
-### Hukum Kedua Termodinamika
-
-Hukum kedua termodinamika berhubungan dengan arah aliran kalor dan entropi. Beberapa pernyataan hukum kedua termodinamika:
-
-1. Pernyataan Kelvin-Planck: Tidak mungkin membuat mesin kalor yang bekerja dalam siklus yang hanya menyerap kalor dari reservoir dan mengubahnya seluruhnya menjadi usaha.
-
-2. Pernyataan Clausius: Tidak mungkin membuat mesin kalor yang bekerja dalam siklus yang memindahkan kalor dari benda bersuhu rendah ke benda bersuhu tinggi tanpa memerlukan usaha dari luar.
-
-### Entropi
-
-Entropi ($S$) adalah ukuran ketidakteraturan atau ketidakpastian sistem. Perubahan entropi didefinisikan sebagai:
-
-$$\Delta S = \int \frac{dQ_{rev}}{T}$$
-
-Untuk proses reversibel. Untuk gas ideal:
-
-$$\Delta S = nC_V \ln\frac{T_2}{T_1} + nR \ln\frac{V_2}{V_1}$$
-
-atau
-
-$$\Delta S = nC_P \ln\frac{T_2}{T_1} - nR \ln\frac{P_2}{P_1}$$
-
-Hukum kedua termodinamika juga dapat dinyatakan dalam bentuk entropi: entropi total alam semesta selalu meningkat dalam proses irreversibel dan tetap dalam proses reversibel.
-
-## Rangkuman Materi
-
-1. **Teori Kinetik Gas**
-   - Gas terdiri dari partikel-partikel kecil yang bergerak acak
-   - Gas ideal memenuhi persamaan $PV = nRT$
-   - Energi kinetik rata-rata molekul gas: $\bar{E_k} = \frac{3}{2}kT$
-   - Kecepatan efektif (rms) molekul gas: $v_{rms} = \sqrt{\frac{3RT}{M}}$
-
-2. **Hukum Pertama Termodinamika**
-   - Bentuk dari hukum kekekalan energi: $\Delta U = Q - W$
-   - Untuk gas ideal: $\Delta U = nC_V\Delta T$
-   - Usaha oleh gas pada tekanan tetap: $W = P\Delta V$
-
-3. **Proses Termodinamika**
-   - Isotermal (T konstan): $PV = \text{konstan}$, $\Delta U = 0$
-   - Isobarik (P konstan): $\frac{V}{T} = \text{konstan}$
-   - Isokhorik (V konstan): $\frac{P}{T} = \text{konstan}$, $W = 0$
-   - Adiabatik (Q = 0): $PV^{\gamma} = \text{konstan}$
-
-4. **Hukum Kedua Termodinamika**
-   - Menentukan arah proses alami
-   - Kalor mengalir secara spontan dari suhu tinggi ke suhu rendah
-   - Entropi alam semesta selalu meningkat dalam proses irreversibel
-   - Efisiensi mesin kalor tidak pernah 100%
-   - Efisiensi maksimum mesin Carnot: $\eta_C = 1 - \frac{T_C}{T_H}$
-
-5. **Entropi**
-   - Ukuran ketidakteraturan sistem
-   - Perubahan entropi: $\Delta S = \int \frac{dQ_{rev}}{T}$
-   - Untuk gas ideal: $\Delta S = nC_V \ln\frac{T_2}{T_1} + nR \ln\frac{V_2}{V_1}$
+2. Suara sirine mobil ambulans terdengar lebih tinggi ketika mendekati kita. Fenomena ini disebut...
+    a. Resonansi
+    b. Interferensi
+    c. Difraksi
+    d. Polarisasi
+    e. Efek Doppler
+
+3. Terbentuknya warna-warni pada gelembung sabun atau lapisan minyak di air adalah contoh dari peristiwa...
+    a. Polarisasi
+    b. Resonansi
+    c. Efek Doppler
+    d. Interferensi
+    e. Refraksi
+
+4. Gelombang yang arah getarnya tegak lurus dengan arah rambatannya disebut gelombang...
+    a. Longitudinal
+    b. Stasioner
+    c. Transversal
+    d. Mekanik
+    e. Bunyi
+
+5. Kacamata *polarized* bermanfaat untuk mengurangi silau karena memanfaatkan sifat gelombang cahaya yaitu...
+    a. Difraksi
+    b. Refleksi
+    c. Interferensi
+    d. Polarisasi
+    e. Dispersi
+
+**Asesmen Formatif**  
+
+Jawablah pertanyaan berikut dengan singkat dan jelas!
+
+1. Mengapa astronot di Bulan harus berkomunikasi menggunakan radio (gelombang elektromagnetik) dan tidak bisa berbicara langsung meskipun berdiri berdekatan?
+2. Saat terjadi petir, seorang anak menghitung ada jeda 5 detik antara kilat yang ia lihat dan guntur yang ia dengar. Jika cepat rambat bunyi di udara 340 m/s, perkirakan seberapa jauh petir itu terjadi dari posisi anak tersebut!
+3. Jelaskan secara singkat mengapa kamu bisa mendengar suara dari balik tembok yang tertutup, tetapi kamu tidak bisa melihat apa yang ada di baliknya! Hubungkan dengan sifat difraksi gelombang.
+
+**Glosarium**  
+
+* **Gelombang Transversal:** Gelombang dengan arah getar tegak lurus arah rambat.
+* **Gelombang Longitudinal:** Gelombang dengan arah getar sejajar arah rambat.
+* **Efek Doppler:** Perubahan frekuensi gelombang yang diterima pendengar karena adanya gerak relatif.
+* **Resonansi:** Ikut bergetarnya suatu benda akibat getaran benda lain yang frekuensinya sama.
+* **Interferensi:** Perpaduan dua gelombang atau lebih yang menghasilkan pola tertentu.
+* **Difraksi:** Peristiwa pelenturan atau penyebaran gelombang saat melewati celah sempit.
+* **Polarisasi:** Penyerapan sebagian arah getar gelombang transversal.
+
+**Daftar Pustaka**  
+
+* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
+* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
+* Pusat Kurikulum dan Perbukuan. (2024). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran Fisika Fase F*. Kemendikbudristek.
