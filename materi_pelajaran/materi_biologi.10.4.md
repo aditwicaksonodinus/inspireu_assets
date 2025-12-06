@@ -14,7 +14,6 @@ Setelah mempelajari materi ini, peserta didik diharapkan mampu:
 
 [youtube](youtube.com/watch?v=dzll7pBQYNU)
 
-
 ## Pendahuluan
 
 Pernahkah kamu memperhatikan roti yang telah disimpan beberapa hari kemudian muncul bercak-bercak hitam atau hijau di permukaannya? Atau jamur tiram yang lezat di piring makan siangmu? Bahkan mungkin kamu pernah menikmati tempe yang proses fermentasinya melibatkan jamur? Semua ini adalah bentuk kehadiran fungi dalam kehidupan kita sehari-hari.
