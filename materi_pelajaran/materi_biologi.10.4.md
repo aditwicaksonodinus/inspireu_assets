@@ -10,6 +10,11 @@ Setelah mempelajari materi ini, peserta didik diharapkan mampu:
 4. Menganalisis hubungan antara fungi dengan organisme lain dalam ekosistem
 5. Mengevaluasi manfaat dan bahaya fungi bagi manusia dan lingkungan
 
+## Video Pengantar
+
+[youtube](youtube.com/watch?v=dzll7pBQYNU)
+
+
 ## Pendahuluan
 
 Pernahkah kamu memperhatikan roti yang telah disimpan beberapa hari kemudian muncul bercak-bercak hitam atau hijau di permukaannya? Atau jamur tiram yang lezat di piring makan siangmu? Bahkan mungkin kamu pernah menikmati tempe yang proses fermentasinya melibatkan jamur? Semua ini adalah bentuk kehadiran fungi dalam kehidupan kita sehari-hari.
