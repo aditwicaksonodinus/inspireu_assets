@@ -1,136 +1,46 @@
-# BAB 1: Mengenal Fisika dan Cara Kerja Ilmuwan
+# Hakikat Fisika: Pengukuran dan Keselamatan Kerja
 
-**Tujuan Pembelajaran:**
-Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
+## Tujuan Pembelajaran
+Setelah mempelajari modul ini, peserta didik diharapkan mampu menerapkan prinsip-prinsip pengukuran besaran fisis, termasuk penggunaan angka penting dan notasi ilmiah secara tepat. Selain itu, peserta didik diharapkan dapat memahami prosedur keselamatan kerja di laboratorium, mengidentifikasi simbol-simbol bahaya, serta menerapkan etika ilmiah saat melakukan eksperimen fisika.
 
-1. Menjelaskan hakikat ilmu Fisika sebagai bagian dari Ilmu Pengetahuan Alam (IPA).
-2. Mengidentifikasi langkah-langkah operasional dalam metode ilmiah.
-3. Merancang sebuah prosedur kerja ilmiah sederhana untuk menyelidiki fenomena di lingkungan sekitar.
-4. Menerapkan prinsip-prinsip keselamatan kerja saat melakukan pengamatan atau percobaan.
+## Materi: Pengukuran dalam Fisika
+Pengukuran merupakan jantung dari ilmu fisika. Tanpa pengukuran, kita hanya dapat menduga-duga tanpa memiliki data kuantitatif yang valid untuk membuktikan sebuah teori atau fenomena alam. Pada dasarnya, mengukur adalah kegiatan membandingkan suatu besaran yang diukur dengan besaran sejenis yang ditetapkan sebagai satuan. Keakuratan dalam pengukuran sangat bergantung pada instrumen yang digunakan serta kemampuan pengamat dalam membaca hasil ukur tersebut.
 
-**Pemahaman Bermakna:**
-Pernahkah kamu bertanya, "mengapa"? Mengapa pelangi muncul setelah hujan? Mengapa mesin traktor di sawah bisa mengolah lahan yang begitu luas dengan cepat? Rasa ingin tahu adalah awal dari sains. Dengan mempelajari cara kerja ilmuwan, kita tidak hanya belajar Fisika, tetapi juga belajar cara berpikir runtut, memecahkan masalah secara sistematis, dan tidak mudah percaya pada berita bohong (hoax). Kemampuan ini sangat berguna, tidak hanya di sekolah, tetapi juga dalam kehidupan sehari-hari.
+### Submateri: Angka Penting
+Dalam setiap kegiatan pengukuran, kita akan mendapatkan angka-angka hasil bacaan dari alat ukur. Angka-angka ini disebut sebagai angka penting, yang terdiri dari angka pasti (yang terbaca jelas pada skala alat) dan satu angka taksiran (angka terakhir yang diperkirakan). Pemahaman mengenai angka penting sangat krusial karena mencerminkan ketelitian alat ukur yang digunakan.
 
-**Pembukaan: Belajar dari Pak Tani**
-Coba perhatikan seorang petani di sawah saat akan menanam padi. Sebelum benih disemai, biasanya para petani merendamnya terlebih dahulu dalam larutan air garam. Mereka akan membuang benih yang mengapung dan hanya menggunakan benih yang tenggelam. Mengapa demikian? Mereka percaya bahwa benih yang tenggelam memiliki kualitas yang lebih baik dan akan tumbuh subur.
+Terdapat aturan khusus dalam menentukan jumlah angka penting. Semua angka bukan nol adalah angka penting. Angka nol yang terletak di antara angka bukan nol juga termasuk angka penting, misalnya pada angka 105 terdapat tiga angka penting. Namun, angka nol yang terletak di sebelah kiri angka bukan nol, baik sebelum maupun sesudah koma desimal, bukan merupakan angka penting karena hanya berfungsi sebagai penunjuk tempat desimal. Sebaliknya, angka nol di sebelah kanan angka bukan nol setelah tanda desimal adalah angka penting karena menunjukkan ketelitian pengukuran tersebut.
 
-`#sisipkan gambar petani sedang menyeleksi benih padi`
+### Submateri: Perhitungan Pengukuran
+Ketika data hasil pengukuran diolah melalui operasi matematika seperti penjumlahan, pengurangan, perkalian, atau pembagian, kita tidak boleh sembarangan menuliskan hasil akhirnya. Hasil perhitungan harus mencerminkan ketelitian data awal yang paling rendah.
 
-Tanpa kita sadari, Pak Tani sedang menerapkan sebuah metode yang sangat mirip dengan cara kerja ilmuwan. Ia **mengamati** adanya benih berkualitas baik dan buruk. Ia punya **dugaan** (hipotesis) bahwa benih yang tenggelam lebih baik. Lalu ia **menguji** dugaannya dengan menanam benih tersebut dan melihat hasilnya dari panen ke panen. Proses inilah inti dari apa yang akan kita pelajari: **hakikat Fisika dan metode ilmiah**.  
+Pada operasi penjumlahan dan pengurangan, hasil akhir hanya boleh mengandung satu angka taksiran, atau dengan kata lain, mengikuti jumlah angka di belakang koma yang paling sedikit dari bilangan-bilangan yang dioperasikan. Sedangkan pada operasi perkalian dan pembagian, aturannya berbeda; jumlah angka penting pada hasil akhir harus sama dengan jumlah angka penting yang paling sedikit dari komponen perhitungan tersebut. Misalnya, jika Anda mengalikan bilangan dengan dua angka penting dan bilangan dengan tiga angka penting, hasilnya harus dibulatkan menjadi dua angka penting.
 
-**Materi Pembelajaran**  
+### Submateri: Notasi Ilmiah
+Fisika sering kali berurusan dengan bilangan yang sangat besar, seperti massa bumi, atau bilangan yang sangat kecil, seperti massa elektron. Menuliskan semua angka nol pada bilangan tersebut tidaklah efisien dan rawan kesalahan. Oleh karena itu, digunakanlah notasi ilmiah atau bentuk baku.
 
-## Hakikat Ilmu Fisika: Lebih dari Sekadar Rumus
+Format penulisan notasi ilmiah dinyatakan sebagai \(a \times 10^n\), di mana \(a\) adalah bilangan real yang memenuhi syarat \(1 \le a < 10\) dan \(n\) adalah bilangan bulat. Penggunaan notasi ini memudahkan para ilmuwan untuk membaca data, melakukan perhitungan, serta menentukan orde besar suatu besaran fisis secara cepat tanpa harus menghitung jumlah angka nol secara manual.
 
-Banyak yang mengira Fisika itu hanya soal rumus dan hitungan yang rumit. Padahal, itu hanya sebagian kecil saja. Pada intinya, **Fisika** adalah ilmu yang mempelajari gejala alam semesta, mencoba memahami bagaimana segala sesuatu bekerja, mulai dari partikel terkecil yang tak terlihat hingga galaksi yang maha luas. Fisika mencoba menjawab pertanyaan "bagaimana" dan "mengapa" tentang segala kejadian di sekitar kita.
+## Materi: Keselamatan Laboratorium
+Laboratorium fisika adalah tempat di mana teori dibuktikan melalui eksperimen. Namun, tempat ini juga menyimpan potensi bahaya jika tidak dikelola dengan disiplin yang tinggi. Oleh karena itu, pemahaman tentang keselamatan kerja bukan hanya pelengkap, melainkan prasyarat mutlak sebelum memulai kegiatan praktikum. Tujuannya adalah melindungi praktikan, orang lain, serta peralatan laboratorium dari kecelakaan atau kerusakan.
 
-Ilmu Fisika bisa kita pandang dari tiga sisi:
+### Submateri: Aturan dan Larangan di Laboratorium
+Setiap laboratorium memiliki tata tertib yang harus dipatuhi secara ketat. Siswa diwajibkan menggunakan alat pelindung diri (APD) yang sesuai, seperti jas laboratorium untuk melindungi tubuh dari percikan bahan kimia atau panas, serta kacamata pelindung jika diperlukan. Sangat dilarang untuk makan dan minum di dalam laboratorium karena risiko kontaminasi bahan berbahaya.
 
-1. **Fisika sebagai Produk:** Ini adalah hasil-hasil penemuan para ilmuwan yang sudah kita kenal. Bentuknya berupa **fakta**, **konsep**, **prinsip**, **hukum**, **rumus**, dan **teori**. Contohnya adalah Hukum Newton tentang gerak yang menjelaskan mengapa motor di pasar bisa bergerak atau mengapa buah kelapa jatuh ke bawah.
-2. **Fisika sebagai Proses:** Ini adalah cara atau prosedur untuk mendapatkan "produk" tadi. Proses inilah yang disebut **metode ilmiah**. Fisika bukan ilmu "katanya", tapi ilmu yang didapat dari penyelidikan yang teliti, pengamatan, dan percobaan.
-3. **Fisika sebagai Sikap:** Ini adalah sikap yang harus dimiliki seorang ilmuwan (dan juga kita semua!). Sikap itu antara lain **rasa ingin tahu**, **jujur** terhadap data, **objektif** (tidak memihak), **tekun**, **teliti**, dan **terbuka** terhadap pendapat orang lain.
+Selain itu, siswa dilarang melakukan eksperimen di luar prosedur yang telah ditetapkan oleh guru atau modul praktikum. Kebersihan dan kerapian meja kerja juga menjadi tanggung jawab praktikan. Setelah selesai, alat-alat harus dikembalikan ke tempat semula dalam keadaan bersih, dan pastikan sumber listrik atau pemanas telah dimatikan untuk mencegah kebakaran.
 
-## Metode Ilmiah: Langkah Jitu Memecahkan Misteri
+### Submateri: Simbol di Laboratorium
+Untuk berkomunikasi mengenai potensi bahaya secara cepat dan universal, laboratorium menggunakan simbol-simbol khusus yang ditempel pada kemasan bahan kimia atau di area tertentu. Siswa harus mampu mengenali makna simbol-simbol ini. Misalnya, simbol api menunjukkan bahan yang mudah terbakar (*flammable*), sehingga harus dijauhkan dari sumber panas. Simbol tengkorak menunjukkan bahan beracun (*toxic*) yang berbahaya jika terhirup atau tertelan.
 
-Bayangkan kamu seorang detektif yang ingin memecahkan sebuah kasus. Tentu kamu butuh langkah-langkah yang sistematis, kan? Nah, metode ilmiah adalah serangkaian langkah sistematis yang digunakan para ilmuwan untuk mempelajari alam.
+Simbol lain yang umum dijumpai di laboratorium fisika adalah simbol tegangan tinggi (*high voltage*) yang memperingatkan adanya risiko sengatan listrik, serta simbol benda tajam atau panas. Memahami visualisasi bahaya ini adalah langkah pertama dalam mitigasi risiko kecelakaan kerja di lingkungan sains.
 
-Berikut adalah langkah-langkah dalam metode ilmiah:
+## Kesimpulan
+Memahami hakikat fisika berarti memahami bagaimana cara kita berinteraksi dengan alam semesta melalui data yang valid dan lingkungan kerja yang aman. Pengukuran yang presisi dengan penerapan aturan angka penting dan notasi ilmiah memastikan bahwa komunikasi data antarilmuwan berjalan akurat. Di sisi lain, kepatuhan terhadap prosedur keselamatan kerja dan pemahaman simbol bahaya di laboratorium menjamin bahwa proses pencarian kebenaran ilmiah tersebut tidak mengorbankan keselamatan diri sendiri maupun orang lain.
 
-`#sisipkan diagram alur atau infografis langkah-langkah metode ilmiah`
+*Assesment Mandiri*
 
-1. **Melakukan Observasi (Pengamatan):** Mengamati suatu fenomena atau masalah dengan pancaindra.
-    * *Contoh Kontekstual:* Kamu melihat ikan-ikan di sungai dekat pabrik banyak yang mati, sementara di bagian sungai yang jauh dari pabrik, ikannya tetap hidup.
+1. Seorang siswa mengukur panjang pelat logam dan mendapatkan hasil 12,5 cm, sedangkan lebarnya adalah 2,4 cm. Hitunglah luas pelat logam tersebut dan tuliskan hasil akhirnya sesuai dengan aturan angka penting!
 
-2. **Merumuskan Masalah:** Membuat pertanyaan dari hasil pengamatan tadi. Pertanyaan ini harus spesifik dan bisa diuji.
-    * *Contoh:* "Apakah limbah dari pabrik menyebabkan kematian ikan di sungai?"
+2. Jelaskan langkah-langkah keselamatan yang harus dilakukan jika Anda secara tidak sengaja memecahkan gelas ukur yang berisi cairan kimia di dalam laboratorium!
 
-3. **Mengumpulkan Informasi (Studi Pustaka):** Mencari informasi dari berbagai sumber terpercaya (buku, jurnal, internet) yang berkaitan dengan masalah tersebut.
-    * *Contoh:* Mencari tahu jenis limbah yang dihasilkan pabrik dan apa dampaknya bagi makhluk hidup di air.
-
-4. **Membuat Hipotesis (Dugaan Sementara):** Membuat jawaban sementara yang logis berdasarkan informasi yang sudah dikumpulkan.
-    * *Contoh:* "Limbah pabrik X mengandung zat kimia berbahaya yang menurunkan kualitas air sehingga menyebabkan ikan mati."
-
-5. **Melakukan Eksperimen (Percobaan):** Merancang dan melakukan percobaan untuk menguji kebenaran hipotesis. Dalam percobaan, kita mengenal adanya **variabel** (faktor yang bisa berubah atau diubah).
-    * *Contoh:* Menyiapkan dua akuarium. Akuarium A diisi air sungai yang jernih dan beberapa ikan. Akuarium B diisi air sungai yang sama, tapi ditambahkan sedikit sampel air limbah pabrik, lalu diisi ikan dengan jenis dan jumlah yang sama.
-
-6. **Menganalisis Data:** Mencatat semua hasil pengamatan dari eksperimen dalam bentuk tabel, grafik, atau catatan, lalu menafsirkannya.
-    * *Contoh:* Setelah 24 jam, semua ikan di Akuarium B mati, sementara ikan di Akuarium A tetap hidup. Data ini dicatat.
-
-7. **Menarik Kesimpulan:** Menyimpulkan apakah hasil eksperimen mendukung atau menolak hipotesis.
-    * *Contoh:* "Berdasarkan percobaan, terbukti bahwa limbah pabrik X menyebabkan kematian ikan. Maka, hipotesis diterima."
-
-## Keselamatan Kerja di Laboratorium
-
-Laboratorium adalah tempat yang menyenangkan untuk bereksperimen, tapi juga bisa berbahaya jika kita tidak hati-hati. Selalu patuhi aturan keselamatan kerja untuk menjaga diri sendiri dan orang lain!
-
-**Aturan Umum:**
-
-* Gunakan jas laboratorium dan sepatu tertutup.
-* Ikat rambutmu jika panjang.
-* Jangan makan, minum, atau bercanda di laboratorium.
-* Baca petunjuk praktikum dengan teliti sebelum memulai.
-* Kenali letak alat pemadam api dan P3K.
-* Jika terjadi kecelakaan (terkena bahan kimia atau api), segera lapor pada guru!
-
-`#sisipkan gambar simbol-simbol bahaya di laboratorium (mudah terbakar, korosif, beracun, dll)`
-
-**Refleksi**  
-
-Untuk mengukur pemahamanmu, coba jawab pertanyaan berikut dengan memilih salah satu jawaban yang paling tepat!
-
-1. Hukum Newton yang menjelaskan mengapa benda bergerak adalah contoh Fisika sebagai...
-    a. Proses
-    b. Produk
-    c. Sikap
-    d. Metode
-    e. Eksperimen
-
-2. Seorang siswa menduga bahwa tanaman akan lebih cepat tinggi jika diberi pupuk A. Dugaan ini dalam metode ilmiah disebut...
-    a. Observasi
-    b. Kesimpulan
-    c. Hipotesis
-    d. Analisis
-    e. Masalah
-
-3. Langkah pertama yang harus dilakukan dalam metode ilmiah adalah...
-    a. Membuat hipotesis
-    b. Melakukan eksperimen
-    c. Menarik kesimpulan
-    d. Melakukan observasi
-    e. Menganalisis data
-
-4. Saat melakukan eksperimen untuk menguji pengaruh jenis tanah terhadap pertumbuhan kacang hijau, faktor yang sengaja dibuat berbeda (misalnya, jenis tanah humus dan tanah liat) disebut...
-    a. Variabel kontrol
-    b. Variabel terikat
-    c. Variabel bebas
-    d. Variabel pengganggu
-    e. Variabel tetap
-
-5. Berikut ini yang **bukan** merupakan sikap ilmiah adalah...
-    a. Rasa ingin tahu
-    b. Jujur
-    c. Objektif
-    d. Tekun
-    e. Percaya pada katanya
-
-**Asesmen Formatif**  
-
-Jawablah pertanyaan berikut dengan singkat dan jelas!
-
-1. Kamu melihat bahwa es teh di warung yang gelasnya diaduk lebih cepat dingin daripada yang tidak diaduk. Buatlah satu **rumusan masalah** yang sesuai dari pengamatan tersebut!
-2. Dari rumusan masalah di soal nomor 1, buatlah satu **hipotesis** yang logis!
-3. Sebutkan tiga aturan keselamatan kerja yang paling penting saat kamu akan melakukan praktikum di laboratorium!  
-
-**Glosarium**  
-
-* **Fisika:** Cabang IPA yang mempelajari materi, energi, dan interaksi antara keduanya.
-* **Hipotesis:** Dugaan atau jawaban sementara terhadap suatu masalah yang perlu diuji kebenarannya.
-* **Metode Ilmiah:** Proses berpikir dan bekerja secara sistematis yang digunakan ilmuwan untuk memecahkan masalah.
-* **Observasi:** Kegiatan pengamatan suatu objek atau fenomena menggunakan pancaindra.
-* **Variabel:** Faktor, kondisi, atau unsur yang dapat berubah atau diubah dalam suatu eksperimen.
-
-**Daftar Pustaka**  
-
-* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
-* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
-* Pusat Kurikulum dan Perbukuan. (2022). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran IPA*. Kemendikbudristek.
+***
