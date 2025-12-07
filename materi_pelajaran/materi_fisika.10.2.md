@@ -1,153 +1,264 @@
-# BAB 2: Mengukur Dunia di Sekitar Kita
+# Gaya Newton
 
-**Tujuan Pembelajaran:**
-Setelah mempelajari bab ini, diharapkan kamu mampu untuk:
+## Tujuan Pembelajaran
 
-1. Membedakan antara besaran pokok dan besaran turunan beserta satuannya.
-2. Menggunakan alat ukur panjang (jangka sorong & mikrometer sekrup) dan massa (neraca) sesuai prosedur yang benar.
-3. Menerapkan aturan angka penting dan notasi ilmiah dalam menyajikan data hasil pengukuran.
-4. Menyajikan data hasil pengukuran dalam bentuk tabel dan grafik sederhana secara sistematis dan informatif.
+Setelah mempelajari bab ini, siswa diharapkan mampu:
+- Memahami konsep inersia dan hukum pertama Newton dalam menganalisis keadaan benda
+- Menjelaskan hubungan antara gaya, massa, dan percepatan melalui hukum kedua Newton
+- Mengidentifikasi pasangan gaya aksi-reaksi berdasarkan hukum ketiga Newton
+- Menerapkan ketiga hukum Newton dalam menyelesaikan masalah mekanika klasik
+- Menganalisis fenomena gerak benda dalam kehidupan sehari-hari menggunakan hukum Newton
 
-**Pemahaman Bermakna:**
-Pernahkah kamu membeli beras di pasar? Penjual akan menimbangnya untuk memastikan jumlahnya pas. Atau saat seorang penjahit membuat baju, ia akan mengukur lingkar badanmu dengan teliti. Mengukur adalah kegiatan yang sangat lekat dengan kehidupan kita. Dalam Fisika, pengukuran adalah gerbang untuk memahami alam. Tanpa pengukuran yang akurat, kita tidak bisa membangun jembatan yang kokoh, membuat mesin yang presisi, atau bahkan memahami seberapa cepat laju pertumbuhan tanaman padi di sawah. Dengan belajar mengukur secara benar, kamu sedang melatih ketelitian, kejujuran, dan kemampuan berpikir logis.
+***
 
-**Pembukaan: Rahasia di Balik Sebutir Gabah**
-Bayangkan kamu adalah seorang peneliti di sebuah pabrik penggilingan padi. Kamu diminta untuk memeriksa kualitas gabah hasil panen terbaru. Bosmu bertanya, "Apakah gabah kali ini lebih 'berisi' daripada panen sebelumnya?" Bagaimana caramu menjawab pertanyaan itu secara ilmiah, bukan sekadar "kira-kira"?
+## Hukum Pertama Newton (Hukum Inersia)
 
-Kamu tentu perlu **mengukur**. Mungkin kamu akan mengukur **panjang** setiap butir gabah, mengukur **diameternya**, lalu menimbang **massanya**. Dari data-data angka hasil pengukuran itulah kamu bisa mengambil kesimpulan yang dapat dipercaya. Kegiatan sederhana ini menunjukkan betapa pentingnya pengukuran dalam dunia nyata, mulai dari pertanian hingga industri.
+### Pengertian dan Bunyi
 
-`#sisipkan gambar gabah yang sedang diukur dengan jangka sorong atau mikrometer sekrup`
+Hukum pertama Newton menyatakan bahwa setiap benda akan mempertahankan keadaannya, baik diam maupun bergerak lurus beraturan, selama tidak ada gaya luar yang bekerja pada benda tersebut. Dengan kata lain, benda yang diam akan tetap diam, dan benda yang bergerak lurus beraturan akan terus bergerak lurus beraturan dalam arah yang sama, kecuali ada resultan gaya yang tidak sama dengan nol yang bekerja padanya.
 
-**Materi Pembelajaran**  
+Konsep ini berkaitan erat dengan konsep inersia, yaitu kecenderungan suatu benda untuk mempertahankan keadaannya. Semakin besar masa suatu benda, semakin besar inersianya, dan semakin sulit untuk mengubah keadaan geraknya.
 
-## Besaran dan Satuan: Bahasa Universal dalam Sains
+### Formulasi Matematis
 
-Saat kamu mengatakan "panjang meja ini 5", orang akan bingung. Lima apa? Lima jengkalmu? Lima jengkal temanmu? Tentu berbeda. Agar semua orang paham, kita butuh kesepakatan.
+Hukum pertama Newton dapat dinyatakan secara matematis sebagai berikut:
 
-* **Besaran** adalah segala sesuatu yang dapat diukur dan dinyatakan dengan angka. Contoh: panjang, massa, waktu, suhu.
-* **Satuan** adalah pembanding dalam pengukuran. Contoh: meter, kilogram, detik, Celcius.
+$$\sum F = 0$$
 
-Para ilmuwan di seluruh dunia sepakat menggunakan **Sistem Satuan Internasional (SI)** agar hasil pengukuran di Indonesia sama dan bisa dipahami oleh ilmuwan di Jepang atau Brazil. Dalam SI, ada dua jenis besaran:
+di mana $\sum F$ adalah resultan gaya yang bekerja pada benda (dalam Newton). Kondisi ini berlaku baik ketika benda diam ($v = 0$) maupun ketika benda bergerak dengan kecepatan konstan ($a = 0$).
 
-## Besaran Pokok
+### Penerapan dalam Kehidupan Sehari-hari
 
-Ini adalah besaran dasar yang satuannya sudah ditetapkan terlebih dahulu. Ada tujuh besaran pokok, tapi di kelas X kita akan fokus pada beberapa yang utama:
+Dalam kehidupan sehari-hari, kita dapat mengamati penerapan hukum pertama Newton melalui berbagai peristiwa. Ketika Anda berada di dalam mobil yang bergerak dengan kecepatan konstan, Anda akan merasa seolah-olah tidak bergerak. Namun, ketika pengemudi melakukan pengereman mendadak, tubuh Anda akan terlempar ke depan karena inersia—tubuh Anda cenderung untuk terus bergerak maju sesuai dengan keadaan geraknya sebelumnya. Demikian pula, ketika mobil tiba-tiba bergerak maju dari posisi diam, tubuh Anda akan terlempar ke belakang.
 
-| Besaran Pokok | Satuan SI | Singkatan |
-| :--- | :--- | :--- |
-| Panjang | meter | m |
-| Massa | kilogram | kg |
-| Waktu | sekon (detik) | s |
-| Suhu | Kelvin | K |
+Contoh lain adalah bola yang digelindingkan di lantai licin akan terus bergerak lebih lama dibandingkan bola yang digelindingkan di lantai kasar. Hal ini terjadi karena pada lantai licin, gaya gesekan lebih kecil, sehingga resultan gaya yang melawan gerakan bola juga lebih kecil. Semakin kecil gaya gesekan, semakin lama bola dapat mempertahankan gerakannya sesuai dengan prinsip inersia.
 
-## Besaran Turunan  
+### Contoh Soal
 
-Ini adalah besaran yang diturunkan dari satu atau lebih besaran pokok.
+Sebuah benda bermassa 5 kg diletakkan di atas meja tanpa gesekan. Jika resultan gaya yang bekerja pada benda adalah nol, apa yang dapat kita simpulkan tentang keadaan benda tersebut?
 
-* **Luas:** diturunkan dari panjang × panjang (meter × meter), satuannya $m^2$.
-* **Kecepatan:** diturunkan dari panjang / waktu (meter / sekon), satuannya m/s.
-* **Massa Jenis:** diturunkan dari massa / volume (kilogram / $m^3$), satuannya $kg/m^3$.
+**Jawaban:** Karena resultan gaya sama dengan nol, maka menurut hukum pertama Newton, benda yang awalnya diam akan tetap diam. Jika benda awalnya bergerak, maka benda akan terus bergerak dengan kecepatan konstan dalam arah yang sama.
 
-## B. Alat Ukur dan Cara Menggunakannya
+***
 
-Untuk mendapatkan hasil yang akurat, kita butuh alat yang tepat. Berikut beberapa alat ukur yang akan sering kita gunakan.
+## Hukum Kedua Newton
 
-**1. Jangka Sorong**
-Digunakan untuk mengukur panjang, diameter luar, dan diameter dalam suatu benda dengan tingkat ketelitian 0,1 mm atau 0,01 cm.
+### Pengertian dan Bunyi
 
-* **Bagian-bagian:** Rahang tetap (skala utama) dan rahang geser (skala nonius).
-* **Cara Membaca:**
-    1. Baca **skala utama** yang terletak persis sebelum angka nol pada skala nonius.
-    2. Cari garis pada **skala nonius** yang berimpit (segaris lurus) dengan garis pada skala utama.
-    3. Hasil = Skala Utama + (Angka Nonius yang berimpit × 0,01 cm).
+Hukum kedua Newton menggambarkan hubungan antara gaya yang bekerja pada suatu benda dengan percepatan yang dihasilkannya. Hukum ini menyatakan bahwa percepatan yang dihasilkan oleh sebuah gaya yang bekerja pada benda berbanding lurus dengan gaya tersebut dan berbanding terbalik dengan massa benda. Dengan kata lain, semakin besar gaya yang diberikan kepada benda, semakin besar percepatan yang dihasilkan. Sebaliknya, semakin besar massa benda, semakin kecil percepatan yang dihasilkan untuk gaya yang sama.
 
-`#sisipkan gambar animasi cara membaca hasil pengukuran jangka sorong`
+Hukum kedua Newton dapat juga didefinisikan sebagai hubungan antara gaya dengan perubahan momentum suatu benda. Gaya merupakan laju perubahan momentum, sehingga hukum kedua Newton memberikan dasar untuk memahami bagaimana gaya mengubah keadaan gerak benda.
 
-**2. Mikrometer Sekrup**
-Lebih teliti dari jangka sorong, dengan ketelitian 0,01 mm atau 0,001 cm. Biasanya digunakan untuk mengukur ketebalan benda tipis seperti kertas atau diameter kawat.
+### Formulasi Matematis
 
-* **Bagian-bagian:** Skala utama dan skala putar (nonius).
-* **Cara Membaca:**
-    1. Baca **skala utama** yang terlihat paling kanan pada selubung.
-    2. Baca **skala putar** yang segaris lurus dengan garis horizontal pada skala utama.
-    3. Hasil = Skala Utama + (Angka Skala Putar × 0,01 mm).
+Hukum kedua Newton dapat dinyatakan dalam beberapa bentuk. Bentuk yang paling umum adalah:
 
-`#sisipkan gambar animasi cara membaca hasil pengukuran mikrometer sekrup`
+$$F = m \cdot a$$
 
-## Angka Penting dan Notasi Ilmiah: Melaporkan Hasil dengan Jujur  
+di mana:
+- $F$ adalah gaya yang bekerja pada benda (dalam Newton, N)
+- $m$ adalah massa benda (dalam kilogram, kg)
+- $a$ adalah percepatan benda (dalam meter per sekon kuadrat, m/s²)
 
-Dalam sains, cara kita menuliskan angka hasil pengukuran itu penting. Itu menunjukkan seberapa teliti kita mengukur.
+Jika terdapat lebih dari satu gaya yang bekerja pada benda, maka formulasinya menjadi:
 
-**Angka Penting (AP)** adalah semua angka yang diperoleh dari hasil pengukuran, yang terdiri dari angka pasti dan satu angka taksiran (angka terakhir).
+$$\sum F = m \cdot a$$
 
-* Semua angka bukan nol adalah angka penting. (Contoh: **2,45** cm -> 3 AP)
-* Angka nol di antara angka bukan nol adalah angka penting. (Contoh: **30,5** kg -> 3 AP)
-* Angka nol di sebelah kanan tanda desimal dan mengikuti angka bukan nol adalah angka penting. (Contoh: **5,40** m -> 3 AP)
-* Angka nol di sebelah kiri angka bukan nol (baik di kiri atau kanan desimal) bukan angka penting. (Contoh: **0,052** -> 2 AP)
+di mana $\sum F$ adalah resultan dari semua gaya yang bekerja pada benda.
 
-**Notasi Ilmiah** digunakan untuk menuliskan angka yang sangat besar atau sangat kecil agar lebih sederhana.
+Bentuk lain dari hukum kedua Newton yang lebih umum adalah:
 
-* Jarak Bumi ke Matahari: 149.600.000.000 m ditulis $1,496 \times 10^{11}$ m.
-* Ukuran bakteri: 0,000002 m ditulis $2 \times 10^{-6}$ m.
+$$F = \frac{\Delta p}{\Delta t}$$
 
-**Refleksi**  
+di mana $\Delta p$ adalah perubahan momentum benda dan $\Delta t$ adalah interval waktu. Momentum didefinisikan sebagai $p = m \cdot v$, sehingga kedua persamaan ini ekuivalen.
 
-Pilih jawaban yang paling tepat untuk menguji pemahamanmu!
+### Penerapan dalam Kehidupan Sehari-hari
 
-1. Di antara kelompok besaran berikut, yang termasuk kelompok besaran pokok adalah...
-    a. Panjang, luas, waktu
-    b. Massa, kuat arus, kecepatan
-    c. Waktu, suhu, massa jenis
-    d. Panjang, massa, waktu
-    e. Volume, suhu, kuat arus
+Penerapan hukum kedua Newton dapat kita amati dalam berbagai situasi praktis. Ketika Anda mengendarai mobil dengan kecepatan konstan di jalan datar, gaya yang dihasilkan oleh mesin seimbang dengan gaya gesekan dan hambatan udara, sehingga percepatan nol dan kecepatan tetap. Namun, jika Anda menambah pemberian gas pada mesin (meningkatkan gaya dorong), percepatan mobil akan meningkat sesuai dengan hukum kedua Newton.
 
-2. Sebuah balok diukur dengan jangka sorong dan hasilnya adalah 2,45 cm. Angka 5 pada hasil pengukuran tersebut disebut...
-    a. Angka pasti
-    b. Angka taksiran
-    c. Angka penting
-    d. Angka nol
-    e. Angka mutlak
+Contoh lain adalah perbandingan antara mobil truk dan mobil penumpang. Ketika kedua mobil diberikan gaya dorong yang sama, mobil penumpang yang lebih ringan akan mengalami percepatan yang lebih besar dibandingkan truk yang lebih berat. Hubungan ini sesuai dengan persamaan $a = \frac{F}{m}$—untuk gaya yang sama, semakin besar massa, semakin kecil percepatan yang dihasilkan.
 
-3. Hasil pengukuran ketebalan sebuah koin adalah 0,150 cm. Jumlah angka penting pada hasil pengukuran tersebut adalah...
-    a. 1
-    b. 2
-    c. 3
-    d. 4
-    e. 5
+Dalam olahraga, pemain bola kaki yang menendang bola dengan gaya berbeda akan menghasilkan percepatan bola yang berbeda pula. Semakin kuat tendangan (gaya yang lebih besar), semakin besar percepatan bola. Demikian pula, bola yang lebih berat akan mengalami percepatan yang lebih kecil untuk kekuatan tendangan yang sama.
 
-4. Kecepatan suara di udara adalah sekitar 340 m/s. Besaran kecepatan ini diturunkan dari besaran pokok...
-    a. Panjang dan massa
-    b. Massa dan waktu
-    c. Panjang dan waktu
-    d. Suhu dan panjang
-    e. Waktu dan suhu
+### Contoh Soal
 
-5. Bilangan 0,000780 jika ditulis dalam notasi ilmiah yang benar adalah...
-    a. $7,8 \times 10^{-4}$
-    b. $7,80 \times 10^{-4}$
-    c. $78 \times 10^{-5}$
-    d. $0,78 \times 10^{-3}$
-    e. $780 \times 10^{-6}$
+Sebuah benda bermassa 2 kg diberi gaya sebesar 20 N. Berapakah percepatan yang dialami benda tersebut?
 
-**Asesmen Formatif**  
+**Penyelesaian:**
+Diketahui: $m = 2 \text{ kg}$, $F = 20 \text{ N}$
 
-Jawablah pertanyaan berikut dengan singkat dan jelas!
+Menggunakan hukum kedua Newton:
+$$a = \frac{F}{m} = \frac{20}{2} = 10 \text{ m/s}^2$$
 
-1. Seorang siswa mengukur panjang sebuah paku menggunakan jangka sorong. Skala utama menunjukkan 4,7 cm, dan skala nonius yang berimpit dengan skala utama adalah garis ke-6. Berapakah panjang paku tersebut?
-2. Massa sebuah karung beras adalah 50 kg. Sebutkan mana yang merupakan **besaran**, **nilai**, dan **satuan** dari pernyataan tersebut!
-3. Tuliskan hasil pengukuran 2.500.000 gram dalam satuan kilogram (kg) menggunakan notasi ilmiah dan aturan 2 angka penting!  
+Jadi, percepatan yang dialami benda adalah 10 m/s².
 
-**Glosarium**  
+***
 
-* **Besaran Pokok:** Besaran dasar yang menjadi fondasi bagi besaran lainnya.
-* **Besaran Turunan:** Besaran yang didefinisikan dari satu atau lebih besaran pokok.
-* **Jangka Sorong:** Alat ukur panjang dengan ketelitian hingga 0,1 mm.
-* **Mikrometer Sekrup:** Alat ukur panjang dengan ketelitian hingga 0,01 mm.
-* **Angka Penting:** Angka hasil pengukuran yang menunjukkan tingkat ketelitian alat ukur.
-* **Notasi Ilmiah:** Cara penulisan bilangan yang sangat besar atau kecil dalam bentuk pangkat sepuluh.
+## Hukum Ketiga Newton (Hukum Aksi-Reaksi)
 
-**Daftar Pustaka**  
+### Pengertian dan Bunyi
 
-* Giancoli, Douglas C. (2005). *Physics: Principles with Applications*. Pearson Education.
-* Halliday, D., Resnick, R., & Walker, J. (2010). *Fundamentals of Physics*. John Wiley & Sons.
-* Pusat Kurikulum dan Perbukuan. (2022). *Capaian Pembelajaran dan Alur Tujuan Pembelajaran Mata Pelajaran IPA*. Kemendikbudristek.
+Hukum ketiga Newton menyatakan bahwa setiap aksi selalu diikuti oleh reaksi yang sama besar tetapi berlawanan arah. Dengan kata lain, jika benda A memberikan gaya pada benda B, maka benda B akan memberikan gaya balik kepada benda A dengan besaran yang sama tetapi dalam arah yang berlawanan. Kedua gaya ini disebut sebagai pasangan aksi-reaksi.
+
+Penting untuk dipahami bahwa pasangan aksi-reaksi selalu bekerja pada benda yang berbeda, bukan pada benda yang sama. Karena kedua gaya ini bekerja pada benda yang berbeda, gaya-gaya tersebut tidak akan saling meniadakan, dan masing-masing dapat menghasilkan perubahan gerak pada bendanya sendiri.
+
+### Formulasi Matematis
+
+Hukum ketiga Newton dapat dinyatakan secara matematis sebagai berikut:
+
+$$F_{\text{aksi}} = -F_{\text{reaksi}}$$
+
+atau
+
+$$F_{AB} = -F_{BA}$$
+
+di mana $F_{AB}$ adalah gaya yang diberikan benda A pada benda B, dan $F_{BA}$ adalah gaya yang diberikan benda B pada benda A. Tanda negatif menunjukkan bahwa kedua gaya memiliki arah yang berlawanan.
+
+### Penerapan dalam Kehidupan Sehari-hari
+
+Hukum ketiga Newton dapat kita amati dalam berbagai fenomena di sekitar kita. Ketika Anda berdiri di atas lantai, kaki Anda memberikan gaya tekan ke bawah pada lantai (aksi), dan lantai memberikan gaya dorong ke atas pada kaki Anda (reaksi). Kedua gaya ini sama besar tetapi berlawanan arah. Gaya ke atas dari lantai inilah yang memungkinkan Anda berdiri dengan seimbang tanpa jatuh ke dalam lantai.
+
+Ketika Anda mendorong dinding dengan tangan, tangan Anda memberikan gaya mendorong pada dinding (aksi), dan dinding memberikan gaya dorong balik pada tangan Anda (reaksi). Kedua gaya ini sama besar tetapi berlawanan arah. Anda dapat merasakan gaya dorong dari dinding pada tangan Anda dengan intensitas yang sama dengan kekuatan Anda mendorong dinding.
+
+Contoh lain yang lebih dramatis adalah peluncuran roket. Roket mengeluarkan gas dengan kecepatan sangat tinggi ke bawah (aksi), dan gas yang dikeluarkan memberikan gaya dorong ke atas pada roket (reaksi). Semakin banyak gas yang dikeluarkan dengan kecepatan yang semakin tinggi, semakin besar gaya dorong ke atas yang dihasilkan, dan roket dapat terbang semakin tinggi.
+
+Ketika Anda berjalan, kaki Anda memberikan gaya dorong ke belakang pada lantai (aksi), dan lantai memberikan gaya dorong ke depan pada kaki Anda (reaksi). Ini adalah cara kerja mekanisme yang memungkinkan Anda bergerak maju. Demikian pula dalam renang, perenang mendorong air ke belakang (aksi), dan air mendorong perenang ke depan (reaksi), sehingga perenang dapat bergerak maju di dalam air.
+
+### Contoh Soal
+
+Ketika Anda melompat ke atas, Anda memberikan gaya dorong pada lantai ke bawah. Menurut hukum ketiga Newton, apa yang terjadi, dan mengapa Anda dapat terbang ke atas?
+
+**Jawaban:** Menurut hukum ketiga Newton, ketika Anda memberikan gaya dorong pada lantai ke bawah (aksi), lantai memberikan gaya dorong pada Anda ke atas (reaksi) dengan besaran yang sama. Gaya ke atas dari lantai ini menyebabkan Anda mengalami percepatan ke atas. Jika gaya dorong dari lantai lebih besar daripada berat badan Anda, Anda akan mengalami percepatan ke atas dan dapat terbang meninggalkan lantai. Begitu Anda meninggalkan lantai, hanya gaya gravitasi yang bekerja pada Anda, sehingga Anda melambat dan akhirnya jatuh kembali.
+
+***
+
+## Studi Kasus: Masalah Mekanika Klasik
+
+### Kasus 1: Sistem Benda yang Dihubungkan dengan Tali dan Katrol
+
+Perhatikan suatu sistem di mana dua benda dengan massa $m_1$ dan $m_2$ dihubungkan oleh tali yang melewati katrol tanpa gesekan. Tali dianggap tidak dapat ditarik (inextensible) dan massanya diabaikan. Katrol dianggap ideal, artinya katrol tidak memiliki gesekan dan tidak memiliki massa. Anggaplah $m_1 > m_2$, sehingga $m_1$ akan bergerak ke bawah dan $m_2$ akan bergerak ke atas.
+
+**Analisis:**
+
+Untuk $m_1$ yang bergerak ke bawah, gaya-gaya yang bekerja adalah berat benda $m_1 \cdot g$ (ke bawah) dan tegangan tali $T$ (ke atas). Menurut hukum kedua Newton:
+
+$$m_1 \cdot g - T = m_1 \cdot a$$
+
+di mana $a$ adalah percepatan sistem.
+
+Untuk $m_2$ yang bergerak ke atas, gaya-gaya yang bekerja adalah tegangan tali $T$ (ke atas) dan berat benda $m_2 \cdot g$ (ke bawah). Menurut hukum kedua Newton:
+
+$$T - m_2 \cdot g = m_2 \cdot a$$
+
+Dari persamaan kedua, kita dapat mengekspresikan $T$:
+
+$$T = m_2 \cdot g + m_2 \cdot a = m_2(g + a)$$
+
+Substitusikan ke persamaan pertama:
+
+$$m_1 \cdot g - m_2(g + a) = m_1 \cdot a$$
+
+$$m_1 \cdot g - m_2 \cdot g - m_2 \cdot a = m_1 \cdot a$$
+
+$$(m_1 - m_2) \cdot g = (m_1 + m_2) \cdot a$$
+
+$$a = \frac{(m_1 - m_2) \cdot g}{m_1 + m_2}$$
+
+Hasil ini menunjukkan bahwa percepatan sistem bergantung pada perbedaan massa dan jumlah massa total. Semakin besar perbedaan massa, semakin besar percepatan. Sebaliknya, semakin besar jumlah massa total, semakin kecil percepatan yang dihasilkan.
+
+### Kasus 2: Benda pada Bidang Miring dengan Gesekan
+
+Pertimbangkan sebuah benda dengan massa $m$ yang berada di atas bidang miring dengan sudut kemiringan $\theta$. Bidang miring memiliki koefisien gesekan kinetis $\mu_k$. Kami ingin menentukan percepatan benda ketika benda meluncur ke bawah pada bidang miring tersebut.
+
+**Analisis:**
+
+Gaya-gaya yang bekerja pada benda adalah:
+- Berat benda: $m \cdot g$ (arah vertikal ke bawah)
+- Gaya normal dari permukaan: $N$ (tegak lurus terhadap permukaan bidang miring)
+- Gaya gesekan: $f = \mu_k \cdot N$ (berlawanan dengan arah gerak, yaitu ke atas sepanjang bidang miring)
+
+Menggunakan sistem koordinat dengan sumbu-x sejajar dengan bidang miring (positif ke arah bawah) dan sumbu-y tegak lurus terhadap bidang miring, kita dapat menguraikan gaya berat menjadi komponen-komponennya:
+- Komponen sejajar bidang miring: $m \cdot g \cdot \sin(\theta)$ (ke bawah)
+- Komponen tegak lurus bidang miring: $m \cdot g \cdot \cos(\theta)$ (ke dalam bidang)
+
+Pada arah tegak lurus bidang miring, percepatan adalah nol, sehingga:
+
+$$N = m \cdot g \cdot \cos(\theta)$$
+
+Gaya gesekan kinetis adalah:
+
+$$f = \mu_k \cdot N = \mu_k \cdot m \cdot g \cdot \cos(\theta)$$
+
+Pada arah sejajar bidang miring, menerapkan hukum kedua Newton:
+
+$$m \cdot g \cdot \sin(\theta) - f = m \cdot a$$
+
+$$m \cdot g \cdot \sin(\theta) - \mu_k \cdot m \cdot g \cdot \cos(\theta) = m \cdot a$$
+
+$$a = g \cdot [\sin(\theta) - \mu_k \cdot \cos(\theta)]$$
+
+Hasil ini menunjukkan bahwa percepatan benda pada bidang miring dengan gesekan bergantung pada sudut kemiringan dan koefisien gesekan. Jika $\sin(\theta) > \mu_k \cdot \cos(\theta)$, maka $a > 0$ dan benda akan mempercepat ke bawah. Jika $\sin(\theta) < \mu_k \cdot \cos(\theta)$, maka $a < 0$ dan benda akan memperlambat atau bahkan tidak akan bergerak jika sudah diam.
+
+### Kasus 3: Gaya Normal Pada Lift yang Bergerak
+
+Bayangkan seorang penumpang dengan massa $m$ berada di dalam lift. Kami ingin menentukan gaya normal yang bekerja pada penumpang dalam berbagai kondisi: ketika lift diam, ketika lift bergerak ke atas dengan percepatan $a$, dan ketika lift bergerak ke bawah dengan perlambatan $a$.
+
+**Analisis:**
+
+Gaya-gaya yang bekerja pada penumpang adalah berat badan $m \cdot g$ (ke bawah) dan gaya normal $N$ (ke atas) dari lantai lift.
+
+**Ketika lift diam atau bergerak dengan kecepatan konstan:**
+
+Percepatan penumpang adalah nol, sehingga menurut hukum pertama Newton:
+
+$$N - m \cdot g = 0$$
+
+$$N = m \cdot g$$
+
+Penumpang merasakan beratnya yang normal.
+
+**Ketika lift bergerak ke atas dengan percepatan $a$:**
+
+Menurut hukum kedua Newton, dengan arah ke atas sebagai arah positif:
+
+$$N - m \cdot g = m \cdot a$$
+
+$$N = m \cdot g + m \cdot a = m(g + a)$$
+
+Gaya normal lebih besar dari berat badan, sehingga penumpang merasa lebih berat.
+
+**Ketika lift bergerak ke bawah dengan perlambatan $a$ (percepatan ke atas sebesar $a$):**
+
+Menerapkan hukum kedua Newton dengan arah ke atas sebagai arah positif:
+
+$$N - m \cdot g = m \cdot a$$
+
+$$N = m(g + a)$$
+
+Sama seperti kasus sebelumnya, gaya normal lebih besar dari berat badan.
+
+**Ketika lift bergerak ke bawah dengan percepatan $a$ (dipercepat ke bawah):**
+
+Menerapkan hukum kedua Newton, dengan arah ke atas sebagai arah positif dan arah ke bawah memiliki percepatan $-a$:
+
+$$N - m \cdot g = -m \cdot a$$
+
+$$N = m \cdot g - m \cdot a = m(g - a)$$
+
+Gaya normal lebih kecil dari berat badan, sehingga penumpang merasa lebih ringan. Jika $a = g$, maka $N = 0$, artinya penumpang mengalami keadaan tanpa bobot (weightlessness).
+
+***
+
+## Kesimpulan
+
+Ketiga hukum Newton merupakan fondasi dari mekanika klasik yang menjelaskan bagaimana benda bergerak dan berinteraksi satu sama lain. Hukum pertama Newton (hukum inersia) menjelaskan bahwa benda akan mempertahankan keadaannya selama tidak ada gaya luar yang bekerja padanya. Hukum kedua Newton menggambarkan hubungan kuantitatif antara gaya, massa, dan percepatan melalui persamaan $F = m \cdot a$. Hukum ketiga Newton menyatakan bahwa setiap aksi memiliki reaksi yang sama besar tetapi berlawanan arah.
+
+Pemahaman mendalam tentang ketiga hukum Newton memungkinkan kita untuk menganalisis dan memprediksi pergerakan berbagai macam benda dalam kehidupan sehari-hari, dari pergerakan kendaraan hingga pergerakan benda langit. Penerapan praktis dari hukum-hukum ini terlihat dalam desain teknologi transportasi, konstruksi bangunan, olahraga, dan berbagai bidang lainnya. Dengan menguasai konsep-konsep ini, Anda akan memiliki alat yang kuat untuk memahami dunia fisik di sekitar Anda.
+
+***
+
+**Penilaian Mandiri**
+
+1. Sebuah benda bermassa 4 kg berada di atas permukaan datar tanpa gesekan. Benda tersebut ditarik oleh dua gaya: gaya pertama sebesar 12 N ke arah kanan dan gaya kedua sebesar 8 N ke arah kiri. Tentukan resultan gaya yang bekerja pada benda, percepatan benda, dan jelaskan pergerakan benda yang akan terjadi berdasarkan hasil analisis Anda menggunakan konsep hukum Newton.
+
+2. Seorang penari es berdiri di atas es yang sangat licin (hampir tanpa gesekan). Penari tersebut melempar sebuah batu dengan massa 2 kg ke arah horizontal dengan kecepatan 10 m/s. Massa penari es adalah 60 kg. Dengan menggunakan hukum ketiga Newton dan hukum kekekalan momentum, tentukan kecepatan dan arah gerakan penari es setelah melempar batu, serta jelaskan fisika di balik fenomena tersebut.
