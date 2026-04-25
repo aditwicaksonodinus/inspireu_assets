@@ -5,8 +5,10 @@
     "curiculum": "Kurikulum Merdeka"
   },
   "chapters":[
-    "chapter_number" : "1",
-    "title" : "Eksponen dan Logaritma"
-    "filename" : "matematika.10.1.md"
+    {
+      "chapter_number" : "1",
+      "title" : "Eksponen dan Logaritma",
+      "filename" : "matematika.10.1.md",
+    },
   ]
 }
