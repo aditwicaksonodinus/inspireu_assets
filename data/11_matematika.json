@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "subject": "Matematika",
+    "class": "11",
+    "curriculum": "Kurikulum Merdeka"
+  },
+  "chapters": [
+    {
+      "chapter_number": "1",
+      "title": "Bilangan Kompleks",
+      "filename": "matematika.11.1.md"
+    },
+    {
+      "chapter_number": "2",
+      "title": "Polinomial",
+      "filename": "matematika.11.2.md"
+    },
+    {
+      "chapter_number": "3",
+      "title": "Matriks",
+      "filename": "matematika.11.3.md"
+    },
+    {
+      "chapter_number": "4",
+      "title": "Transformasi Geometri",
+      "filename": "matematika.11.4.md"
+    },
+    {
+      "chapter_number": "5",
+      "title": "Fungsi dan Pemodelannya",
+      "filename": "matematika.11.5.md"
+    },
+    {
+      "chapter_number": "6",
+      "title": "Limit Fungsi Aljabar",
+      "filename": "matematika.11.6.md"
+    },
+    {
+      "chapter_number": "7",
+      "title": "Turunan Fungsi Aljabar",
+      "filename": "matematika.11.7.md"
+    },
+    {
+      "chapter_number": "8",
+      "title": "Logika Matematika",
+      "filename": "matematika.11.8.md"
+    }
+  ]
+}
