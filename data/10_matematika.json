@@ -1,14 +1,49 @@
 {
   "metadata": {
-    "subject" : "Matematika"
-    "class" : "10"
-    "curiculum": "Kurikulum Merdeka"
+    "subject": "Matematika",
+    "class": "10",
+    "curriculum": "Kurikulum Merdeka"
   },
-  "chapters":[
+  "chapters": [
     {
-      "chapter_number" : "1",
-      "title" : "Eksponen dan Logaritma",
-      "filename" : "matematika.10.1.md",
+      "chapter_number": "1",
+      "title": "Eksponen dan Logaritma",
+      "filename": "matematika.10.1.md"
     },
+    {
+      "chapter_number": "2",
+      "title": "Barisan dan Deret",
+      "filename": "matematika.10.2.md"
+    },
+    {
+      "chapter_number": "3",
+      "title": "Vektor dan Operasinya",
+      "filename": "matematika.10.3.md"
+    },
+    {
+      "chapter_number": "4",
+      "title": "Trigonometri",
+      "filename": "matematika.10.4.md"
+    },
+    {
+      "chapter_number": "5",
+      "title": "Sistem Persamaan dan Pertidaksamaan Linear",
+      "filename": "matematika.10.5.md"
+    },
+    {
+      "chapter_number": "6",
+      "title": "Fungsi Kuadrat",
+      "filename": "matematika.10.6.md"
+    },
+    {
+      "chapter_number": "7",
+      "title": "Statistika",
+      "filename": "matematika.10.7.md"
+    },
+    {
+      "chapter_number": "8",
+      "title": "Peluang",
+      "filename": "matematika.10.8.md"
+    }
   ]
 }
