@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "subject": "Fisika",
+    "class": "11",
+    "curriculum": "Kurikulum Merdeka"
+  },
+  "chapters": [
+    {
+      "chapter_number": "1",
+      "title": "Vektor",
+      "filename": "fisika.11.1.md"
+    },
+    {
+      "chapter_number": "2",
+      "title": "Kinematika",
+      "filename": "fisika.11.2.md"
+    },
+    {
+      "chapter_number": "3",
+      "title": "Dinamika Gerak Partikel",
+      "filename": "fisika.11.3.md"
+    },
+    {
+      "chapter_number": "4",
+      "title": "Fluida",
+      "filename": "fisika.11.4.md"
+    },
+    {
+      "chapter_number": "5",
+      "title": "Gelombang, Bunyi, dan Cahaya",
+      "filename": "fisika.11.5.md"
+    },
+    {
+      "chapter_number": "6",
+      "title": "Kalor",
+      "filename": "fisika.11.6.md"
+    },
+    {
+      "chapter_number": "7",
+      "title": "Termodinamika",
+      "filename": "fisika.11.7.md"
+    }
+  ]
+}
