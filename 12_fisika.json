@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "subject": "Fisika",
+    "class": "12",
+    "curriculum": "Kurikulum Merdeka"
+  },
+  "chapters": [
+    {
+      "chapter_number": "1",
+      "title": "Listrik Statis",
+      "filename": "fisika.12.1.md"
+    },
+    {
+      "chapter_number": "2",
+      "title": "Rangkaian Arus Searah",
+      "filename": "fisika.12.2.md"
+    },
+    {
+      "chapter_number": "3",
+      "title": "Gelombang Elektromagnetik",
+      "filename": "fisika.12.3.md"
+    },
+    {
+      "chapter_number": "4",
+      "title": "Optik",
+      "filename": "fisika.12.4.md"
+    },
+    {
+      "chapter_number": "5",
+      "title": "Fisika Inti dan Radioaktivitas",
+      "filename": "fisika.12.5.md"
+    },
+    {
+      "chapter_number": "6",
+      "title": "Pengantar Elektronika",
+      "filename": "fisika.12.6.md"
+    }
+  ]
+}
