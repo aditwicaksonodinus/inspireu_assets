@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "subject": "Biologi",
+    "class": "12",
+    "curriculum": "Kurikulum Merdeka"
+  },
+  "chapters": [
+    {
+      "chapter_number": "1",
+      "title": "Enzim dan Metabolisme",
+      "filename": "biologi.12.1.md"
+    },
+    {
+      "chapter_number": "2",
+      "title": "Genetik dan Pewarisan Sifat",
+      "filename": "biologi.12.2.md"
+    },
+    {
+      "chapter_number": "3",
+      "title": "Teori Evolusi",
+      "filename": "biologi.12.3.md"
+    },
+    {
+      "chapter_number": "4",
+      "title": "Inovasi Bioteknologi",
+      "filename": "biologi.12.4.md"
+    }
+  ]
+}
