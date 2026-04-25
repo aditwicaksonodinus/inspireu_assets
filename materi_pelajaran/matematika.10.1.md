@@ -1,108 +1,190 @@
-# Bab 1: Eksponen dan Logaritma
+Materi ini membahas eksponen dan logaritma sebagai fondasi penting untuk memahami pertumbuhan, peluruhan, skala, dan pemodelan kuantitatif. Penyajian materi disusun bertahap dari gagasan konkret menuju simbol, sehingga peserta didik dapat membangun pemahaman melalui pola, penalaran, dan refleksi.
 
-Materi ini membahas konsep eksponen (pangkat) dan logaritma sebagai dua operasi yang saling berkebalikan (invers). Pemahaman tentang eksponen sangat krusial karena menjadi fondasi dalam memodelkan berbagai fenomena alam, seperti pertumbuhan penduduk, peluruhan zat radioaktif, hingga bunga majemuk dalam ekonomi.
-
-Dalam modul ini, pembelajaran dirancang mengikuti alur **Zone of Proximal Development (ZPD)**. Kamu akan memulai dari pembangunan struktur pemikiran (scaffolding), penguatan konsep (consolidation), tantangan mandiri (exploration), hingga penerapan pada masalah nyata (engagement).
+# Eksponen dan Logaritma
 
 ## Tujuan Pembelajaran
-
-Setelah mempelajari bab ini, kamu diharapkan mampu:
-1. Mengidentifikasi sifat-sifat eksponen dengan tepat.
-2. Menyederhanakan ekspresi matematika yang melibatkan pangkat bulat dan rasional.
-3. Memahami konsep logaritma sebagai invers dari eksponen.
-4. Menerapkan sifat-sifat logaritma dalam penyelesaian masalah numerik.
+Setelah mempelajari bab ini, peserta didik diharapkan mampu:
+1. Menjelaskan makna eksponen sebagai perkalian berulang dan perluasannya.
+2. Menggunakan sifat-sifat eksponen untuk menyederhanakan bentuk aljabar.
+3. Menjelaskan logaritma sebagai invers dari eksponen.
+4. Menggunakan sifat-sifat logaritma dalam perhitungan dan pemecahan masalah.
 5. Menyelesaikan persamaan eksponen dan logaritma sederhana.
-6. Memodelkan fenomena pertumbuhan dan peluruhan menggunakan fungsi eksponensial.
+6. Mengaitkan eksponen dan logaritma dengan konteks kehidupan nyata.
 
----
+## Apersepsi
+Dalam kehidupan sehari-hari, kita sering menjumpai perubahan yang sangat cepat, misalnya pertumbuhan jumlah data digital, bunga tabungan majemuk, atau peluruhan zat tertentu. Situasi seperti ini tidak cukup dijelaskan dengan penjumlahan biasa, melainkan memerlukan model perpangkatan. Dari sinilah eksponen menjadi penting. Ketika kita ingin mengetahui pangkat yang menghasilkan suatu nilai, kita masuk ke konsep logaritma.
 
-## 1.1 Eksponen (Bilangan Berpangkat)
+## Peta Konsep
+- Eksponen: makna dasar, sifat-sifat, bentuk pecahan, bentuk negatif.
+- Persamaan eksponen: menyamakan basis, substitusi sederhana.
+- Logaritma: definisi, syarat, hubungan dengan eksponen.
+- Sifat logaritma: perkalian, pembagian, pangkat, perubahan basis sederhana.
+- Aplikasi: pertumbuhan, peluruhan, skala.
 
-### 1.1.1 Hakikat Eksponen (Scaffolding - ZPD 0)
-Eksponen adalah perkalian berulang dari suatu bilangan yang sama. Jika $a$ adalah bilangan real dan $n$ adalah bilangan bulat positif, maka:
+## 1.1 Konsep Dasar Eksponen
+Eksponen menyatakan perkalian berulang dari bilangan yang sama. Jika $a$ adalah bilangan pokok dan $n$ bilangan bulat positif, maka:
 
-$$a^n = \underbrace{a \times a \times a \times \dots \times a}_{n \text{ faktor}}$$
+$$a^n = \underbrace{a \times a \times a \times \cdots \times a}_{n\ \text{faktor}}$$
 
-Di mana:
-- $a$ disebut sebagai **bilangan pokok (basis)**.
-- $n$ disebut sebagai **pangkat (eksponen)**.
+Contoh:
+- $2^4 = 2 \times 2 \times 2 \times 2 = 16$
+- $3^3 = 27$
+- $10^2 = 100$
 
-### 1.1.2 Sifat-Sifat Eksponen (Consolidation - ZPD 1)
-Untuk meminimalkan beban kognitif (*extraneous load*), gunakan tabel berikut sebagai acuan operasional:
+Makna ini kemudian diperluas agar aturan eksponen tetap konsisten untuk pangkat nol, negatif, dan rasional.
 
-| Sifat Eksponen | Rumus | Deskripsi |
-| :--- | :--- | :--- |
-| Perkalian | $a^m \cdot a^n = a^{m+n}$ | Pangkat dijumlahkan jika basis sama |
-| Pembagian | $\frac{a^m}{a^n} = a^{m-n}$ | Pangkat dikurangi jika basis sama |
-| Perpangkatan | $(a^m)^n = a^{m \cdot n}$ | Pangkat dikalikan |
-| Pangkat Perkalian | $(a \cdot b)^n = a^n \cdot b^n$ | Pangkat didistribusikan ke setiap basis |
-| Pangkat Nol | $a^0 = 1, a \neq 0$ | Setiap bilangan (bukan nol) pangkat nol adalah satu |
-| Pangkat Negatif | $a^{-n} = \frac{1}{a^n}$ | Menjadi penyebut untuk pangkat positif |
+## 1.2 Sifat-Sifat Eksponen
+Sifat eksponen membantu menyederhanakan bentuk yang panjang menjadi lebih ringkas.
 
----
+| Sifat | Bentuk Umum | Contoh |
+|---|---|---|
+| Perkalian basis sama | $a^m \cdot a^n = a^{m+n}$ | $2^3 \cdot 2^4 = 2^7$ |
+| Pembagian basis sama | $\frac{a^m}{a^n} = a^{m-n}$ | $\frac{3^5}{3^2} = 3^3$ |
+| Pangkat dari pangkat | $(a^m)^n = a^{mn}$ | $(2^3)^2 = 2^6$ |
+| Pangkat pada perkalian | $(ab)^n = a^n b^n$ | $(2 \cdot 3)^2 = 2^2 \cdot 3^2$ |
+| Pangkat pada pembagian | $\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}$ | $\left(\frac{6}{2}\right)^3 = \frac{6^3}{2^3}$ |
+| Pangkat nol | $a^0 = 1$, $a \neq 0$ | $5^0 = 1$ |
+| Pangkat negatif | $a^{-n} = \frac{1}{a^n}$ | $2^{-3} = \frac{1}{8}$ |
+| Pangkat rasional | $a^{\frac{m}{n}} = \sqrt[n]{a^m}$ | $16^{\frac{1}{2}} = 4$ |
 
-## 1.2 Logaritma
+### Mengapa $a^0 = 1$?
+Perhatikan pola berikut:
+- $2^3 = 8$
+- $2^2 = 4$
+- $2^1 = 2$
 
-### 1.2.1 Logaritma sebagai Invers (Exploration - ZPD 2)
-Logaritma adalah operasi kebalikan dari eksponen. Jika eksponen mencari hasil pangkat, logaritma mencari **besar pangkat** itu sendiri.
+Setiap pangkat turun 1, nilainya dibagi 2. Maka dari $2^1 = 2$, jika turun lagi satu tingkat diperoleh $2^0 = 1$. Pola ini menjaga konsistensi aturan eksponen.
 
-Bentuk Umum:
-$${}^a\log b = c \iff a^c = b$$
+## 1.3 Bentuk Akar dan Eksponen Rasional
+Eksponen pecahan berkaitan langsung dengan bentuk akar.
 
-**Syarat:** $a > 0, a \neq 1,$ dan $b > 0$.
-- $a$: Basis atau bilangan pokok logaritma.
-- $b$: Numerus (bilangan yang dicari logaritmanya).
-- $c$: Hasil logaritma (nilai pangkat).
+$$a^{\frac{1}{n}} = \sqrt[n]{a}$$
+$$a^{\frac{m}{n}} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$$
 
-### 1.2.2 Sifat-Sifat Logaritma
-Gunakan sifat-sifat ini untuk menyederhanakan perhitungan kompleks:
+Contoh:
+- $27^{\frac{1}{3}} = 3$
+- $16^{\frac{3}{2}} = (\sqrt{16})^3 = 4^3 = 64$
 
-1. **Sifat Penjumlahan:** ${}^a\log b + {}^a\log d = {}^a\log (b \cdot d)$
-2. **Sifat Pengurangan:** ${}^a\log b - {}^a\log d = {}^a\log (\frac{b}{d})$
-3. **Sifat Pangkat:** ${}^a\log b^n = n \cdot {}^a\log b$
-4. **Perubahan Basis:** ${}^a\log b = \frac{{}^c\log b}{{}^c\log a}$
+Pada tahap ini, peserta didik perlu hati-hati membedakan antara $a^{\frac{m}{n}}$ dan $\frac{a^m}{n}$. Keduanya adalah bentuk yang berbeda.
 
----
+## 1.4 Persamaan Eksponen
+Persamaan eksponen adalah persamaan yang memuat peubah pada pangkat. Strategi paling dasar adalah mengubah kedua ruas ke basis yang sama.
 
-## 1.3 Penerapan dalam Kehidupan (Engagement - ZPD 3)
+Contoh 1:
 
-Eksponen dan logaritma diaplikasikan secara luas melalui konsep **Pertumbuhan** dan **Peluruhan**.
+$$2^{x+1} = 8$$
+$$2^{x+1} = 2^3$$
+$$x+1 = 3$$
+$$x = 2$$
 
-### 1.3.1 Pertumbuhan Eksponensial
-Digunakan dalam perhitungan bunga majemuk atau pertumbuhan bakteri.
-$$M_n = M_0(1 + i)^n$$
-*Keterangan: $M_n$ (jumlah akhir), $M_0$ (jumlah awal), $i$ (laju pertumbuhan), $n$ (periode).*
+Contoh 2:
 
-### 1.3.2 Peluruhan Eksponensial
-Digunakan dalam penyusutan harga barang atau peluruhan zat radioaktif.
-$$M_n = M_0(1 - i)^n$$
+$$3^{2x-1} = 27$$
+$$3^{2x-1} = 3^3$$
+$$2x - 1 = 3$$
+$$2x = 4$$
+$$x = 2$$
 
----
+Jika basis tidak langsung sama, kadang diperlukan substitusi sederhana atau manipulasi aljabar terlebih dahulu.
 
-## 1.4 Strategi Belajar: Cognitive Load Management
+## 1.5 Konsep Dasar Logaritma
+Logaritma adalah invers dari eksponen. Jika:
 
-Untuk menguasai materi ini tanpa kelelahan kognitif, ikuti langkah berikut:
-1. **Otomatisasi Skema:** Jangan menghafal rumus secara terisolasi. Latihlah manipulasi aljabar sederhana pada sifat eksponen sebelum masuk ke logaritma.
-2. **Scaffolding Removal:** Gunakan tabel sifat saat mengerjakan soal awal, namun cobalah untuk tidak melihat tabel saat memasuki tahap latihan mandiri.
-3. **Productive Struggle:** Saat menemui soal logaritma yang sulit, kembalikan bentuknya ke dalam bentuk eksponen untuk melihat hubungan logisnya.
+$$a^x = b$$
 
----
+maka bentuk logaritmanya adalah:
 
-## Latihan Pemahaman
+$$\log_a b = x$$
 
-1. Sederhanakan bentuk berikut: $\frac{(2^3 \cdot 2^2)^2}{2^8}$.
-2. Ubahlah bentuk eksponen $5^3 = 125$ ke dalam bentuk logaritma.
-3. Tentukan nilai dari ${}^2\log 16 + {}^2\log 4 - {}^2\log 8$.
-4. Sebuah koloni bakteri membelah diri menjadi dua setiap satu jam. Jika awalnya terdapat 100 bakteri, berapakah jumlah bakteri setelah 5 jam?
-5. Gunakan sifat logaritma untuk menghitung nilai $x$ dari persamaan: ${}^3\log x = 4$.
+Dengan syarat:
+- $a > 0$
+- $a \neq 1$
+- $b > 0$
 
----
+Contoh:
+- $2^3 = 8 \iff \log_2 8 = 3$
+- $10^2 = 100 \iff \log_{10} 100 = 2$
+- $5^0 = 1 \iff \log_5 1 = 0$
+
+Logaritma pada dasarnya menjawab pertanyaan: “bilangan pokok ini harus dipangkatkan berapa agar menghasilkan nilai tertentu?”
+
+## 1.6 Sifat-Sifat Logaritma
+| Sifat | Bentuk Umum | Contoh |
+|---|---|---|
+| Perkalian | $\log_a (bc) = \log_a b + \log_a c$ | $\log_2 32 = \log_2 (8\cdot4)$ |
+| Pembagian | $\log_a \left(\frac{b}{c}\right) = \log_a b - \log_a c$ | $\log_3 9 = \log_3 27 - \log_3 3$ |
+| Pangkat | $\log_a b^n = n\log_a b$ | $\log_2 8^2 = 2\log_2 8$ |
+| Log 1 | $\log_a 1 = 0$ | $\log_7 1 = 0$ |
+| Log basis sendiri | $\log_a a = 1$ | $\log_5 5 = 1$ |
+| Invers | $\log_a a^x = x$ | $\log_2 2^6 = 6$ |
+
+Sifat-sifat ini penting karena bentuk perkalian yang rumit dapat diubah menjadi penjumlahan, dan perpangkatan dapat diubah menjadi perkalian. Dengan demikian, perhitungan menjadi lebih sederhana.
+
+## 1.7 Persamaan Logaritma Sederhana
+Contoh 1:
+
+$$\log_2 x = 5$$
+$$x = 2^5$$
+$$x = 32$$
+
+Contoh 2:
+
+$$\log_3 (x+1) = 2$$
+$$x+1 = 3^2$$
+$$x+1 = 9$$
+$$x = 8$$
+
+Selalu periksa syarat nilai dalam logaritma harus positif. Pada contoh kedua, bentuk $x+1$ memang bernilai positif ketika $x = 8$.
+
+## 1.8 Hubungan Grafik Fungsi Eksponen dan Logaritma
+Fungsi eksponen berbentuk $y = a^x$, sedangkan fungsi logaritma berbentuk $y = \log_a x$. Keduanya saling invers, sehingga grafiknya merupakan pencerminan terhadap garis $y = x$.
+
+Sifat grafik eksponen:
+- Domain semua bilangan real.
+- Range bilangan real positif.
+- Melalui titik $(0,1)$.
+- Naik jika $a > 1$ dan turun jika $0 < a < 1$.
+
+Sifat grafik logaritma:
+- Domain $x > 0$.
+- Range semua bilangan real.
+- Melalui titik $(1,0)$.
+- Memiliki asimtot tegak $x = 0$.
+- Naik jika $a > 1$ dan turun jika $0 < a < 1$.
+
+## 1.9 Aplikasi Kontekstual
+1. Pertumbuhan populasi dapat dimodelkan dengan $P_t = P_0(1+r)^t$.
+2. Bunga majemuk tabungan mengikuti pola eksponensial.
+3. Skala keasaman $pH$ menggunakan logaritma.
+4. Intensitas gempa dan bunyi juga melibatkan skala logaritmik.
+
+Aplikasi ini menunjukkan bahwa eksponen dan logaritma bukan sekadar operasi simbolik, tetapi alat untuk memahami perubahan kuantitatif di dunia nyata.
+
+## 1.10 Aktivitas Belajar
+- Amati pola $2^1, 2^2, 2^3, 2^4$, lalu prediksi nilai $2^0$ dan $2^{-1}$ beserta alasannya.
+- Ubah lima bentuk eksponen menjadi logaritma, kemudian ubah kembali ke bentuk semula.
+- Diskusikan mengapa syarat $b > 0$ wajib dipenuhi pada $\log_a b$.
+- Carilah satu contoh fenomena nyata yang lebih cocok dimodelkan secara eksponensial daripada linear.
+
+## 1.11 Latihan Pemahaman
+1. Sederhanakan $2^5 \cdot 2^3$.
+2. Sederhanakan $\frac{5^7}{5^2}$.
+3. Hitung nilai $(3^2)^4$.
+4. Tentukan nilai $81^{\frac{1}{2}}$.
+5. Selesaikan $2^{x+3} = 32$.
+6. Selesaikan $3^{2x} = 81$.
+7. Tentukan nilai $\log_2 64$.
+8. Tentukan nilai $\log_5 125$.
+9. Selesaikan $\log_2 (x-1) = 4$.
+10. Jelaskan hubungan fungsi eksponen dan logaritma dengan kalimatmu sendiri.
+
+## Refleksi
+Jika kamu masih sering tertukar antara eksponen negatif dan bilangan negatif, berarti yang perlu diperkuat adalah makna bentuk, bukan hafalan rumus. Jika kamu sudah dapat berpindah dari bentuk eksponen ke logaritma dan sebaliknya tanpa bingung, berarti pemahaman dasarmu sudah cukup kuat untuk melanjutkan ke soal yang lebih kompleks.
 
 ## Glosarium
-
-- **Eksponen:** Bilangan pangkat yang menunjukkan kekerapan perkalian berulang.
-- **Logaritma:** Operasi matematika yang merupakan kebalikan dari eksponensial.
-- **Basis:** Bilangan pokok dalam operasi pangkat atau logaritma.
-- **Numerus:** Bilangan yang dicari nilai logaritmanya.
-- **ZPD (Zone of Proximal Development):** Jarak antara apa yang dapat dilakukan pembelajar secara mandiri dan apa yang dapat mereka lakukan dengan bantuan.
-- **Scaffolding:** Pemberian dukungan belajar yang disesuaikan, yang akan dikurangi seiring meningkatnya kemahiran siswa.
+- **Eksponen**: pangkat yang menyatakan perkalian berulang.
+- **Basis**: bilangan pokok pada bentuk eksponen atau logaritma.
+- **Logaritma**: operasi invers dari eksponen.
+- **Invers**: hubungan dua bentuk yang saling membalikkan.
+- **Eksponen rasional**: pangkat pecahan yang berkaitan dengan akar.
+- **Asimtot**: garis yang didekati grafik tetapi tidak dipotong pada perilaku tertentu.
