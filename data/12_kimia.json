@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "subject": "Kimia",
+    "class": "12",
+    "curriculum": "Kurikulum Merdeka"
+  },
+  "chapters": [
+    {
+      "chapter_number": "1",
+      "title": "Elektrokimia",
+      "filename": "kimia.12.1.md"
+    },
+    {
+      "chapter_number": "2",
+      "title": "Kimia Organik",
+      "filename": "kimia.12.2.md"
+    },
+    {
+      "chapter_number": "3",
+      "title": "Kimia Anorganik",
+      "filename": "kimia.12.3.md"
+    },
+    {
+      "chapter_number": "4",
+      "title": "Kimia Nuklir",
+      "filename": "kimia.12.4.md"
+    }
+  ]
+}
