@@ -5,7 +5,7 @@ Materi ini membahas pola bilangan yang tersusun teratur dan cara menghitung juml
 ## Tujuan Pembelajaran
 Setelah mempelajari bab ini, peserta didik diharapkan mampu:
 1. Membedakan barisan dan deret.
-2. Menentukan suku ke-$n$ barisan aritmetika dan geometri.
+2. Menentukan suku ke- $n$ barisan aritmetika dan geometri.
 3. Menghitung jumlah $n$ suku pertama deret aritmetika dan geometri.
 4. Menyelesaikan masalah kontekstual yang melibatkan pola barisan dan deret.
 5. Menafsirkan makna rasio, beda, dan kecenderungan pertumbuhan pola.
