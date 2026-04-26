@@ -3,7 +3,9 @@ Materi ini membahas termokimia sebagai cabang kimia yang mempelajari perubahan e
 # Termokimia
 
 ## Tujuan Pembelajaran
+
 Setelah mempelajari bab ini, kamu diharapkan mampu:
+
 1. Menjelaskan hubungan antara sistem, lingkungan, dan perpindahan energi.
 2. Membedakan reaksi eksoterm dan endoterm berdasarkan perubahan kalor.
 3. Memahami perubahan entalpi dan persamaan termokimia.
@@ -47,11 +49,11 @@ Contoh sederhana:
 Skema umum:
 
 $$
-	ext{Eksoterm: sistem} ightarrow 	ext{lingkungan} + 	ext{kalor}
+\text{Eksoterm: sistem} \rightarrow \text{lingkungan} + \text{kalor}
 $$
 
 $$
-	ext{Endoterm: sistem} + 	ext{kalor} ightarrow 	ext{lingkungan}
+\text{Endoterm: sistem} + \text{kalor} \rightarrow \text{lingkungan}
 $$
 
 ## 1.4 Kalor Reaksi dan Entalpi
@@ -59,7 +61,7 @@ $$
 Pada tekanan tetap, kalor reaksi dinyatakan sebagai perubahan entalpi. Entalpi dilambangkan dengan $H$, sedangkan perubahan entalpi ditulis sebagai:
 
 $$
-\Delta H = H_{	ext{produk}} - H_{	ext{reaktan}}
+\Delta H = H_{\text{produk}} - H_{\text{reaktan}}
 $$
 
 Jika $\Delta H < 0$, reaksi bersifat eksoterm. Jika $\Delta H > 0$, reaksi bersifat endoterm.
@@ -73,7 +75,7 @@ Persamaan termokimia adalah persamaan reaksi yang dilengkapi dengan informasi wu
 Contoh:
 
 $$
-	ext{CH}_4(g) + 2	ext{O}_2(g) ightarrow 	ext{CO}_2(g) + 2	ext{H}_2	ext{O}(l) \qquad \Delta H = -890\ 	ext{kJ}
+\text{CH}_4(g) + 2\,\text{O}_2(g) \rightarrow \text{CO}_2(g) + 2\,\text{H}_2\text{O}(l) \qquad \Delta H = -890\ \text{kJ}
 $$
 
 Artinya, setiap 1 mol metana yang dibakar sempurna menghasilkan kalor sebesar 890 kJ. Jika koefisien reaksi diubah, maka nilai $\Delta H$ juga berubah secara proporsional.
@@ -82,7 +84,7 @@ Artinya, setiap 1 mol metana yang dibakar sempurna menghasilkan kalor sebesar 89
 
 Nilai perubahan entalpi tidak berdiri sendiri tanpa kondisi. Beberapa faktor yang memengaruhinya adalah:
 - Jumlah zat yang bereaksi.
-- Wujud zat, misalnya $	ext{H}_2	ext{O}(l)$ berbeda dengan $	ext{H}_2	ext{O}(g)$.
+- Wujud zat, misalnya $\text{H}_2\text{O}(l)$ berbeda dengan $\text{H}_2\text{O}(g)$.
 - Jenis reaksi atau lintasan reaksi.
 - Kondisi suhu dan tekanan, terutama pada pengukuran tertentu.
 
@@ -94,12 +96,11 @@ Dalam kimia, beberapa perubahan entalpi diberi nama khusus agar lebih mudah dian
 
 | Jenis Perubahan Entalpi | Makna | Contoh Singkat |
 |---|---|---|
-| Entalpi pembentukan standar | Perubahan entalpi saat 1 mol senyawa terbentuk dari unsur-unsurnya pada keadaan standar | Pembentukan $	ext{CO}_2(g)$ dari C dan $	ext{O}_2$ |
+| Entalpi pembentukan standar | Perubahan entalpi saat 1 mol senyawa terbentuk dari unsur-unsurnya pada keadaan standar | Pembentukan $\text{CO}_2(g)$ dari C dan $\text{O}_2$ |
 | Entalpi pembakaran standar | Perubahan entalpi saat 1 mol zat dibakar sempurna | Pembakaran etanol |
-| Entalpi penguraian | Perubahan entalpi saat senyawa terurai menjadi zat yang lebih sederhana | Penguraian $	ext{CaCO}_3$ |
+| Entalpi penguraian | Perubahan entalpi saat senyawa terurai menjadi zat yang lebih sederhana | Penguraian $\text{CaCO}_3$ |
 | Entalpi netralisasi | Perubahan entalpi saat asam dan basa bereaksi membentuk 1 mol air | HCl dengan NaOH |
 | Entalpi pelarutan | Perubahan entalpi saat zat dilarutkan dalam pelarut | Pelarutan NaOH dalam air |
-|
 
 Dengan mengenali jenis-jenis ini, kamu dapat mengaitkan data termokimia dengan konteks eksperimen maupun penerapan industri.
 
@@ -122,7 +123,7 @@ dengan:
 Pada prinsip sederhana, kalor yang dilepas oleh sistem sama dengan kalor yang diterima lingkungan, sehingga secara ideal berlaku:
 
 $$
-q_{	ext{lepas}} = q_{	ext{terima}}
+q_{\text{lepas}} = q_{\text{terima}}
 $$
 
 Konsep ini sering digunakan untuk menentukan entalpi reaksi dari perubahan suhu larutan.
@@ -134,7 +135,7 @@ Hukum Hess menyatakan bahwa perubahan entalpi suatu reaksi hanya bergantung pada
 Secara matematis:
 
 $$
-\Delta H_{	ext{reaksi}} = \sum \Delta H_{	ext{tahap}}
+\Delta H_{\text{reaksi}} = \sum \Delta H_{\text{tahap}}
 $$
 
 Prinsip ini sangat membantu ketika entalpi reaksi tidak dapat diukur secara langsung. Kita dapat menyusun reaksi target dari beberapa reaksi yang entalpinya telah diketahui.
@@ -144,23 +145,23 @@ Prinsip ini sangat membantu ketika entalpi reaksi tidak dapat diukur secara lang
 Diketahui:
 
 $$
-	ext{C}(s) + 	ext{O}_2(g) ightarrow 	ext{CO}_2(g) \qquad \Delta H = -394\ 	ext{kJ}
+\text{C}(s) + \text{O}_2(g) \rightarrow \text{CO}_2(g) \qquad \Delta H = -394\ \text{kJ}
 $$
 
 $$
-	ext{CO}(g) + rac{1}{2}	ext{O}_2(g) ightarrow 	ext{CO}_2(g) \qquad \Delta H = -283\ 	ext{kJ}
+\text{CO}(g) + \frac{1}{2}\,\text{O}_2(g) \rightarrow \text{CO}_2(g) \qquad \Delta H = -283\ \text{kJ}
 $$
 
 Tentukan $\Delta H$ untuk reaksi:
 
 $$
-	ext{C}(s) + rac{1}{2}	ext{O}_2(g) ightarrow 	ext{CO}(g)
+\text{C}(s) + \frac{1}{2}\,\text{O}_2(g) \rightarrow \text{CO}(g)
 $$
 
 Penyelesaian diperoleh dengan membalik reaksi kedua lalu menjumlahkannya dengan reaksi pertama, sehingga:
 
 $$
-\Delta H = -394 - (-283) = -111\ 	ext{kJ}
+\Delta H = -394 - (-283) = -111\ \text{kJ}
 $$
 
 ## 1.10 Energi Ikatan
@@ -170,7 +171,7 @@ Energi ikatan adalah energi yang diperlukan untuk memutuskan 1 mol ikatan dalam 
 Perubahan entalpi reaksi secara pendekatan dapat dihitung menggunakan energi ikatan:
 
 $$
-\Delta H pprox \sum E_{	ext{ikatan diputus}} - \sum E_{	ext{ikatan terbentuk}}
+\Delta H \approx \sum E_{\text{ikatan diputus}} - \sum E_{\text{ikatan terbentuk}}
 $$
 
 Gagasan dasarnya adalah bahwa memutus ikatan memerlukan energi, sedangkan pembentukan ikatan melepaskan energi. Pendekatan ini berguna untuk memperkirakan apakah reaksi cenderung eksoterm atau endoterm.
@@ -183,7 +184,8 @@ Di industri, data entalpi digunakan untuk merancang proses yang efisien, mengend
 
 ## 1.12 Strategi Memahami Materi
 
-Agar konsep termokimia lebih mudah dipahami, lakukan langkah berikut.
+Agar konsep termokimia lebih mudah dipahami, lakukan langkah berikut:
+
 1. Tentukan terlebih dahulu apa yang menjadi sistem dan lingkungan.
 2. Periksa arah perpindahan kalor, apakah keluar dari sistem atau masuk ke sistem.
 3. Hubungkan arah kalor dengan tanda $\Delta H$.
@@ -197,11 +199,11 @@ Pendekatan ini membantu mengurangi beban kognitif karena siswa tidak langsung be
 1. Jelaskan perbedaan sistem dan lingkungan dengan satu contoh.
 2. Mengapa pembakaran bahan bakar digolongkan sebagai reaksi eksoterm?
 3. Tentukan apakah proses berikut eksoterm atau endoterm: es mencair, gas LPG terbakar, fotosintesis.
-4. Tuliskan arti fisis dari persamaan termokimia suatu reaksi yang memiliki $\Delta H = -150\ 	ext{kJ}$.
+4. Tuliskan arti fisis dari persamaan termokimia suatu reaksi yang memiliki $\Delta H = -150\ \text{kJ}$.
 5. Sebutkan dua faktor yang dapat memengaruhi nilai perubahan entalpi.
 6. Jelaskan ide dasar Hukum Hess dengan bahasamu sendiri.
 7. Mengapa energi ikatan dapat digunakan untuk memperkirakan perubahan entalpi reaksi?
-8. Hitung kalor yang dibutuhkan untuk memanaskan 100 g air jika $c = 4{,}2\ 	ext{J g}^{-1}\, ^\circ	ext{C}^{-1}$ dan $\Delta T = 5\ ^\circ	ext{C}$.
+8. Hitung kalor yang dibutuhkan untuk memanaskan 100 g air jika $c = 4{,}2\ \text{J g}^{-1}\ ^\circ\text{C}^{-1}$ dan $\Delta T = 5\ ^\circ\text{C}$.
 
 ## Glosarium
 
