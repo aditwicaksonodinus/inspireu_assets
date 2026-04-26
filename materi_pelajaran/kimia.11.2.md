@@ -3,7 +3,9 @@ Materi ini membahas kinetika kimia, yaitu cabang kimia yang mempelajari laju rea
 # Kinetika Kimia
 
 ## Tujuan Pembelajaran
+
 Setelah mempelajari bab ini, kamu diharapkan mampu:
+
 1. Menjelaskan pengertian laju reaksi.
 2. Menentukan cara mengukur laju reaksi dari perubahan konsentrasi terhadap waktu.
 3. Menjelaskan faktor-faktor yang memengaruhi laju reaksi.
@@ -19,13 +21,13 @@ Laju reaksi adalah cepat lambatnya reaksi kimia berlangsung. Secara kuantitatif,
 Untuk reaksi umum:
 
 $$
-aA + bB ightarrow cC + dD
+a\text{A} + b\text{B} \rightarrow c\text{C} + d\text{D}
 $$
 
 laju reaksi dapat dinyatakan sebagai:
 
 $$
-v = -rac{1}{a}rac{\Delta [A]}{\Delta t} = -rac{1}{b}rac{\Delta [B]}{\Delta t} = rac{1}{c}rac{\Delta [C]}{\Delta t} = rac{1}{d}rac{\Delta [D]}{\Delta t}
+v = -\frac{1}{a}\frac{\Delta [\text{A}]}{\Delta t} = -\frac{1}{b}\frac{\Delta [\text{B}]}{\Delta t} = \frac{1}{c}\frac{\Delta [\text{C}]}{\Delta t} = \frac{1}{d}\frac{\Delta [\text{D}]}{\Delta t}
 $$
 
 Tanda negatif pada pereaksi menunjukkan bahwa konsentrasinya berkurang terhadap waktu, sedangkan tanda positif pada produk menunjukkan bahwa konsentrasinya bertambah.
@@ -35,6 +37,7 @@ Tanda negatif pada pereaksi menunjukkan bahwa konsentrasinya berkurang terhadap 
 Laju reaksi tidak selalu diamati langsung sebagai angka konsentrasi. Dalam praktik, laju reaksi dapat dikenali dari perubahan besaran lain yang mudah diukur.
 
 Contoh indikator laju reaksi:
+
 - Perubahan warna larutan.
 - Terbentuknya endapan.
 - Munculnya gelembung gas.
@@ -73,6 +76,7 @@ Jenis ikatan, struktur molekul, fase zat, dan kestabilan pereaksi juga memengaru
 Teori tumbukan menjelaskan bahwa reaksi terjadi ketika partikel-partikel pereaksi saling bertumbukan. Namun, tidak semua tumbukan menghasilkan reaksi.
 
 Agar tumbukan menghasilkan reaksi, harus dipenuhi dua syarat:
+
 1. Tumbukan memiliki energi yang cukup untuk melampaui energi aktivasi.
 2. Partikel bertumbukan dengan orientasi yang tepat.
 
@@ -101,9 +105,10 @@ Konsep ini menghubungkan kinetika dan termokimia: suatu reaksi dapat sangat ekso
 Katalis tidak mengubah nilai $\Delta H$ reaksi. Yang diubah adalah lintasan reaksi, sehingga energi aktivasi menjadi lebih kecil dan tumbukan efektif menjadi lebih banyak.
 
 Contoh penerapan katalis:
+
 - Enzim dalam sistem biologis.
-- Logam Ni pada hidrogenasi minyak.
-- $	ext{V}_2	ext{O}_5$ pada proses kontak pembuatan asam sulfat.
+- Logam $\mathrm{Ni}$ pada hidrogenasi minyak.
+- $\mathrm{V}_2\mathrm{O}_5$ pada proses kontak pembuatan asam sulfat.
 
 Katalis juga berkaitan erat dengan mekanisme reaksi, yaitu urutan tahap elementer yang menjelaskan bagaimana reaktan berubah menjadi produk.
 
@@ -112,13 +117,14 @@ Katalis juga berkaitan erat dengan mekanisme reaksi, yaitu urutan tahap elemente
 Secara umum, persamaan laju untuk reaksi tertentu dituliskan sebagai:
 
 $$
-v = k[A]^m[B]^n
+v = k[\text{A}]^m[\text{B}]^n
 $$
 
 dengan:
+
 - $v$ = laju reaksi,
 - $k$ = konstanta laju,
-- $[A]$ dan $[B]$ = konsentrasi pereaksi,
+- $[\text{A}]$ dan $[\text{B}]$ = konsentrasi pereaksi,
 - $m$ dan $n$ = orde reaksi terhadap masing-masing pereaksi.
 
 Orde reaksi tidak selalu sama dengan koefisien reaksi. Nilai orde harus ditentukan dari data eksperimen.
@@ -126,18 +132,19 @@ Orde reaksi tidak selalu sama dengan koefisien reaksi. Nilai orde harus ditentuk
 Orde total reaksi adalah:
 
 $$
-	ext{orde total} = m + n
+\text{orde total} = m + n
 $$
 
 ## 2.9 Menentukan Orde Reaksi Secara Sederhana
 
 Perhatikan pola berikut.
+
 - Jika konsentrasi suatu pereaksi dibuat dua kali dan laju reaksi juga menjadi dua kali, maka orde terhadap pereaksi itu adalah 1.
 - Jika konsentrasi dibuat dua kali dan laju menjadi empat kali, orde terhadap pereaksi itu adalah 2.
 - Jika konsentrasi diubah tetapi laju tetap, orde terhadap pereaksi itu adalah 0.
 
 Contoh:
-Jika diperoleh data bahwa saat $[A]$ digandakan laju menjadi 4 kali, maka terhadap A berlaku:
+Jika diperoleh data bahwa saat $[\text{A}]$ digandakan laju menjadi 4 kali, maka terhadap A berlaku:
 
 $$
 2^m = 4
@@ -177,7 +184,8 @@ Di industri, pengendalian suhu, tekanan, konsentrasi, dan katalis bertujuan meng
 
 ## 2.13 Strategi Memahami Materi
 
-Untuk memahami kinetika kimia secara bertahap, lakukan urutan berpikir berikut.
+Untuk memahami kinetika kimia secara bertahap, lakukan urutan berpikir berikut:
+
 1. Amati dulu gejala makroskopiknya: warna, gas, endapan, atau suhu.
 2. Hubungkan gejala itu dengan perubahan jumlah partikel per waktu.
 3. Jelaskan secara mikroskopik melalui teori tumbukan.
@@ -192,7 +200,7 @@ Urutan ini selaras dengan pembelajaran konstruktivistik karena siswa membangun k
 3. Apa pengaruh kenaikan suhu terhadap jumlah tumbukan efektif?
 4. Jelaskan perbedaan antara tumbukan biasa dan tumbukan efektif.
 5. Mengapa katalis tidak habis, tetapi dapat mempercepat reaksi?
-6. Tuliskan arti masing-masing simbol pada persamaan $v = k[A]^m[B]^n$.
+6. Tuliskan arti masing-masing simbol pada persamaan $v = k[\text{A}]^m[\text{B}]^n$.
 7. Jika konsentrasi A digandakan dan laju menjadi dua kali, berapakah orde reaksi terhadap A?
 8. Sebutkan dua contoh penerapan kinetika kimia dalam kehidupan sehari-hari.
 
