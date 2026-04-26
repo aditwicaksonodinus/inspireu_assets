@@ -1,0 +1,369 @@
+{
+  "matematika": {
+    "kelas_10": [
+      {
+        "file": "matematika.10.1.md",
+        "title": "Eksponen dan Logaritma",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "matematika.10.2.md",
+        "title": "Barisan dan Deret",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "matematika.10.3.md",
+        "title": "Vektor dan Operasinya",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "matematika.10.4.md",
+        "title": "Trigonometri",
+        "subtitle": "Bab 4"
+      },
+      {
+        "file": "matematika.10.5.md",
+        "title": "Sistem Persamaan dan Pertidaksamaan Linear",
+        "subtitle": "Bab 5"
+      },
+      {
+        "file": "matematika.10.6.md",
+        "title": "Fungsi Kuadrat",
+        "subtitle": "Bab 6"
+      },
+      {
+        "file": "matematika.10.7.md",
+        "title": "Statistika",
+        "subtitle": "Bab 7"
+      },
+      {
+        "file": "matematika.10.8.md",
+        "title": "Peluang",
+        "subtitle": "Bab 8"
+      }
+    ],
+    "kelas_11": [
+      {
+        "file": "matematika.11.1.md",
+        "title": "Bilangan Kompleks",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "matematika.11.2.md",
+        "title": "Polinomial",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "matematika.11.3.md",
+        "title": "Matriks",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "matematika.11.4.md",
+        "title": "Transformasi Geometri",
+        "subtitle": "Bab 4"
+      },
+      {
+        "file": "matematika.11.5.md",
+        "title": "Fungsi dan Pemodelannya",
+        "subtitle": "Bab 5"
+      },
+      {
+        "file": "matematika.11.6.md",
+        "title": "Limit Fungsi Aljabar",
+        "subtitle": "Bab 6"
+      },
+      {
+        "file": "matematika.11.7.md",
+        "title": "Turunan Fungsi Aljabar",
+        "subtitle": "Bab 7"
+      },
+      {
+        "file": "matematika.11.8.md",
+        "title": "Logika Matematika",
+        "subtitle": "Bab 8"
+      }
+    ],
+    "kelas_12": [
+      {
+        "file": "matematika.12.1.md",
+        "title": "Transformasi Fungsi",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "matematika.12.2.md",
+        "title": "Busur dan Juring Lingkaran",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "matematika.12.3.md",
+        "title": "Kombinatorik dan Peluang",
+        "subtitle": "Bab 3"
+      }
+    ]
+  },
+  "fisika": {
+    "kelas_10": [
+      {
+        "file": "fisika.10.1.md",
+        "title": "Hakikat Fisika dan Pengukuran",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "fisika.10.2.md",
+        "title": "Vektor",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "fisika.10.3.md",
+        "title": "Gerak Lurus",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "fisika.10.4.md",
+        "title": "Hukum Newton pada Gerak Lurus",
+        "subtitle": "Bab 4"
+      },
+      {
+        "file": "fisika.10.5.md",
+        "title": "Hukum Newton terhadap Gravitasi",
+        "subtitle": "Bab 5"
+      },
+      {
+        "file": "fisika.10.6.md",
+        "title": "Energi, Usaha, dan Kekekalan Energi",
+        "subtitle": "Bab 6"
+      },
+      {
+        "file": "fisika.10.7.md",
+        "title": "Impuls dan Momentum Linier",
+        "subtitle": "Bab 7"
+      },
+      {
+        "file": "fisika.10.8.md",
+        "title": "Getaran Harmonis Sederhana",
+        "subtitle": "Bab 8"
+      }
+    ],
+    "kelas_11": [
+      {
+        "file": "fisika.11.1.md",
+        "title": "Vektor",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "fisika.11.2.md",
+        "title": "Kinematika",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "fisika.11.3.md",
+        "title": "Dinamika Gerak Partikel",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "fisika.11.4.md",
+        "title": "Fluida",
+        "subtitle": "Bab 4"
+      },
+      {
+        "file": "fisika.11.5.md",
+        "title": "Gelombang, Bunyi, dan Cahaya",
+        "subtitle": "Bab 5"
+      },
+      {
+        "file": "fisika.11.6.md",
+        "title": "Kalor",
+        "subtitle": "Bab 6"
+      },
+      {
+        "file": "fisika.11.7.md",
+        "title": "Termodinamika",
+        "subtitle": "Bab 7"
+      }
+    ],
+    "kelas_12": [
+      {
+        "file": "fisika.12.1.md",
+        "title": "Listrik Statis",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "fisika.12.2.md",
+        "title": "Rangkaian Arus Searah",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "fisika.12.3.md",
+        "title": "Gelombang Elektromagnetik",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "fisika.12.4.md",
+        "title": "Optik",
+        "subtitle": "Bab 4"
+      },
+      {
+        "file": "fisika.12.5.md",
+        "title": "Fisika Inti dan Radioaktivitas",
+        "subtitle": "Bab 5"
+      },
+      {
+        "file": "fisika.12.6.md",
+        "title": "Pengantar Elektronika",
+        "subtitle": "Bab 6"
+      }
+    ]
+  },
+  "kimia": {
+    "kelas_10": [
+      {
+        "file": "kimia.10.1.md",
+        "title": "Hakikat Ilmu Kimia dan Metode Ilmiah",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "kimia.10.2.md",
+        "title": "Struktur Atom dan Sistem Periodik Unsur",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "kimia.10.3.md",
+        "title": "Larutan Elektrolit dan Non Elektrolit",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "kimia.10.4.md",
+        "title": "Reaksi Redoks dan Tata Nama Senyawa",
+        "subtitle": "Bab 4"
+      },
+      {
+        "file": "kimia.10.5.md",
+        "title": "Hukum Dasar Kimia, Konsep Mol, dan Stoikiometri",
+        "subtitle": "Bab 5"
+      }
+    ],
+    "kelas_11": [
+      {
+        "file": "kimia.11.1.md",
+        "title": "Termokimia",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "kimia.11.2.md",
+        "title": "Kinetika Kimia",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "kimia.11.3.md",
+        "title": "Kimia Larutan",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "kimia.11.4.md",
+        "title": "Kimia Asam Basa",
+        "subtitle": "Bab 4"
+      }
+    ],
+    "kelas_12": [
+      {
+        "file": "kimia.12.1.md",
+        "title": "Elektrokimia",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "kimia.12.2.md",
+        "title": "Kimia Organik",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "kimia.12.3.md",
+        "title": "Kimia Anorganik",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "kimia.12.4.md",
+        "title": "Kimia Nuklir",
+        "subtitle": "Bab 4"
+      }
+    ]
+  },
+  "biologi": {
+    "kelas_10": [
+      {
+        "file": "biologi.10.1.md",
+        "title": "Keanekaragaman Hayati",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "biologi.10.2.md",
+        "title": "Klasifikasi Makhluk Hidup",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "biologi.10.3.md",
+        "title": "Virus dan Bakteri",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "biologi.10.4.md",
+        "title": "Fungi",
+        "subtitle": "Bab 4"
+      },
+      {
+        "file": "biologi.10.5.md",
+        "title": "Perubahan Lingkungan dan Ekosistem",
+        "subtitle": "Bab 5"
+      }
+    ],
+    "kelas_11": [
+      {
+        "file": "biologi.11.1.md",
+        "title": "Sel",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "biologi.11.2.md",
+        "title": "Sistem Organ",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "biologi.11.3.md",
+        "title": "Ekologi",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "biologi.11.4.md",
+        "title": "Bioteknologi",
+        "subtitle": "Bab 4"
+      },
+      {
+        "file": "biologi.11.5.md",
+        "title": "Rekayasa Genetika",
+        "subtitle": "Bab 5"
+      }
+    ],
+    "kelas_12": [
+      {
+        "file": "biologi.12.1.md",
+        "title": "Enzim dan Metabolisme",
+        "subtitle": "Bab 1"
+      },
+      {
+        "file": "biologi.12.2.md",
+        "title": "Genetik dan Pewarisan Sifat",
+        "subtitle": "Bab 2"
+      },
+      {
+        "file": "biologi.12.3.md",
+        "title": "Teori Evolusi",
+        "subtitle": "Bab 3"
+      },
+      {
+        "file": "biologi.12.4.md",
+        "title": "Inovasi Bioteknologi",
+        "subtitle": "Bab 4"
+      }
+    ]
+  }
+}
