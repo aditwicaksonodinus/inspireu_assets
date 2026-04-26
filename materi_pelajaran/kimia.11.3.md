@@ -3,7 +3,9 @@ Materi ini membahas kimia larutan sebagai kajian tentang campuran homogen, konse
 # Kimia Larutan
 
 ## Tujuan Pembelajaran
+
 Setelah mempelajari bab ini, kamu diharapkan mampu:
+
 1. Menjelaskan pengertian larutan, pelarut, dan zat terlarut.
 2. Membedakan jenis-jenis larutan berdasarkan wujud dan daya hantar listriknya.
 3. Menyatakan konsentrasi larutan dalam berbagai bentuk.
@@ -21,6 +23,7 @@ Contoh sederhana adalah gula yang dilarutkan dalam air. Air bertindak sebagai pe
 ## 3.2 Komponen Larutan
 
 Dalam pembahasan kimia larutan, pembedaan komponen sangat penting.
+
 - **Pelarut** adalah medium tempat zat lain larut.
 - **Zat terlarut** adalah zat yang dilarutkan.
 
@@ -59,10 +62,11 @@ Beberapa cara menyatakan konsentrasi antara lain molaritas, molalitas, fraksi mo
 Molaritas menyatakan banyak mol zat terlarut dalam setiap liter larutan.
 
 $$
-M = rac{n}{V}
+M = \frac{n}{V}
 $$
 
 Dengan:
+
 - $M$ = molaritas,
 - $n$ = jumlah mol zat terlarut,
 - $V$ = volume larutan dalam liter.
@@ -70,7 +74,7 @@ Dengan:
 Jika diketahui massa zat, jumlah mol dapat dihitung dengan:
 
 $$
-n = rac{m}{M_r}
+n = \frac{m}{M_r}
 $$
 
 ### 3.4.2 Molalitas
@@ -78,7 +82,7 @@ $$
 Molalitas menyatakan banyak mol zat terlarut dalam setiap kilogram pelarut.
 
 $$
-m = rac{n}{	ext{massa pelarut (kg)}}
+m = \frac{n}{\text{massa pelarut (kg)}}
 $$
 
 Molalitas berguna terutama ketika suhu berubah, karena bergantung pada massa pelarut, bukan volume larutan.
@@ -88,15 +92,15 @@ Molalitas berguna terutama ketika suhu berubah, karena bergantung pada massa pel
 Beberapa bentuk persen yang umum digunakan adalah:
 
 $$
-\%\,massa = rac{	ext{massa zat terlarut}}{	ext{massa larutan}} 	imes 100\%
+\%\,\text{massa} = \frac{\text{massa zat terlarut}}{\text{massa larutan}} \times 100\%
 $$
 
 $$
-\%\,volume = rac{	ext{volume zat terlarut}}{	ext{volume larutan}} 	imes 100\%
+\%\,\text{volume} = \frac{\text{volume zat terlarut}}{\text{volume larutan}} \times 100\%
 $$
 
 $$
-\%\,massa/volume = rac{	ext{massa zat terlarut}}{	ext{volume larutan}} 	imes 100\%
+\%\,\text{massa/volume} = \frac{\text{massa zat terlarut}}{\text{volume larutan}} \times 100\%
 $$
 
 Bentuk ini sering digunakan pada produk rumah tangga, obat-obatan, dan larutan praktikum.
@@ -118,7 +122,7 @@ Jika dua larutan sejenis dicampur tanpa reaksi kimia, konsentrasi campuran dapat
 Untuk dua larutan:
 
 $$
-M_{	ext{campuran}} = rac{M_1V_1 + M_2V_2}{V_1 + V_2}
+M_{\text{campuran}} = \frac{M_1V_1 + M_2V_2}{V_1 + V_2}
 $$
 
 Pendekatan ini berlaku selama zat terlarutnya sama dan volume dianggap dapat dijumlahkan secara sederhana.
@@ -127,11 +131,12 @@ Pendekatan ini berlaku selama zat terlarutnya sama dan volume dianggap dapat dij
 
 Kelarutan adalah jumlah maksimum zat yang dapat larut dalam sejumlah pelarut pada suhu tertentu hingga terbentuk larutan jenuh. Setiap zat memiliki kelarutan yang berbeda-beda, bergantung pada sifat kimianya.
 
-Prinsip umum yang sering digunakan adalah “like dissolves like”, yaitu zat polar cenderung larut dalam pelarut polar, sedangkan zat nonpolar cenderung larut dalam pelarut nonpolar.
+Prinsip umum yang sering digunakan adalah *like dissolves like*, yaitu zat polar cenderung larut dalam pelarut polar, sedangkan zat nonpolar cenderung larut dalam pelarut nonpolar.
 
 ## 3.8 Faktor-Faktor yang Memengaruhi Kelarutan
 
 Beberapa faktor yang memengaruhi kelarutan adalah:
+
 - Sifat zat terlarut dan pelarut.
 - Suhu.
 - Tekanan, terutama untuk gas.
@@ -144,8 +149,9 @@ Secara umum, kenaikan suhu meningkatkan kelarutan banyak padatan dalam air, teta
 Berdasarkan daya hantar listrik, larutan dibagi menjadi larutan elektrolit dan nonelektrolit. Larutan elektrolit dapat menghantarkan arus listrik karena menghasilkan ion-ion bergerak bebas dalam larutan.
 
 Larutan elektrolit dibedakan lagi menjadi:
-- Elektrolit kuat, misalnya HCl, NaOH, NaCl.
-- Elektrolit lemah, misalnya $	ext{CH}_3	ext{COOH}$ dan $	ext{NH}_3$.
+
+- Elektrolit kuat, misalnya $\mathrm{HCl}$, $\mathrm{NaOH}$, $\mathrm{NaCl}$.
+- Elektrolit lemah, misalnya $\mathrm{CH}_3\mathrm{COOH}$ dan $\mathrm{NH}_3$.
 - Nonelektrolit, misalnya gula dan urea.
 
 Konsep ini menjadi jembatan penting menuju pembahasan asam-basa, kesetimbangan ion, dan elektrokimia.
@@ -171,7 +177,8 @@ Dalam bidang lingkungan, konsentrasi zat terlarut digunakan untuk memantau kuali
 
 ## 3.12 Strategi Memahami Materi
 
-Agar tidak sekadar menghafal rumus, pahami materi ini melalui urutan berikut.
+Agar tidak sekadar menghafal rumus, pahami materi ini melalui urutan berikut:
+
 1. Bayangkan larutan sebagai campuran homogen yang komposisinya merata.
 2. Bedakan dengan jelas pelarut, zat terlarut, dan volume larutan.
 3. Baru setelah itu gunakan bentuk konsentrasi yang sesuai dengan konteks soal.
