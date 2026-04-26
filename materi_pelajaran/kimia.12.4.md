@@ -43,7 +43,7 @@ Atom-atom dapat memiliki hubungan tertentu berdasarkan jumlah proton dan neutron
 | Istilah | Pengertian | Contoh |
 |---|---|---|
 | Isotop | Nomor atom sama, nomor massa berbeda | ${}_1^1H$, ${}_1^2H$, ${}_1^3H$ |
-| Isobar | Nomor massa sama, nomor atom berbeda |${}^{40}_{18}\text{Ar}$ dan ${}^{40}_{20}\text{Ca}$ |
+| Isobar | Nomor massa sama, nomor atom berbeda | ${}_6^{14}C$ dan ${}_7^{15}N$|
 | Isoton | Jumlah neutron sama | ${}_6^{14}C$ dan ${}_7^{15}N$ |
 
 Pembedaan ini penting karena sifat kimia terutama ditentukan oleh jumlah proton dan elektron, sedangkan kestabilan inti sangat berkaitan dengan susunan neutron dan proton di dalam inti.
