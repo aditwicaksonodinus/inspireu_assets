@@ -3,7 +3,9 @@ Materi ini membahas kimia asam basa, yaitu topik penting yang menghubungkan kons
 # Kimia Asam Basa
 
 ## Tujuan Pembelajaran
+
 Setelah mempelajari bab ini, kamu diharapkan mampu:
+
 1. Menjelaskan pengertian asam dan basa menurut beberapa teori.
 2. Mengidentifikasi sifat-sifat umum asam dan basa.
 3. Menjelaskan konsep ionisasi asam dan basa dalam air.
@@ -20,31 +22,33 @@ Konsep asam dan basa berkembang melalui beberapa teori agar berbagai fenomena ki
 ### 4.1.1 Teori Arrhenius
 
 Menurut Arrhenius:
-- Asam adalah zat yang dalam air menghasilkan ion $	ext{H}^+$.
-- Basa adalah zat yang dalam air menghasilkan ion $	ext{OH}^-$.
+
+- Asam adalah zat yang dalam air menghasilkan ion $\text{H}^+$.
+- Basa adalah zat yang dalam air menghasilkan ion $\text{OH}^-$.
 
 Contoh:
 
 $$
-	ext{HCl}(aq) ightarrow 	ext{H}^+(aq) + 	ext{Cl}^-(aq)
+\text{HCl}(aq) \rightarrow \text{H}^+(aq) + \text{Cl}^-(aq)
 $$
 
 $$
-	ext{NaOH}(aq) ightarrow 	ext{Na}^+(aq) + 	ext{OH}^-(aq)
+\text{NaOH}(aq) \rightarrow \text{Na}^+(aq) + \text{OH}^-(aq)
 $$
 
 Teori ini sederhana dan sangat berguna untuk larutan berair, tetapi kurang mampu menjelaskan reaksi asam-basa di luar medium air.
 
-### 4.1.2 Teori Br\o nsted-Lowry
+### 4.1.2 Teori Brønsted–Lowry
 
-Menurut teori Br\o nsted-Lowry:
+Menurut teori Brønsted–Lowry:
+
 - Asam adalah donor proton.
 - Basa adalah akseptor proton.
 
 Contoh:
 
 $$
-	ext{NH}_3 + 	ext{H}_2	ext{O} ightleftharpoons 	ext{NH}_4^+ + 	ext{OH}^-
+\text{NH}_3 + \text{H}_2\text{O} \rightleftharpoons \text{NH}_4^+ + \text{OH}^-
 $$
 
 Pada reaksi ini, air menyumbangkan proton kepada amonia, sehingga air bertindak sebagai asam dan amonia bertindak sebagai basa. Teori ini lebih luas karena menjelaskan pasangan asam-basa konjugasi.
@@ -52,6 +56,7 @@ Pada reaksi ini, air menyumbangkan proton kepada amonia, sehingga air bertindak 
 ### 4.1.3 Teori Lewis
 
 Menurut Lewis:
+
 - Asam adalah penerima pasangan elektron.
 - Basa adalah pemberi pasangan elektron.
 
@@ -64,7 +69,7 @@ Secara makroskopik, asam dan basa memiliki ciri yang dapat diamati.
 | Sifat | Asam | Basa |
 |---|---|---|
 | Rasa | Masam | Pahit |
-| Sentuhan | - | Licin |
+| Sentuhan | — | Licin |
 | Lakmus | Biru menjadi merah | Merah menjadi biru |
 | pH | Kurang dari 7 | Lebih dari 7 |
 | Reaksi khas | Bereaksi dengan logam tertentu | Menetralkan asam |
@@ -78,10 +83,10 @@ Asam dan basa menunjukkan sifat khasnya karena mengalami ionisasi atau disosiasi
 Air sendiri dapat mengalami autoionisasi:
 
 $$
-2	ext{H}_2	ext{O}(l) ightleftharpoons 	ext{H}_3	ext{O}^+(aq) + 	ext{OH}^-(aq)
+2\text{H}_2\text{O}(l) \rightleftharpoons \text{H}_3\text{O}^+(aq) + \text{OH}^-(aq)
 $$
 
-Untuk penyederhanaan di tingkat sekolah, ion $	ext{H}_3	ext{O}^+$ sering ditulis sebagai $	ext{H}^+$.
+Untuk penyederhanaan di tingkat sekolah, ion $\text{H}_3\text{O}^+$ sering ditulis sebagai $\text{H}^+$.
 
 ## 4.4 Asam Kuat, Asam Lemah, Basa Kuat, dan Basa Lemah
 
@@ -99,53 +104,53 @@ Artinya, larutan asam lemah dengan konsentrasi besar dapat saja memiliki pH lebi
 Derajat keasaman larutan dinyatakan dengan pH. Secara matematis:
 
 $$
-pH = -\log [	ext{H}^+]
+\text{pH} = -\log [\text{H}^+]
 $$
 
 Sedangkan untuk ion hidroksida:
 
 $$
-pOH = -\log [	ext{OH}^-]
+\text{pOH} = -\log [\text{OH}^-]
 $$
 
 Pada suhu tertentu, berlaku hubungan:
 
 $$
-pH + pOH = 14
+\text{pH} + \text{pOH} = 14
 $$
 
 Skala pH membantu kita menyatakan tingkat keasaman atau kebasaan secara lebih praktis daripada menuliskan konsentrasi ion secara langsung.
 
 ## 4.6 Menghitung pH Larutan Sederhana
 
-Untuk asam kuat monoprotik yang terionisasi sempurna, konsentrasi $	ext{H}^+$ sama dengan konsentrasi asamnya. Jika HCl 0,01 M, maka:
+Untuk asam kuat monoprotik yang terionisasi sempurna, konsentrasi $[\text{H}^+]$ sama dengan konsentrasi asamnya. Jika HCl 0,01 M, maka:
 
 $$
-[	ext{H}^+] = 10^{-2}
+[\text{H}^+] = 10^{-2}
 $$
 
 sehingga:
 
 $$
-pH = 2
+\text{pH} = 2
 $$
 
 Untuk basa kuat seperti NaOH 0,001 M:
 
 $$
-[	ext{OH}^-] = 10^{-3}
+[\text{OH}^-] = 10^{-3}
 $$
 
 maka:
 
 $$
-pOH = 3
+\text{pOH} = 3
 $$
 
 sehingga:
 
 $$
-pH = 14 - 3 = 11
+\text{pH} = 14 - 3 = 11
 $$
 
 Konsep ini harus dipahami dulu pada kasus sederhana sebelum beralih ke asam lemah, basa lemah, dan larutan penyangga.
@@ -157,13 +162,13 @@ Untuk asam lemah dan basa lemah, kekuatan ionisasi dinyatakan dengan tetapan kes
 Untuk asam lemah:
 
 $$
-K_a = rac{[	ext{H}^+][	ext{A}^-]}{[	ext{HA}]}
+K_a = \frac{[\text{H}^+][\text{A}^-]}{[\text{HA}]}
 $$
 
 Untuk basa lemah:
 
 $$
-K_b = rac{[	ext{BH}^+][	ext{OH}^-]}{[	ext{B}]}
+K_b = \frac{[\text{BH}^+][\text{OH}^-]}{[\text{B}]}
 $$
 
 Semakin besar nilai $K_a$, semakin kuat sifat asamnya. Semakin besar nilai $K_b$, semakin kuat sifat basanya.
@@ -186,13 +191,13 @@ Selain indikator buatan, ada pula indikator alami seperti ekstrak kol ungu, bung
 Netralisasi adalah reaksi antara asam dan basa yang menghasilkan garam dan air. Secara ionik, inti reaksinya adalah:
 
 $$
-	ext{H}^+ + 	ext{OH}^- ightarrow 	ext{H}_2	ext{O}
+\text{H}^+ + \text{OH}^- \rightarrow \text{H}_2\text{O}
 $$
 
 Contoh:
 
 $$
-	ext{HCl} + 	ext{NaOH} ightarrow 	ext{NaCl} + 	ext{H}_2	ext{O}
+\text{HCl} + \text{NaOH} \rightarrow \text{NaCl} + \text{H}_2\text{O}
 $$
 
 Reaksi netralisasi penting dalam pengolahan limbah, pengapuran tanah asam, produksi obat maag tertentu, dan analisis volumetri.
@@ -207,7 +212,7 @@ $$
 M_aV_a = M_bV_b
 $$
 
-Namun, jika jumlah ion $	ext{H}^+$ atau $	ext{OH}^-$ yang terlibat berbeda, maka perlu memasukkan faktor valensi atau koefisien reaksi.
+Namun, jika jumlah ion $\text{H}^+$ atau $\text{OH}^-$ yang terlibat berbeda, maka perlu memasukkan faktor valensi atau koefisien reaksi.
 
 ## 4.11 Larutan Penyangga
 
@@ -218,6 +223,7 @@ Contoh larutan penyangga adalah campuran asam lemah dengan garamnya, atau basa l
 ## 4.12 Penerapan Asam Basa
 
 Konsep asam-basa banyak dijumpai dalam kehidupan sehari-hari.
+
 - Cuka mengandung asam asetat.
 - Jeruk mengandung asam sitrat.
 - Sabun dan deterjen bersifat basa.
@@ -229,7 +235,8 @@ Melalui contoh-contoh ini, siswa dapat melihat bahwa asam-basa bukan sekadar kon
 
 ## 4.13 Strategi Memahami Materi
 
-Untuk mempelajari asam-basa secara efektif, gunakan urutan berpikir berikut.
+Untuk mempelajari asam-basa secara efektif, gunakan urutan berpikir berikut:
+
 1. Pahami dulu definisi asam dan basa secara konseptual.
 2. Hubungkan dengan ionisasi dalam air.
 3. Bedakan kuat-lemah dan pekat-encer.
@@ -239,19 +246,19 @@ Urutan ini membantu siswa membangun makna sebelum masuk ke prosedur hitung, sehi
 
 ## 4.14 Latihan Pemahaman
 
-1. Jelaskan perbedaan teori Arrhenius, Br\o nsted-Lowry, dan Lewis.
+1. Jelaskan perbedaan teori Arrhenius, Brønsted–Lowry, dan Lewis.
 2. Mengapa kuat-lemah berbeda dari pekat-encer?
 3. Tentukan sifat larutan berdasarkan pH: 3, 7, dan 11.
-4. Jika $[	ext{H}^+] = 10^{-4}$, berapakah pH larutan?
-5. Jika $[	ext{OH}^-] = 10^{-5}$, berapakah pOH dan pH larutan?
+4. Jika $[\text{H}^+] = 10^{-4}$, berapakah pH larutan?
+5. Jika $[\text{OH}^-] = 10^{-5}$, berapakah pOH dan pH larutan?
 6. Tuliskan persamaan reaksi netralisasi antara HNO$_3$ dan KOH.
 7. Mengapa indikator yang berbeda dapat menunjukkan perubahan warna pada rentang pH yang berbeda?
 8. Jelaskan fungsi larutan penyangga dalam sistem kehidupan.
 
 ## Glosarium
 
-- **Asam**: zat yang menyumbang proton atau menghasilkan ion $	ext{H}^+$ dalam air.
-- **Basa**: zat yang menerima proton atau menghasilkan ion $	ext{OH}^-$ dalam air.
+- **Asam**: zat yang menyumbang proton atau menghasilkan ion $\text{H}^+$ dalam air.
+- **Basa**: zat yang menerima proton atau menghasilkan ion $\text{OH}^-$ dalam air.
 - **Ionisasi**: proses pembentukan ion dari zat terlarut.
 - **pH**: ukuran derajat keasaman larutan.
 - **pOH**: ukuran derajat kebasaan larutan.
